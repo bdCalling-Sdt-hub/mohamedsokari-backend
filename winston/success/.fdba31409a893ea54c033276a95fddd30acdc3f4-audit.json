@@ -1,0 +1,65 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "C:\\Users\\Rakib\\Desktop\\E-Commerce-App\\winston\\success\\.fdba31409a893ea54c033276a95fddd30acdc3f4-audit.json",
+    "files": [
+        {
+            "date": 1742192360027,
+            "name": "C:\\Users\\Rakib\\Desktop\\E-Commerce-App\\winston\\success\\17-03-2025-12-success.log",
+            "hash": "4998e5e550eecc558e73ee3a2bbff372305e9d7536f0cc595b349bf73171c8d1"
+        },
+        {
+            "date": 1742207544285,
+            "name": "C:\\Users\\Rakib\\Desktop\\E-Commerce-App\\winston\\success\\17-03-2025-16-success.log",
+            "hash": "cee768e63b1ef1c4c2742ac24fd316d8539cc6e483f2f1d7e92df2072b9d0ae3"
+        },
+        {
+            "date": 1742209951463,
+            "name": "C:\\Users\\Rakib\\Desktop\\E-Commerce-App\\winston\\success\\17-03-2025-17-success.log",
+            "hash": "013c8056e2c6268c432326a2cebe077970938337bdeacd757a550aa41d446f7b"
+        },
+        {
+            "date": 1742216615339,
+            "name": "C:\\Users\\Rakib\\Desktop\\E-Commerce-App\\winston\\success\\17-03-2025-19-success.log",
+            "hash": "98027cd4223bff9fbcfbce6b09181d05ddd27fc812e636374afc0f25eea68a49"
+        },
+        {
+            "date": 1742220008543,
+            "name": "C:\\Users\\Rakib\\Desktop\\E-Commerce-App\\winston\\success\\17-03-2025-20-success.log",
+            "hash": "d1f9a39b8e19ecd38033085cce1b041e5b8901c9671d1d1a5b59b557ba89d547"
+        },
+        {
+            "date": 1742261766016,
+            "name": "C:\\Users\\Rakib\\Desktop\\E-Commerce-App\\winston\\success\\18-03-2025-07-success.log",
+            "hash": "e9bbef30ef0243f72b57851f8532c20680aeb507ee96606ffb611072de5d9eeb"
+        },
+        {
+            "date": 1742263200241,
+            "name": "C:\\Users\\Rakib\\Desktop\\E-Commerce-App\\winston\\success\\18-03-2025-08-success.log",
+            "hash": "162d91f10e36f0edacda1f8fff911f6129d19c1c57e005f8de7db5b8a31cfcd2"
+        },
+        {
+            "date": 1742268200355,
+            "name": "C:\\Users\\Rakib\\Desktop\\E-Commerce-App\\winston\\success\\18-03-2025-09-success.log",
+            "hash": "3474a91ad749de96983ef5ed48ff265872697d8d6df9138b1294b0b40fd0d5f4"
+        },
+        {
+            "date": 1742270492120,
+            "name": "C:\\Users\\Rakib\\Desktop\\E-Commerce-App\\winston\\success\\18-03-2025-10-success.log",
+            "hash": "850b0ee02e60b6cb4a1adc73f100a132c2364fdd0dcd975bce38203bebfc139e"
+        },
+        {
+            "date": 1742274000438,
+            "name": "C:\\Users\\Rakib\\Desktop\\E-Commerce-App\\winston\\success\\18-03-2025-11-success.log",
+            "hash": "74c71ff0d4364ca702baef9ec1686036d366e20798daa6e032a4c034e38bf65e"
+        },
+        {
+            "date": 1742277639062,
+            "name": "C:\\Users\\Rakib\\Desktop\\E-Commerce-App\\winston\\success\\18-03-2025-12-success.log",
+            "hash": "56ace0984fdbe7a6a1e1281ed59e961d56e011680f25d53c29da8cb324b73d90"
+        }
+    ],
+    "hashType": "sha256"
+}

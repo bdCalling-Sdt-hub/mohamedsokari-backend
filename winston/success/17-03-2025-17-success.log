@@ -1,0 +1,154 @@
+Mon Mar 17 2025 17:12:36 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:12:39 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:12:39 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:12:47 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/category 200 - 511.910 ms
+Mon Mar 17 2025 17:14:59 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:15:2 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:15:2 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:15:12 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:15:14 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:15:14 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:15:23 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:15:26 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:15:26 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:19:15 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:19:18 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:19:18 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:19:22 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:19:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:19:45 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:19:48 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:19:48 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:20:15 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:20:18 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:20:18 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:20:57 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/auth/login 200 - 458.895 ms
+Mon Mar 17 2025 17:21:54 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 491.735 ms
+Mon Mar 17 2025 17:22:4 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 483.882 ms
+Mon Mar 17 2025 17:22:23 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:22:25 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:22:25 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:23:5 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:23:15 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:23:17 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:23:17 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:23:18 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 501.200 ms
+Mon Mar 17 2025 17:23:21 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 492.417 ms
+Mon Mar 17 2025 17:23:25 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 496.167 ms
+Mon Mar 17 2025 17:23:28 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 515.880 ms
+Mon Mar 17 2025 17:23:29 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 492.316 ms
+Mon Mar 17 2025 17:23:31 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 490.878 ms
+Mon Mar 17 2025 17:23:32 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 492.109 ms
+Mon Mar 17 2025 17:23:34 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 491.875 ms
+Mon Mar 17 2025 17:24:2 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:24:4 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:24:4 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:24:6 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 747.004 ms
+Mon Mar 17 2025 17:26:8 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:26:11 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:26:11 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:26:14 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 503.479 ms
+Mon Mar 17 2025 17:26:19 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 483.987 ms
+Mon Mar 17 2025 17:26:22 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 487.446 ms
+Mon Mar 17 2025 17:26:24 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 485.281 ms
+Mon Mar 17 2025 17:26:25 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 484.643 ms
+Mon Mar 17 2025 17:27:27 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:27:30 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:27:30 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:27:35 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 500.613 ms
+Mon Mar 17 2025 17:27:41 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 490.077 ms
+Mon Mar 17 2025 17:27:43 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 494.214 ms
+Mon Mar 17 2025 17:27:44 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 497.422 ms
+Mon Mar 17 2025 17:27:46 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 491.857 ms
+Mon Mar 17 2025 17:27:48 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 495.535 ms
+Mon Mar 17 2025 17:27:49 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 489.106 ms
+Mon Mar 17 2025 17:27:58 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:28:1 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:28:1 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:28:5 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:28:13 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:28:17 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:28:20 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:28:20 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:28:24 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 509.438 ms
+Mon Mar 17 2025 17:28:31 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 492.991 ms
+Mon Mar 17 2025 17:29:9 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 525.360 ms
+Mon Mar 17 2025 17:29:24 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:29:27 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:29:27 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:29:28 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 759.729 ms
+Mon Mar 17 2025 17:29:37 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 745.521 ms
+Mon Mar 17 2025 17:29:48 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:29:51 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:29:51 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:29:53 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 500.922 ms
+Mon Mar 17 2025 17:30:36 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:30:45 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:30:48 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:30:48 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:30:49 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 501.303 ms
+Mon Mar 17 2025 17:30:51 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 490.444 ms
+Mon Mar 17 2025 17:30:56 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 528.203 ms
+Mon Mar 17 2025 17:30:58 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 485.719 ms
+Mon Mar 17 2025 17:31:0 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 485.844 ms
+Mon Mar 17 2025 17:31:2 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 488.212 ms
+Mon Mar 17 2025 17:31:4 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 485.204 ms
+Mon Mar 17 2025 17:31:5 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 484.874 ms
+Mon Mar 17 2025 17:31:31 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:31:34 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:31:34 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:31:50 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:31:52 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:31:52 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:31:57 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 1370.304 ms
+Mon Mar 17 2025 17:31:59 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 729.396 ms
+Mon Mar 17 2025 17:32:2 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 733.002 ms
+Mon Mar 17 2025 17:32:4 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 733.210 ms
+Mon Mar 17 2025 17:32:6 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 728.170 ms
+Mon Mar 17 2025 17:32:9 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 1058.870 ms
+Mon Mar 17 2025 17:32:12 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 726.347 ms
+Mon Mar 17 2025 17:33:16 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:33:19 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:33:19 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:33:28 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 512.207 ms
+Mon Mar 17 2025 17:33:39 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 498.327 ms
+Mon Mar 17 2025 17:33:42 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 493.549 ms
+Mon Mar 17 2025 17:33:43 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 542.346 ms
+Mon Mar 17 2025 17:33:46 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 506.867 ms
+Mon Mar 17 2025 17:33:47 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 526.672 ms
+Mon Mar 17 2025 17:33:49 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 528.997 ms
+Mon Mar 17 2025 17:33:51 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 520.596 ms
+Mon Mar 17 2025 17:33:53 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 518.374 ms
+Mon Mar 17 2025 17:33:55 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 494.750 ms
+Mon Mar 17 2025 17:33:57 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 503.900 ms
+Mon Mar 17 2025 17:34:10 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:34:13 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:34:13 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:35:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:35:12 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:35:12 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:35:24 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:35:27 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:35:27 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:35:34 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:35:37 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:35:37 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:35:55 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:35:57 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:36:0 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:36:3 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:36:3 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:36:11 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:36:14 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:36:17 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:36:17 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:36:29 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:36:31 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:36:31 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:36:33 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 490.460 ms
+Mon Mar 17 2025 17:37:50 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:37:51 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:37:51 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 17:38:19 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 17:38:22 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 17:38:22 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m

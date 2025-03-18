@@ -1,0 +1,8 @@
+Tue Mar 18 2025 11:4:53 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/cart 403 - 278.073 ms
+Tue Mar 18 2025 11:5:10 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/auth/login 400 - 472.815 ms
+Tue Mar 18 2025 11:5:39 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/cart 403 - 264.724 ms
+Tue Mar 18 2025 11:5:41 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/cart 403 - 259.297 ms
+Tue Mar 18 2025 11:20:39 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/cart 400 - 753.236 ms
+Tue Mar 18 2025 11:22:46 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/products/create 400 - 251.822 ms
+Tue Mar 18 2025 11:22:57 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/products/create 400 - 782.092 ms
+Tue Mar 18 2025 11:23:21 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/products/create 400 - 282.935 ms

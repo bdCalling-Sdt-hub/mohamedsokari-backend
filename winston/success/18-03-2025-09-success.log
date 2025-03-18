@@ -1,0 +1,14 @@
+Tue Mar 18 2025 9:23:20 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products?category=Used%20Bicycle 200 - 533.411 ms
+Tue Mar 18 2025 9:23:27 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products 200 - 501.093 ms
+Tue Mar 18 2025 9:23:44 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products 200 - 538.715 ms
+Tue Mar 18 2025 9:23:51 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/products?category=Sports%20Equipment 200 - 496.259 ms
+Tue Mar 18 2025 9:55:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 18 2025 9:55:37 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Tue Mar 18 2025 9:55:37 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Tue Mar 18 2025 9:55:55 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 18 2025 9:55:57 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Tue Mar 18 2025 9:55:57 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Tue Mar 18 2025 9:56:0 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 18 2025 9:56:6 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 18 2025 9:56:8 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Tue Mar 18 2025 9:56:8 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m

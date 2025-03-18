@@ -1,0 +1,6 @@
+Mon Mar 17 2025 19:25:4 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/67d5293ee09d535f148a3e34 404 - 3.159 ms
+Mon Mar 17 2025 19:31:32 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/admin/tutorials 403 - 275.617 ms
+Mon Mar 17 2025 19:32:27 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/admin/tutorials 400 - 327.408 ms
+Mon Mar 17 2025 19:33:46 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/admin/tutorials 400 - 297.194 ms
+Mon Mar 17 2025 19:45:21 [SERVER-NAME] error: 10.0.70.126 - PATCH /api/v1/admin/tutorials 404 - 2.357 ms
+Mon Mar 17 2025 19:45:46 [SERVER-NAME] error: 10.0.70.126 - PUT /api/v1/admin/tutorials 404 - 0.456 ms

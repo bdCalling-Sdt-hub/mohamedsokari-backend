@@ -1,0 +1,19 @@
+Tue Mar 18 2025 8:0:2 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 18 2025 8:0:4 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Tue Mar 18 2025 8:0:4 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Tue Mar 18 2025 8:1:5 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 18 2025 8:1:8 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Tue Mar 18 2025 8:1:8 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Tue Mar 18 2025 8:1:18 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/auth/login 200 - 475.609 ms
+Tue Mar 18 2025 8:2:51 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 18 2025 8:2:53 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Tue Mar 18 2025 8:2:53 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Tue Mar 18 2025 8:3:13 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/banner 200 - 531.095 ms
+Tue Mar 18 2025 8:5:41 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/admin/banner 200 - 519.751 ms
+Tue Mar 18 2025 8:6:13 [SERVER-NAME] info: 10.0.70.126 - PATCH /api/v1/admin/banner/67d829dfe97b39a4ef1583a4 200 - 739.496 ms
+Tue Mar 18 2025 8:7:6 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/admin/banner 200 - 540.591 ms
+Tue Mar 18 2025 8:7:13 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/banner 200 - 491.888 ms
+Tue Mar 18 2025 8:7:52 [SERVER-NAME] info: 10.0.70.126 - PATCH /api/v1/admin/banner/67d8d54a3ab389d0dd82c703 200 - 753.592 ms
+Tue Mar 18 2025 8:8:6 [SERVER-NAME] info: 10.0.70.126 - DELETE /api/v1/admin/banner/67d8d54a3ab389d0dd82c703 200 - 740.135 ms
+Tue Mar 18 2025 8:8:11 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/banner 200 - 489.399 ms
+Tue Mar 18 2025 8:21:42 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/banner 200 - 523.773 ms

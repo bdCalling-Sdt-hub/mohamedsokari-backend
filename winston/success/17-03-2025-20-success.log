@@ -1,0 +1,12 @@
+Mon Mar 17 2025 20:0:8 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/tutorials/67d829dfe97b39a4ef1583a4 200 - 492.922 ms
+Mon Mar 17 2025 20:0:13 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/tutorials 200 - 242.771 ms
+Mon Mar 17 2025 20:0:23 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/admin/tutorials 201 - 538.989 ms
+Mon Mar 17 2025 20:1:6 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/tutorials/67d829dfe97b39a4ef1583a4 200 - 483.803 ms
+Mon Mar 17 2025 20:2:17 [SERVER-NAME] info: 10.0.70.126 - DELETE /api/v1/admin/tutorials/67d829dfe97b39a4ef1583a4 200 - 497.756 ms
+Mon Mar 17 2025 20:3:17 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 17 2025 20:3:20 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Mon Mar 17 2025 20:3:20 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 17 2025 20:3:41 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/tutorials 200 - 246.988 ms
+Mon Mar 17 2025 20:4:54 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/tutorials 200 - 242.501 ms
+Mon Mar 17 2025 20:5:19 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/tutorials/67d82af64bad8c93f1b4a6a4 200 - 486.949 ms
+Mon Mar 17 2025 20:6:56 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/tutorials 200 - 244.503 ms
