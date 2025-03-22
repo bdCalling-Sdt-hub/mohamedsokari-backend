@@ -73,7 +73,7 @@ const getSingleProduct = async (id: string) => {
       new: true, // Return the updated document
       select:
         'title price category description location condition images status totalViews sellerId',
-      populate: { path: 'sellerId', select: 'name' },
+      populate: { path: 'sellerId', select: 'name contactNumber location' },
     },
   );
 

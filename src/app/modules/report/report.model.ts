@@ -1,5 +1,6 @@
 import { model, Schema } from 'mongoose';
 import { IReport, ReportModel } from './report.interface';
+import generateOrderNumber from '../../../utils/genarateOrderNumber';
 
 const reportSchema = new Schema<IReport, ReportModel>(
   {
@@ -13,10 +14,20 @@ const reportSchema = new Schema<IReport, ReportModel>(
       required: true,
       ref: 'User',
     },
+    reportId: {
+      type: String,
+      required: true,
+      default: function () {
+        return generateOrderNumber('rep-');
+      },
+    },
+    location: {
+      type: String,
+      required: true,
+    },
     image: {
       type: String,
       required: true,
-      ref: 'User',
     },
     type: {
       type: String,
@@ -33,24 +44,7 @@ const reportSchema = new Schema<IReport, ReportModel>(
       default: 'under review',
     },
   },
-  { timestamps: true },
+  { timestamps: true }
 );
-
-//check user
-// reportSchema.pre('save', async function (next) {
-//   const report = this as IReport;
-
-//   const updatedReservation = await Reservation.findOneAndUpdate(
-//     { _id: report.reservation },
-//     { isReported: true },
-//     { new: true },
-//   );
-
-//   if (!updatedReservation) {
-//     return next(new AppError(StatusCodes.BAD_REQUEST, 'Reservation Not Found'));
-//   }
-
-//   next();
-// });
 
 export const Report = model<IReport, ReportModel>('Report', reportSchema);

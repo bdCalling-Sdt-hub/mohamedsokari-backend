@@ -3,7 +3,6 @@ import { ReportService } from './report.service';
 import sendResponse from '../../../shared/sendResponse';
 import { StatusCodes } from 'http-status-codes';
 
-
 const createReport = catchAsync(async (req, res) => {
   const { id }: any = req.user;
   const payload = {
@@ -21,7 +20,7 @@ const createReport = catchAsync(async (req, res) => {
 });
 // Get all reports
 const getAllReports = catchAsync(async (req, res) => {
-  const reports = await ReportService.getAllReports();
+  const reports = await ReportService.getAllReports(req.query);
 
   sendResponse(res, {
     statusCode: StatusCodes.OK,
@@ -44,34 +43,51 @@ const getReportById = catchAsync(async (req, res) => {
 });
 // Update report status
 const updateReportStatus = catchAsync(async (req, res) => {
-    const { reportId } = req.params;
-    const { status } = req.body;
-    
-    const updatedReport = await ReportService.updateReportStatus(reportId, status);
-  
-    sendResponse(res, {
-      statusCode: StatusCodes.OK,
-      success: true,
-      message: 'Report status updated successfully',
-      data: updatedReport,
-    });
+  const { reportId } = req.params;
+  const { status } = req.body;
+
+  const updatedReport = await ReportService.updateReportStatus(
+    reportId,
+    status,
+  );
+
+  sendResponse(res, {
+    statusCode: StatusCodes.OK,
+    success: true,
+    message: 'Report status updated successfully',
+    data: updatedReport,
   });
-  // Delete report
+});
+// Delete report
 const deleteReport = catchAsync(async (req, res) => {
-    const { reportId } = req.params;
-    
-    await ReportService.deleteReport(reportId);
-    sendResponse(res, {
-      statusCode: StatusCodes.OK,
-      success: true,
-      message: 'Report deleted successfully',
-    });
+  const { reportId } = req.params;
+
+  await ReportService.deleteReport(reportId);
+  sendResponse(res, {
+    statusCode: StatusCodes.OK,
+    success: true,
+    message: 'Report deleted successfully',
   });
-  
+});
+
+const getReportedIssuesStatistics = catchAsync(async (req, res) => {
+  const query = req.query;
+  console.log(query)
+  const statistics = await ReportService.getReportedIssuesStatistics(query);
+
+  sendResponse(res, {
+    statusCode: StatusCodes.OK,
+    success: true,
+    message: 'Reported issues statistics fetched successfully',
+    data: statistics,
+  });
+});
+
 export const ReportController = {
   createReport,
   getAllReports,
   getReportById,
   updateReportStatus,
-  deleteReport
+  deleteReport,
+  getReportedIssuesStatistics,
 };

@@ -14,6 +14,11 @@ router.post(
   ReportController.createReport,
 );
 router.get(
+    '/statistics',
+    auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),
+    ReportController.getReportedIssuesStatistics,
+  );
+router.get(
   '/',
   auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),
   ReportController.getAllReports,
