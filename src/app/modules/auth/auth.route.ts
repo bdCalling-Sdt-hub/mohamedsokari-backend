@@ -19,9 +19,9 @@ router.post(
 );
 
 router.post(
-  '/verify-email',
-  validateRequest(AuthValidation.createVerifyEmailZodSchema),
-  AuthController.verifyEmail,
+  '/verify-phone',
+  validateRequest(AuthValidation.createVerifyPhoneZodSchema),
+  AuthController.verifyPhone,
 );
 
 router.post(

@@ -9,7 +9,7 @@ import {
   IAuthResetPassword,
   IChangePassword,
   ILoginData,
-  IVerifyEmail,
+  IVerifyPhone,
 } from '../../../types/auth';
 import { ResetToken } from '../resetToken/resetToken.model';
 import { User } from '../user/user.model';
@@ -18,35 +18,47 @@ import generateOTP from '../../../utils/generateOTP';
 import cryptoToken from '../../../utils/cryptoToken';
 import { verifyToken } from '../../../utils/verifyToken';
 import { createToken } from '../../../utils/createToken';
+import { twilioService } from '../../builder/TwilioService';
 
 //login
 const login = async (payload: ILoginData) => {
   const { emailOrPhone, password } = payload;
+  
+  // Detect if input is email or phone number
   const query = emailOrPhone.includes('@')
     ? { email: emailOrPhone }
-    : { contact: emailOrPhone };
+    : { contactNumber: emailOrPhone };
+    
   const isExistUser = await User.findOne(query).select('+password');
   if (!isExistUser) {
     throw new AppError(StatusCodes.BAD_REQUEST, "User doesn't exist!");
   }
 
-  //check verified and status
+  // Check verified and status
   if (!isExistUser.verified) {
-    //send mail
-    const otp = generateOTP(6);
-    const value = {
-      otp,
-      email: isExistUser.email,
-    };
-    const forgetPassword = emailTemplate.resetPassword(value);
-    emailHelper.sendEmail(forgetPassword);
+    // Generate OTP
+    const otp = generateOTP(4);
+    
+    if (emailOrPhone.includes('@')) {
+      const value = {
+        otp,
+        email: isExistUser.email,
+      };
+      const forgetPassword = emailTemplate.resetPassword(value);
+      emailHelper.sendEmail(forgetPassword);
+    } else {
+      // Send SMS OTP - assuming you have an SMS service
+      await twilioService.sendOTP(isExistUser?.contactNumber, otp);
+    }
 
-    //save to DB
+    // Save OTP to DB
     const authentication = {
       oneTimeCode: otp,
       expireAt: new Date(Date.now() + 3 * 60000),
     };
-    await User.findOneAndUpdate({ query }, { $set: { authentication } });
+    
+    // Fix: Use the proper query object instead of {query}
+    await User.findOneAndUpdate(query, { $set: { authentication } });
 
     throw new AppError(
       StatusCodes.CONFLICT,
@@ -54,32 +66,37 @@ const login = async (payload: ILoginData) => {
     );
   }
 
-  //check user status
+  // Check user status
   if (isExistUser?.status === 'blocked') {
     throw new AppError(
       StatusCodes.BAD_REQUEST,
-      'You don’t have permission to access this content.It looks like your account has been blocked.',
+      "You don't have permission to access this content. It looks like your account has been blocked.",
     );
   }
 
-  //check match password
+  // Check match password
   if (
     password &&
     !(await User.isMatchPassword(password, isExistUser.password))
   ) {
     throw new AppError(StatusCodes.BAD_REQUEST, 'Password is incorrect!');
   }
+  
+  // Prepare JWT data with additional fields
   const jwtData = {
     id: isExistUser._id,
     role: isExistUser.role,
     email: isExistUser.email,
+    contactNumber: isExistUser.contactNumber
   };
-  //create token
+  
+  // Create tokens
   const accessToken = jwtHelper.createToken(
     jwtData,
     config.jwt.jwt_secret as Secret,
     config.jwt.jwt_expire_in as string,
   );
+  
   const refreshToken = jwtHelper.createToken(
     jwtData,
     config.jwt.jwt_refresh_secret as string,
@@ -90,55 +107,107 @@ const login = async (payload: ILoginData) => {
 };
 
 //forget password
-const forgetPasswordToDB = async (email: string) => {
-  const isExistUser = await User.isExistUserByEmail(email);
+const forgetPasswordToDB = async (emailOrPhone: string) => {
+  const isEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailOrPhone);
+  // Check if the user exists based on the input type 
+  let isExistUser;
+  if (isEmail) {
+    isExistUser = await User.isExistUserByEmail(emailOrPhone);
+  } else {
+    isExistUser = await User.isExistUserByPhone(emailOrPhone);
+  }
+
   if (!isExistUser) {
     throw new AppError(StatusCodes.BAD_REQUEST, "User doesn't exist!");
   }
 
-  //send mail
+  // Generate OTP
   const otp = generateOTP(4);
-  const value = {
-    otp,
-    email: isExistUser.email,
-  };
-  const forgetPassword = emailTemplate.resetPassword(value);
-  emailHelper.sendEmail(forgetPassword);
+  // Determine and execute the appropriate OTP delivery method
+  if (isEmail && isExistUser?.email) {
+    // Send OTP via email
+    const value = {
+      otp,
+      email: isExistUser.email,
+    };
+    const forgetPassword = emailTemplate.resetPassword(value);
+    await emailHelper.sendEmail(forgetPassword);
+  } else if (isExistUser?.contactNumber) {
+    // Send OTP via Twilio SMS
+    await twilioService.sendOTP(isExistUser?.contactNumber, otp);
+  } else {
+    throw new AppError(
+      StatusCodes.BAD_REQUEST,
+      'No valid contact method found for this user',
+    );
+  }
 
-  //save to DB
+  // Save OTP to DB - use the appropriate field for the query
+  const queryField = isEmail
+    ? { email: emailOrPhone }
+    : { conatctNumber: emailOrPhone };
   const authentication = {
     oneTimeCode: otp,
     expireAt: new Date(Date.now() + 3 * 60000),
   };
-  await User.findOneAndUpdate({ email }, { $set: { authentication } });
+
+  await User.findOneAndUpdate(queryField, { $set: { authentication } });
+
+  return;
 };
-// resend otp
-const resendOtpFromDb = async (email: string) => {
-  // Check if the user exists
-  const isExistUser = await User.isExistUserByEmail(email);
-  if (!isExistUser || !isExistUser._id) {
+// resend Otp
+const resendOtpFromDb = async (emailOrPhone: string) => {
+  // Determine if input is email or phone
+  const isEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailOrPhone);
+
+  // Check if the user exists based on the input type
+  let isExistUser;
+  console.log(emailOrPhone);
+  if (isEmail) {
+    isExistUser = await User.isExistUserByEmail(emailOrPhone);
+  } else {
+    isExistUser = await User.isExistUserByPhone(emailOrPhone);
+  }
+
+  if (!isExistUser || !isExistUser?._id) {
     throw new AppError(StatusCodes.BAD_REQUEST, "User doesn't exist!");
   }
 
-  // send email
+  // Generate OTP
   const otp = generateOTP(4);
-  const values = {
-    name: isExistUser.name,
-    otp: otp,
-    email: isExistUser.email!,
-  };
-  const createAccountTemplate = emailTemplate.createAccount(values);
-  emailHelper.sendEmail(createAccountTemplate);
 
-  //save to DB
+  // Determine and execute the appropriate OTP delivery method
+  if (isEmail && isExistUser?.email) {
+    // Send OTP via email
+    const values = {
+      name: isExistUser.name,
+      otp: otp,
+      email: isExistUser.email,
+    };
+    const createAccountTemplate = emailTemplate.createAccount(values);
+    await emailHelper.sendEmail(createAccountTemplate);
+  } else if (isExistUser?.contactNumber) {
+    // Send OTP via Twilio SMS
+    await twilioService.sendOTP(isExistUser?.contactNumber, otp);
+  } else {
+    throw new AppError(
+      StatusCodes.BAD_REQUEST,
+      'No valid contact method found for this user',
+    );
+  }
+
+  // Save OTP to DB
   const authentication = {
     oneTimeCode: otp,
     expireAt: new Date(Date.now() + 3 * 60000),
   };
+
   await User.findOneAndUpdate(
-    { _id: isExistUser._id },
+    { _id: isExistUser?._id },
     { $set: { authentication } },
   );
+
+  return;
 };
 //forget password by email url
 const forgetPasswordByUrlToDB = async (email: string) => {
@@ -179,13 +248,17 @@ const forgetPasswordByUrlToDB = async (email: string) => {
 };
 
 //verify email
-const verifyEmailToDB = async (payload: IVerifyEmail) => {
-  const { email, oneTimeCode } = payload;
-  const isExistUser = await User.findOne({ email }).select('+authentication');
+const verifyPhoneToDB = async (payload: IVerifyPhone) => {
+  const { emailOrPhone, oneTimeCode } = payload;
+  // Determine if input is email or phone
+  const isEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailOrPhone);
+  const query = isEmail
+    ? { email: emailOrPhone }
+    : { contactNumber: emailOrPhone };
+  const isExistUser = await User.findOne(query).select('+authentication');
   if (!isExistUser) {
     throw new AppError(StatusCodes.BAD_REQUEST, "User doesn't exist!");
   }
-
   if (!oneTimeCode) {
     throw new AppError(
       StatusCodes.BAD_REQUEST,
@@ -446,7 +519,7 @@ const refreshToken = async (token: string) => {
   };
 };
 export const AuthService = {
-  verifyEmailToDB,
+  verifyPhoneToDB,
   login,
   forgetPasswordToDB,
   resetPasswordToDB,

@@ -31,16 +31,50 @@ const getProduct = async (query: Record<string, unknown>) => {
 
   return { products, meta };
 };
+const getResentProduct = async (query: Record<string, unknown>) => {
+  const queryBuilder = new QueryBuilder(Product.find({}), query);
+  const products = await queryBuilder
+    .search(['location', 'title', 'category'])
+    .filter()
+    .sort()
+    .paginate()
+    .fields()
+    .modelQuery.exec();
+
+  const meta = await queryBuilder.countTotal();
+  return { products, meta };
+};
+const getFeatureProduct = async (query: Record<string, unknown>) => {
+  const defaultSort = { totalViews: -1 };
+  query = defaultSort;
+  const queryBuilder = new QueryBuilder(
+    Product.find({ totalViews: { $exists: true, $gt: 0 } }),
+    query,
+  );
+
+  const products = await queryBuilder
+    .search(['location', 'title', 'category'])
+    .filter()
+    .sort()
+    .paginate()
+    .fields()
+    .modelQuery.exec();
+
+  const meta = await queryBuilder.countTotal();
+
+  return { products, meta };
+};
 const getSingleProduct = async (id: string) => {
   // Combine find and update into a single operation
   const product = await Product.findByIdAndUpdate(
     id,
     { $inc: { totalViews: 1 } },
-    { 
+    {
       new: true, // Return the updated document
-      select: 'title price category description location condition images status totalViews sellerId',
-      populate: { path: 'sellerId', select: 'name' }
-    }
+      select:
+        'title price category description location condition images status totalViews sellerId',
+      populate: { path: 'sellerId', select: 'name' },
+    },
   );
 
   if (!product) {
@@ -50,4 +84,10 @@ const getSingleProduct = async (id: string) => {
   return product;
 };
 
-export const ProductsService = { addProduct, getProduct, getSingleProduct };
+export const ProductsService = {
+  addProduct,
+  getProduct,
+  getSingleProduct,
+  getResentProduct,
+  getFeatureProduct,
+};

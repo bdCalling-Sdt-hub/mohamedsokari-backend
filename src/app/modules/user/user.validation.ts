@@ -7,22 +7,20 @@ export const createUserZodSchema = z.object({
       .min(2, 'Name must be at least 2 characters long'),
     email: z
       .string({ required_error: 'Email is required' })
-      .email('Invalid email address'),
-
+      .email('Invalid email address')
+      .optional(),
+    contactNumber: string({ required_error: 'Phone is required' }),
     password: z
       .string({ required_error: 'Password is required' })
       .min(8, 'Password must be at least 8 characters long'),
-    phone: string().default('').optional(),
     profile: z.string().optional(),
   }),
 });
 
-
-
 const updateUserZodSchema = z.object({
   body: z.object({
     name: z.string().optional(),
-    contact: z.string().optional(),
+    contactNumber: z.string().optional(),
     address: z.string().optional(),
     email: z.string().email('Invalid email address').optional(),
     password: z.string().optional(),

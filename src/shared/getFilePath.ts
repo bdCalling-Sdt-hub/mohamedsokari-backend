@@ -1,21 +1,22 @@
-type IFolderName = 'images' | 'image' | 'banner' | 'logo' | 'audio' | "video";
 
-//single file
-export const getSingleFilePath = (files: any, folderName: IFolderName) => {
-  const fileField = files && files[folderName];
+export const getSingleFilePath = (files: any, fieldName: string, folderName?: string) => {
+  const fileField = files && files[fieldName];
+  
+  const folder = folderName || fieldName;
+  
   if (fileField && Array.isArray(fileField) && fileField.length > 0) {
-    return `/${folderName}/${fileField[0].filename}`;
+    return `/${folder}/${fileField[0].filename}`;
   }
 
   return undefined;
 };
 
-//multiple files
-export const getMultipleFilesPath = (files: any, folderName: IFolderName) => {
-  const folderFiles = files && files[folderName];
-  if (folderFiles) {
-    if (Array.isArray(folderFiles)) {
-      return folderFiles.map((file: any) => `/${folderName}/${file.filename}`);
+export const getMultipleFilesPath = (files: any, fieldName: string, folderName?: string) => {
+  const fileField = files && files[fieldName];
+  const folder = folderName || fieldName;
+  if (fileField) {
+    if (Array.isArray(fileField)) {
+      return fileField.map((file: any) => `/${folder}/${file.filename}`);
     }
   }
 

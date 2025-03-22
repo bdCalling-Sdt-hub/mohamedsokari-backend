@@ -4,9 +4,9 @@ import sendResponse from '../../../shared/sendResponse';
 import { AuthService } from './auth.service';
 import config from '../../../config';
 
-const verifyEmail = catchAsync(async (req, res) => {
+const verifyPhone = catchAsync(async (req, res) => {
   const { ...verifyData } = req.body;
-  const result = await AuthService.verifyEmailToDB(verifyData);
+  const result = await AuthService.verifyPhoneToDB(verifyData);
 
   sendResponse(res, {
     success: true,
@@ -27,7 +27,7 @@ const loginUser = catchAsync(async (req, res) => {
     secure: isProduction,
     httpOnly: true,
     sameSite: isProduction ? 'none' : 'lax',
-    maxAge: 1000 * 60 * 60 * 24 * 365, 
+    maxAge: 1000 * 60 * 60 * 24 * 365,
   });
 
   sendResponse(res, {
@@ -41,14 +41,14 @@ const loginUser = catchAsync(async (req, res) => {
 });
 
 const forgetPassword = catchAsync(async (req, res) => {
-  const email = req.body.email;
-  const result = await AuthService.forgetPasswordToDB(email);
+  const emailOrPhone = req.body.emailOrPhone;
+  const result = await AuthService.forgetPasswordToDB(emailOrPhone);
 
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
     message:
-      'Please check your email. We have sent you a one-time passcode (OTP).',
+      'Please check your email or phone. We have sent you a one-time passcode (OTP).',
     data: result,
   });
 });
@@ -93,7 +93,7 @@ const resetPassword = catchAsync(async (req, res) => {
 });
 
 const changePassword = catchAsync(async (req, res) => {
-  const user = req.user;
+  const user: any = req.user;
   const { ...passwordData } = req.body;
   const result = await AuthService.changePasswordToDB(user, passwordData);
 
@@ -106,8 +106,8 @@ const changePassword = catchAsync(async (req, res) => {
 });
 // resend Otp
 const resendOtp = catchAsync(async (req, res) => {
-  const { email } = req.body;
-  await AuthService.resendOtpFromDb(email);
+  const { emailOrPhone } = req.body;
+  await AuthService.resendOtpFromDb(emailOrPhone);
 
   sendResponse(res, {
     success: true,
@@ -128,7 +128,7 @@ const refreshToken = catchAsync(async (req, res) => {
   });
 });
 export const AuthController = {
-  verifyEmail,
+  verifyPhone,
   loginUser,
   forgetPassword,
   resetPassword,

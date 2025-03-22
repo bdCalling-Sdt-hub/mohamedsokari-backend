@@ -1,6 +1,0 @@
-Tue Mar 18 2025 8:0:17 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/banner 404 - 2.822 ms
-Tue Mar 18 2025 8:1:8 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/banner 401 - 6.684 ms
-Tue Mar 18 2025 8:1:27 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/banner 401 - 1.026 ms
-Tue Mar 18 2025 8:2:24 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/banner 401 - 0.778 ms
-Tue Mar 18 2025 8:5:21 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/admin/tutorials 400 - 281.902 ms
-Tue Mar 18 2025 8:5:59 [SERVER-NAME] error: 10.0.70.126 - PUT /api/v1/admin/banner/67d829dfe97b39a4ef1583a4 404 - 0.438 ms

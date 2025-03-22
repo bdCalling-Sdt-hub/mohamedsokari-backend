@@ -25,6 +25,19 @@ export default {
     host: process.env.EMAIL_HOST,
     pass: process.env.EMAIL_PASS,
   },
+  express_sessoin: process.env.EXPRESS_SESSION_SECRET_KEY,
+  social: {
+    google_client_id: process.env.GOOGLE_CLIENT_ID,
+    facebook_client_id: process.env.FACEBOOK_CLIENT_ID,
+    google_client_secret: process.env.GOOGLE_CLIENT_SECRET,
+    facebook_client_secret: process.env.FACEBOOK_CLIENT_SECRET,
+    callback_url: process.env.GOOGLE_CALLBACK_URL,
+  },
+  twilio: {
+    accountSid: process.env.TWILIO_ACCOUNT_SID || '',
+    authToken: process.env.TWILIO_AUTH_TOKEN || '',
+    number: process.env.TWILIO_PHONE_NUMBER || ''
+  },
   super_admin: {
     email: process.env.SUPER_ADMIN_EMAIL,
     password: process.env.SUPER_ADMIN_PASSWORD,

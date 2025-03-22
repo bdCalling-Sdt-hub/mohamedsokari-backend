@@ -1,4 +1,3 @@
-
 import { StatusCodes } from 'http-status-codes';
 import catchAsync from '../../../shared/catchAsync';
 import sendResponse from '../../../shared/sendResponse';
@@ -9,9 +8,9 @@ const getAllChats = catchAsync(async (req, res) => {
     limit: Number(req.query.limit) || 10,
     page: Number(req.query.page) || 1,
   };
-  const { userId } = req.user;
+  const { id }: any = req.user;
   // console.log('userId=====================', userId);
-  const filter: any = { participantId: userId };
+  const filter: any = { participantId: id };
 
   const search = req.query.search;
   // console.log('serch', search);

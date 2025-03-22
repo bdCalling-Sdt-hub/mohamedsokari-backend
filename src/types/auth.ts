@@ -2,6 +2,10 @@ export type IVerifyEmail = {
   email: string;
   oneTimeCode: number;
 };
+export type IVerifyPhone = {
+  emailOrPhone: string;
+  oneTimeCode: number;
+};
 
 export type ILoginData = {
   emailOrPhone: string;

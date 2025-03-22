@@ -9,6 +9,7 @@ import { CategoryRoutes } from '../app/modules/category/category.route';
 import { TutorialRouter } from '../app/modules/admin/tutorial/tutorial.router';
 import { BannerRoutes } from '../app/modules/banner/banner.routes';
 import { ReviewRoutes } from '../app/modules/review/review.routes';
+import { ReportRoutes } from '../app/modules/report/report.routes';
 
 const router = express.Router();
 const routes = [
@@ -67,6 +68,14 @@ const routes = [
   {
     path: '/feedback',
     route: ReviewRoutes,
+  },
+  {
+    path: '/reports',
+    route: ReportRoutes,
+  },
+  {
+    path: '/admin/reports',
+    route: ReportRoutes,
   },
 ];
 

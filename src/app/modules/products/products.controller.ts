@@ -4,7 +4,7 @@ import sendResponse from '../../../shared/sendResponse';
 import { ProductsService } from './products.service';
 
 const addProduct = catchAsync(async (req, res) => {
-  const { id } = req.user;
+  const { id }: any = req.user;
   const result = await ProductsService.addProduct(req.body, id);
   sendResponse(res, {
     statusCode: StatusCodes.CREATED,
@@ -23,6 +23,16 @@ const getAllProducts = catchAsync(async (req, res) => {
     data: result,
   });
 });
+const getResentProducts = catchAsync(async (req, res) => {
+  const query = req.query;
+  const result = await ProductsService.getResentProduct(query);
+  sendResponse(res, {
+    success: true,
+    statusCode: StatusCodes.OK,
+    message: 'Resent Product retrieved successfully.',
+    data: result,
+  });
+});
 const getProduct = catchAsync(async (req, res) => {
   const { id } = req.params;
   const result = await ProductsService.getSingleProduct(id);
@@ -36,4 +46,9 @@ const getProduct = catchAsync(async (req, res) => {
 // const addProduct = catchAsync(async (req, res) => {});
 // const addProduct = catchAsync(async (req, res) => {});
 
-export const Productcontroller = { addProduct, getAllProducts, getProduct };
+export const Productcontroller = {
+  addProduct,
+  getAllProducts,
+  getProduct,
+  getResentProducts,
+};

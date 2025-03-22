@@ -17,6 +17,7 @@ router.post(
   Productcontroller.addProduct,
 );
 router.get('/', Productcontroller.getAllProducts);
+router.get('/resent', Productcontroller.getResentProducts);
 router.get('/:id', Productcontroller.getProduct);
 
 export const ProductRouter = router;

@@ -4,48 +4,40 @@ import unlinkFile from '../../../shared/unlinkFile';
 import { IUser } from './user.interface';
 import { User } from './user.model';
 import AppError from '../../../errors/AppError';
+import { USER_ROLES } from '../../../enums/user';
+import generateOTP from '../../../utils/generateOTP';
+import { twilioService } from '../../builder/TwilioService';
 
 // create user
 const createUserToDB = async (payload: IUser): Promise<IUser> => {
-  const createUser = await User.create(payload);
-  
+  // Check if user exists by phone number
+  const existingUser = await User.isExistUserByPhone(payload.contactNumber);
+  if (existingUser) {
+    throw new AppError(StatusCodes.CONFLICT, 'Phone number already exists');
+  }
 
+  // Set role
+  payload.role = USER_ROLES.USER;
+  const createUser = await User.create(payload);
+  if (!createUser) {
+    throw new AppError(StatusCodes.BAD_REQUEST, 'Failed to create user');
+  }
+  // Generate OTP
+  const otp = generateOTP(4);
+  // Send OTP via Twilio SMS
+  await twilioService.sendOTP(createUser.contactNumber, otp);
+  // Save OTP to DB
+  const authentication = {
+    oneTimeCode: otp,
+    expireAt: new Date(Date.now() + 3 * 60000), // 3 minutes expiry
+  };
+
+  await User.findOneAndUpdate(
+    { _id: createUser._id },
+    { $set: { authentication } },
+  );
   return createUser;
 };
-
-// create Admin
-// const createAdminToDB = async (
-//   payload: Partial<IUser>
-// ): Promise<IUser> => {
-//   //set role
-//   payload.role = USER_ROLES.ADMIN;
-//   const createAdmin = await User.create(payload);
-//   if (!createAdmin) {
-//     throw new ApiError(StatusCodes.BAD_REQUEST, 'Failed to create admin');
-//   }
-
-//   //send email
-//   const otp = generateOTP(6);
-//   const values = {
-//     name: createAdmin.name,
-//     otp: otp,
-//     email: createAdmin.email!,
-//   };
-//   const createAccountTemplate = emailTemplate.createAccount(values);
-//   emailHelper.sendEmail(createAccountTemplate);
-
-//   //save to DB
-//   const authentication = {
-//     oneTimeCode: otp,
-//     expireAt: new Date(Date.now() + 3 * 60000),
-//   };
-//   await User.findOneAndUpdate(
-//     { _id: createAdmin._id },
-//     { $set: { authentication } }
-//   );
-
-//   return createAdmin;
-// };
 
 // get user profile
 const getUserProfileFromDB = async (

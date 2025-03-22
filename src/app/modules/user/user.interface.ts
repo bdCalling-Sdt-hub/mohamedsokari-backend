@@ -3,7 +3,7 @@ import { USER_ROLES } from '../../../enums/user';
 export type IUser = {
   name: string;
   role: USER_ROLES;
-  contact: string;
+  contactNumber: string;
   location: string;
   email: string;
   password: string;
@@ -22,5 +22,6 @@ export type IUser = {
 export type UserModel = {
   isExistUserById(id: string): any;
   isExistUserByEmail(email: string): any;
+  isExistUserByPhone(contact: string): any;
   isMatchPassword(password: string, hashPassword: string): boolean;
 } & Model<IUser>;

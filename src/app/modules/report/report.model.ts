@@ -3,22 +3,35 @@ import { IReport, ReportModel } from './report.interface';
 
 const reportSchema = new Schema<IReport, ReportModel>(
   {
-    customer: {
+    customerId: {
       type: Schema.Types.ObjectId,
       required: true,
       ref: 'User',
     },
-    seller: {
+    sellerId: {
       type: Schema.Types.ObjectId,
       required: true,
       ref: 'User',
     },
-    reason: [
-      {
-        type: String,
-        required: true,
-      },
-    ],
+    image: {
+      type: String,
+      required: true,
+      ref: 'User',
+    },
+    type: {
+      type: String,
+      required: true,
+    },
+    reason: {
+      type: String,
+      required: true,
+    },
+    status: {
+      type: String,
+      required: true,
+      enum: ['under review', 'resolved'],
+      default: 'under review',
+    },
   },
   { timestamps: true },
 );

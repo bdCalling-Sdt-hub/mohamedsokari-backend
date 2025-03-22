@@ -6,7 +6,6 @@ import { USER_ROLES } from '../../../enums/user';
 import AppError from '../../../errors/AppError';
 import { IUser, UserModel } from './user.interface';
 
-
 const userSchema = new Schema<IUser, UserModel>(
   {
     name: {
@@ -18,7 +17,7 @@ const userSchema = new Schema<IUser, UserModel>(
       enum: Object.values(USER_ROLES),
       default: USER_ROLES.USER,
     },
-    contact: { type: String, required: true },
+    contactNumber: { type: String, required: true },
     email: {
       type: String,
       required: false,
@@ -48,7 +47,7 @@ const userSchema = new Schema<IUser, UserModel>(
       type: Boolean,
       default: false,
     },
-  
+
     isDeleted: {
       type: Boolean,
       default: false,
@@ -81,6 +80,9 @@ userSchema.statics.isExistUserById = async (id: string) => {
 
 userSchema.statics.isExistUserByEmail = async (email: string) => {
   return await User.findOne({ email });
+};
+userSchema.statics.isExistUserByPhone = async (contactNumber: string) => {
+  return await User.findOne({ contactNumber });
 };
 
 // Password Matching

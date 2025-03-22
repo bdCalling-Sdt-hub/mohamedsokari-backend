@@ -1,9 +1,12 @@
-import { Model, Types } from "mongoose";
+import { Model, Types } from 'mongoose';
 
 export type IReport = {
-    customer: Types.ObjectId;
-    seller: Types.ObjectId;
-    reason: [];
+  customerId: Types.ObjectId;
+  sellerId: Types.ObjectId;
+  image: string;
+  type:string;
+  reason: string;
+  status: 'under review' | 'resolved';
 };
 
 export type ReportModel = Model<IReport, Record<string, unknown>>;
