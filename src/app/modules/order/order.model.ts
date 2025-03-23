@@ -1,29 +1,14 @@
 import mongoose, { Schema } from 'mongoose';
 import { IOrder } from './order.interface';
+import generateOrderNumber from '../../../utils/genarateOrderNumber';
 
-const productSchema = new Schema({
-  _id: {
-    type: Schema.Types.ObjectId,
-    ref: 'Product',
-    required: true,
-  },
-  name: {
-    type: String,
-    required: true,
-  },
-  category: {
-    type: String,
-    required: true,
-  },
-  price: {
-    type: Number,
-    required: true,
-  },
-});
-
-const orderSchema = new Schema(
+const orderSchema = new Schema<IOrder>(
   {
-    items: productSchema,
+    productId: {
+      type: Schema.Types.ObjectId,
+      ref: 'Product',
+      required: true,
+    },
     customerId: {
       type: Schema.Types.ObjectId,
       ref: 'User',
@@ -35,9 +20,9 @@ const orderSchema = new Schema(
     },
     status: {
       type: String,
-      required: true,
+      enum: ['pending', 'completed'],
+      default: 'pending',
     },
-
     confirmBybyer: {
       type: Boolean,
       required: true,
@@ -48,17 +33,12 @@ const orderSchema = new Schema(
       required: true,
       default: false,
     },
-    paymentMethod: {
+    orderNumber: {
       type: String,
       required: true,
-    },
-    shippingAddress: {
-      type: String,
-      required: true,
-    },
-    paymentId: {
-      type: String,
-      required: true,
+      default: function () {
+        return generateOrderNumber('ord-');
+      },
     },
     isPaid: {
       type: Boolean,
@@ -70,4 +50,4 @@ const orderSchema = new Schema(
 );
 
 // Create the Order Model
-const Order = mongoose.model<IOrder & Document>('Order', orderSchema);
+export const Order = mongoose.model<IOrder>('Order', orderSchema);

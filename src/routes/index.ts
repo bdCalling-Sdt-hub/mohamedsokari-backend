@@ -10,6 +10,7 @@ import { TutorialRouter } from '../app/modules/admin/tutorial/tutorial.router';
 import { BannerRoutes } from '../app/modules/banner/banner.routes';
 import { ReviewRoutes } from '../app/modules/review/review.routes';
 import { ReportRoutes } from '../app/modules/report/report.routes';
+import { AccauntRouter } from '../app/modules/acccaunt/accaunt.router';
 
 const router = express.Router();
 const routes = [
@@ -76,6 +77,10 @@ const routes = [
   {
     path: '/admin/reports',
     route: ReportRoutes,
+  },
+  {
+    path: '/accaunts',
+    route: AccauntRouter,
   },
 ];
 

@@ -1,22 +1,12 @@
-export interface IProduct {
-  id: string;
-  name: string;
-  category: string;
-  description: string;
-  price: number;
-}
+import { Types } from 'mongoose';
+
 export interface IOrder {
-  id: string;
-  items: IProduct;
+  productId: Types.ObjectId;
+  customerId: Types.ObjectId;
   totalPrice: number;
   status: string;
-  customerId: string;
-  createdAt: Date;
-  updatedAt: Date;
   confirmBybyer: boolean;
   confirmByseller: boolean;
-  paymentMethod: string;
-  shippingAddress: string;
-  paymentId: string;
+  orderNumber: string;
   isPaid: boolean;
 }
