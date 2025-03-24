@@ -15,6 +15,7 @@
   "description": "",
   "dependencies": {
     "@types/bcrypt": "^5.0.2",
+    "@types/json2csv": "^5.0.7",
     "bcrypt": "^5.1.1",
     "colors": "^1.4.0",
     "cors": "^2.8.5",
@@ -23,6 +24,7 @@
     "express": "^4.21.2",
     "http-status-codes": "^2.3.0",
     "i": "^0.3.7",
+    "json2csv": "^6.0.0-alpha.2",
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.10.0",
     "mongoose": "^8.10.1",

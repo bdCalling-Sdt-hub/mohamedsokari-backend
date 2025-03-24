@@ -1,0 +1,15 @@
+Mon Mar 24 2025 14:49:57 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/users-managments?export=csv 200 - 966.993 ms
+Mon Mar 24 2025 14:54:6 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 24 2025 14:54:9 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6008[39m
+Mon Mar 24 2025 14:54:9 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 24 2025 14:54:11 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/users-managments?export=csv 200 - 950.493 ms
+Mon Mar 24 2025 14:54:35 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/auth/login 200 - 577.505 ms
+Mon Mar 24 2025 14:55:4 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/users-managments?export=csv 200 - 906.435 ms
+Mon Mar 24 2025 14:55:10 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/users-managments 200 - 881.382 ms
+Mon Mar 24 2025 14:55:20 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/users-managments?export=csv 200 - 922.017 ms
+Mon Mar 24 2025 14:57:32 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 24 2025 14:57:36 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6008[39m
+Mon Mar 24 2025 14:57:36 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Mon Mar 24 2025 14:58:15 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon Mar 24 2025 14:58:18 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6008[39m
+Mon Mar 24 2025 14:58:18 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
