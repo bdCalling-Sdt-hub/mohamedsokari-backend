@@ -11,6 +11,8 @@ import { BannerRoutes } from '../app/modules/banner/banner.routes';
 import { ReviewRoutes } from '../app/modules/review/review.routes';
 import { ReportRoutes } from '../app/modules/report/report.routes';
 import { AccauntRouter } from '../app/modules/acccaunt/accaunt.router';
+import { OrderRouter } from '../app/modules/order/order.route';
+import { NotificationRoutes } from '../app/modules/notification/notification.routes';
 
 const router = express.Router();
 const routes = [
@@ -79,8 +81,16 @@ const routes = [
     route: ReportRoutes,
   },
   {
+    path: '/admin/notifications',
+    route: NotificationRoutes,
+  },
+  {
     path: '/accaunts',
     route: AccauntRouter,
+  },
+  {
+    path: '/orders',
+    route: OrderRouter,
   },
 ];
 

@@ -1,0 +1,6 @@
+Sun Mar 23 2025 12:33:36 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/orders/confirm-buyer 401 - 32.418 ms
+Sun Mar 23 2025 12:34:3 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/orders/confirm-buyer 401 - 1.745 ms
+Sun Mar 23 2025 12:55:52 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/orders/confirm-buyer 500 - 1480.419 ms
+Sun Mar 23 2025 12:56:14 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/orders/confirm-buyer 500 - 1530.663 ms
+Sun Mar 23 2025 12:56:50 [SERVER-NAME] error: 10.0.70.126 - POST /api/v1/orders/confirm-buyer 500 - 851.611 ms
+Sun Mar 23 2025 12:57:27 [SERVER-NAME] error: UnhandleRejection Detected Notification validation failed: type: `ORDER` is not a valid enum value for path `type`.

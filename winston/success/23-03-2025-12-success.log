@@ -1,0 +1,98 @@
+Sun Mar 23 2025 12:33:57 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/auth/login 200 - 536.171 ms
+Sun Mar 23 2025 12:34:36 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/orders/confirm-buyer 202 - 304.299 ms
+Sun Mar 23 2025 12:35:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:35:11 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 12:35:11 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 12:35:21 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:35:26 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:35:28 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 12:35:28 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 12:35:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:35:46 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 12:35:46 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 12:36:16 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:36:21 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:36:23 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 12:36:23 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 12:36:45 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:36:55 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:36:57 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 12:36:57 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 12:37:41 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:37:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:37:49 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:37:54 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:37:56 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 12:37:56 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 12:38:12 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:38:21 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:38:23 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 12:38:23 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 12:38:29 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:38:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:38:44 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 12:38:44 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 12:38:53 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:38:55 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 12:38:55 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 12:39:12 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:39:14 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 12:39:14 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 12:40:11 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:40:13 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 12:40:13 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 12:40:39 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:40:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:40:49 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:40:54 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:40:56 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 12:40:56 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 12:41:3 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:41:5 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 12:41:5 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 12:41:14 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:41:17 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 12:41:17 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 12:41:24 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:41:27 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 12:41:27 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 12:41:43 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:41:47 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:41:49 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 12:41:49 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 12:41:56 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:41:58 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 12:41:58 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 12:48:30 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:48:33 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 12:48:33 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 12:51:29 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:51:33 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:51:36 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 12:51:36 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 12:53:39 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:53:42 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 12:53:42 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 12:54:39 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:54:41 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 12:54:41 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 12:54:45 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:54:55 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:54:57 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 12:54:57 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 12:55:15 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:55:18 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 12:55:18 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 12:55:27 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:55:29 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 12:55:29 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 12:55:45 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:55:49 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 12:55:49 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 12:56:39 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:56:41 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 12:56:41 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 12:57:27 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/orders/confirm-buyer 202 - 1147.421 ms
+Sun Mar 23 2025 12:58:34 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 12:58:36 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6008[39m
+Sun Mar 23 2025 12:58:36 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m

@@ -1,6 +1,0 @@
-Sat Mar 22 2025 12:2:32 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/reports/statistics?location=risragjang 404 - 580.647 ms
-Sat Mar 22 2025 12:2:42 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/reports/statistics?location=dhaka 404 - 985.074 ms
-Sat Mar 22 2025 12:2:48 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/reports/statistics?location=dhaka&month=2025-03 404 - 570.644 ms
-Sat Mar 22 2025 12:3:45 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/reports/statistics?location=rangpur&month=2025-03 404 - 559.013 ms
-Sat Mar 22 2025 12:3:49 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/reports/statistics?location=rangpur 404 - 562.730 ms
-Sat Mar 22 2025 12:3:52 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/reports/statistics?location=rangpur&month=2025-03 404 - 562.388 ms

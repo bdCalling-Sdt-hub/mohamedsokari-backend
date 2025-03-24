@@ -1,1 +1,21 @@
 Sun Mar 23 2025 11:18:21 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 11:18:26 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 11:18:28 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 11:18:28 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 11:20:56 [SERVER-NAME] info: 10.0.70.126 - POST /api/v1/auth/login 200 - 536.734 ms
+Sun Mar 23 2025 11:21:1 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/accaunts 200 - 846.872 ms
+Sun Mar 23 2025 11:24:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 11:24:11 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 11:24:11 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 11:25:55 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 11:25:57 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 11:25:57 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 11:37:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 11:37:44 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 11:37:44 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 11:37:55 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 11:37:57 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 11:37:57 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Sun Mar 23 2025 11:52:55 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Mar 23 2025 11:52:58 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6001[39m
+Sun Mar 23 2025 11:52:58 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m

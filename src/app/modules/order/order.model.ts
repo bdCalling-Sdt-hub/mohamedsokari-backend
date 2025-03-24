@@ -35,14 +35,12 @@ const orderSchema = new Schema<IOrder>(
     },
     orderNumber: {
       type: String,
-      required: true,
       default: function () {
         return generateOrderNumber('ord-');
       },
     },
     isPaid: {
       type: Boolean,
-      required: true,
       default: false,
     },
   },
