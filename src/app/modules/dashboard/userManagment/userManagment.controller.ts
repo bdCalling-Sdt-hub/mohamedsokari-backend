@@ -37,34 +37,55 @@ const updateStatus = catchAsync(async (req, res) => {
     data: result,
   });
 });
-// get sells history 
+// get sells history
 const getSellsHistory = catchAsync(async (req, res) => {
-  const result = await DashboardUserService.allUser(req.query);
+  const { userId }: any = req.body;
+  const result = await DashboardUserService.getSellerHistory(userId, req.query);
   sendResponse(res, {
     statusCode: StatusCodes.OK,
     success: true,
     message: 'Sales history retrieved successfully',
-    data: result.users,
+    data: result.history,
     pagination: result.meta,
   });
 });
-
-const getUserDistrict = catchAsync(async (req, res) => {
-  const result = await DashboardUserService.allUser(req.query);
+// get buyer history
+const getBuyerHistory = catchAsync(async (req, res) => {
+  const { userId }: any = req.body;
+  const result = await DashboardUserService.getBuyerHistory(userId, req.query);
   sendResponse(res, {
     statusCode: StatusCodes.OK,
     success: true,
-    message: 'Sales history retrieved successfully',
-    data: result.users,
+    message: 'Buyer history retrieved successfully',
+    data: result.history,
     pagination: result.meta,
   });
 });
+const getUserAnalytics = catchAsync(async (req, res) => {
+  const result = await DashboardUserService.getUserAnalytics(req.query);
+  sendResponse(res, {
+    statusCode: StatusCodes.OK,
+    success: true,
+    message: 'User analytics retrieved successfully',
+    data: result,
+  });
+});
+const getTopDistricts = catchAsync(async (req, res) => {
+  const result = await DashboardUserService.getTopDistricts(req.query);
 
+  sendResponse(res, {
+    statusCode: StatusCodes.OK,
+    success: true,
+    message: 'Top districts retrieved successfully',
+    data: result,
+  });
+});
 export const DashboardUserController = {
   getAllUser,
   getSingleUser,
   updateStatus,
   getSellsHistory,
-  getUserDistrict,
-
+  getBuyerHistory,
+  getUserAnalytics,
+  getTopDistricts
 };

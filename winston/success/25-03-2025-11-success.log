@@ -1,0 +1,7 @@
+Tue Mar 25 2025 11:43:38 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 11:43:40 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6008[39m
+Tue Mar 25 2025 11:43:40 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Tue Mar 25 2025 11:43:46 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 11:43:48 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6008[39m
+Tue Mar 25 2025 11:43:48 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Tue Mar 25 2025 11:44:17 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/product-managments/ 200 - 863.854 ms

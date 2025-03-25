@@ -12,7 +12,26 @@ router.get(
   auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),
   DashboardUserController.getAllUser,
 );
-
+router.get(
+  '/seller-history',
+  auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),
+  DashboardUserController.getSellsHistory,
+);
+router.get(
+  '/buyer-history',
+  auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),
+  DashboardUserController.getBuyerHistory,
+);
+router.get(
+  '/user-analytics',
+  auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),
+  DashboardUserController.getUserAnalytics,
+);
+router.get(
+  '/top-districts',
+  auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),
+  DashboardUserController.getTopDistricts,
+);
 router.get(
   '/:id',
   auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),

@@ -1,0 +1,10 @@
+Tue Mar 25 2025 9:19:19 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/users-managments/buyer-hitory 401 - 67.049 ms
+Tue Mar 25 2025 9:19:26 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/users-managments/buyer-hitory 400 - 308.534 ms
+Tue Mar 25 2025 9:21:14 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/users-managments/buyer-hitory 400 - 288.324 ms
+Tue Mar 25 2025 9:22:28 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/users-managments/buyer-hitory 400 - 338.900 ms
+Tue Mar 25 2025 9:23:14 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/users-managments/buyer-hitory 400 - 341.008 ms
+Tue Mar 25 2025 9:24:3 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/users-managments/buyer-hitory 400 - 1887.588 ms
+Tue Mar 25 2025 9:24:59 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/users-managments/buyer-hitory 400 - 314.294 ms
+Tue Mar 25 2025 9:25:2 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/users-managments/buyer-hitory 400 - 886.847 ms
+Tue Mar 25 2025 9:25:8 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/users-managments/buyer-hitory 400 - 294.594 ms
+Tue Mar 25 2025 9:26:15 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/users-managments/buyer-history 400 - 337.378 ms

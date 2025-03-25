@@ -1,0 +1,68 @@
+Tue Mar 25 2025 10:3:26 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 10:3:28 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6008[39m
+Tue Mar 25 2025 10:3:28 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Tue Mar 25 2025 10:4:23 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 10:4:25 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6008[39m
+Tue Mar 25 2025 10:4:25 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Tue Mar 25 2025 10:5:2 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 10:5:16 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 10:5:18 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6008[39m
+Tue Mar 25 2025 10:5:18 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Tue Mar 25 2025 10:5:22 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 10:5:24 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6008[39m
+Tue Mar 25 2025 10:5:24 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Tue Mar 25 2025 10:7:31 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 10:7:38 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 10:7:41 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6008[39m
+Tue Mar 25 2025 10:7:41 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Tue Mar 25 2025 10:10:13 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/users-managments/user-analytics 200 - 577.767 ms
+Tue Mar 25 2025 10:10:54 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 10:10:57 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6008[39m
+Tue Mar 25 2025 10:10:57 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Tue Mar 25 2025 10:12:45 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 10:12:48 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6008[39m
+Tue Mar 25 2025 10:12:48 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Tue Mar 25 2025 10:13:0 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/users-managments/user-analytics?year=2025 200 - 587.997 ms
+Tue Mar 25 2025 10:16:27 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 10:16:30 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6008[39m
+Tue Mar 25 2025 10:16:30 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Tue Mar 25 2025 10:16:41 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/users-managments/user-analytics?year=2024 200 - 607.142 ms
+Tue Mar 25 2025 10:16:50 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/users-managments/user-analytics?year=2025 200 - 591.022 ms
+Tue Mar 25 2025 10:17:2 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/users-managments/user-analytics?year=2024 200 - 585.212 ms
+Tue Mar 25 2025 10:18:2 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 10:18:22 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 10:18:25 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6008[39m
+Tue Mar 25 2025 10:18:25 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Tue Mar 25 2025 10:19:11 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/users-managments/user-analytics?district=dhaka&year=2024 200 - 630.416 ms
+Tue Mar 25 2025 10:19:39 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 10:19:41 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6008[39m
+Tue Mar 25 2025 10:19:41 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Tue Mar 25 2025 10:19:43 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/users-managments/user-analytics?location=dhaka&year=2024 200 - 576.137 ms
+Tue Mar 25 2025 10:20:3 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 10:20:6 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6008[39m
+Tue Mar 25 2025 10:20:6 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Tue Mar 25 2025 10:20:7 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/users-managments/user-analytics?location=dhaka&year=2024 200 - 563.046 ms
+Tue Mar 25 2025 10:21:19 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/users-managments/user-analytics?location=dhaka&year=2025 200 - 562.727 ms
+Tue Mar 25 2025 10:21:58 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 10:22:1 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6008[39m
+Tue Mar 25 2025 10:22:1 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Tue Mar 25 2025 10:22:2 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/users-managments/user-analytics?district=dhaka&year=2025 200 - 571.983 ms
+Tue Mar 25 2025 10:22:10 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 10:22:12 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6008[39m
+Tue Mar 25 2025 10:22:12 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Tue Mar 25 2025 10:22:14 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/users-managments/user-analytics?location=dhaka&year=2025 200 - 589.079 ms
+Tue Mar 25 2025 10:27:15 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 10:27:55 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 10:28:19 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 10:28:23 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 10:28:27 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6008[39m
+Tue Mar 25 2025 10:28:27 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Tue Mar 25 2025 10:28:34 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 10:28:38 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 10:28:43 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 10:29:2 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 10:29:7 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 10:29:22 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.70.126:6008[39m
+Tue Mar 25 2025 10:29:22 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.70.126:6008[39m
+Tue Mar 25 2025 10:31:19 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/users-managments/user-analytics?location=dhaka&month=2025-03 200 - 1294.223 ms
+Tue Mar 25 2025 10:32:39 [SERVER-NAME] info: 10.0.70.126 - GET /api/v1/admin/users-managments/top-districts?location=dhaka&month=2025-03 200 - 1305.091 ms

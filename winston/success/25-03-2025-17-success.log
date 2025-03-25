@@ -1,0 +1,30 @@
+Tue Mar 25 2025 17:0:3 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 17:0:10 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 17:0:19 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 17:0:21 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6008[39m
+Tue Mar 25 2025 17:0:21 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Tue Mar 25 2025 17:0:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 17:0:40 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 17:0:43 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6008[39m
+Tue Mar 25 2025 17:0:43 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Tue Mar 25 2025 17:1:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 17:1:11 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6008[39m
+Tue Mar 25 2025 17:1:11 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Tue Mar 25 2025 17:1:53 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 17:1:55 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6008[39m
+Tue Mar 25 2025 17:1:55 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Tue Mar 25 2025 17:4:18 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/product-managments/product-stats 200 - 566.421 ms
+Tue Mar 25 2025 17:9:43 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 17:9:45 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6008[39m
+Tue Mar 25 2025 17:9:45 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Tue Mar 25 2025 17:9:59 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 17:10:1 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6008[39m
+Tue Mar 25 2025 17:10:1 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Tue Mar 25 2025 17:10:26 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 17:10:28 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6008[39m
+Tue Mar 25 2025 17:10:28 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Tue Mar 25 2025 17:10:30 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/product-managments/product-stats 200 - 566.584 ms
+Tue Mar 25 2025 17:11:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue Mar 25 2025 17:11:3 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6008[39m
+Tue Mar 25 2025 17:11:3 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Tue Mar 25 2025 17:11:14 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/product-managments/product-stats 200 - 572.463 ms

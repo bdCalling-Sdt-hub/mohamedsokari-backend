@@ -39,9 +39,12 @@ const updateUserStatus = async (id: string, status: string) => {
   }
   return result;
 };
-const getSellerHistory = async (id: string, query: Record<string, unknown>) => {
-  const queryBuilder = new QueryBuilder(Order.find({ sellerId: id }), query);
-  const product = await queryBuilder
+const getSellerHistory = async (
+  sellerId: string,
+  query: Record<string, unknown>,
+) => {
+  const queryBuilder = new QueryBuilder(Order.find({ sellerId }), query);
+  const history = await queryBuilder
     .search([])
     .filter()
     .sort()
@@ -51,11 +54,182 @@ const getSellerHistory = async (id: string, query: Record<string, unknown>) => {
 
   const meta = await queryBuilder.countTotal();
 
-  return { product, meta };
+  return { history, meta };
+};
+const getBuyerHistory = async (
+  customerId: string,
+  query: Record<string, unknown>,
+) => {
+  const queryBuilder = new QueryBuilder(Order.find({ customerId }), query);
+  const history = await queryBuilder
+    .search([])
+    .filter()
+    .sort()
+    .paginate()
+    .fields()
+    .modelQuery.exec();
+
+  const meta = await queryBuilder.countTotal();
+
+  return { history, meta };
+};
+// get user analysis history 
+const getUserAnalytics = async (query: Record<string, any>) => {
+  const matchFilter: any = {};
+
+  if (query?.location) {
+    matchFilter.location = query.location;
+  }
+
+  if (query?.year) {
+    const startDate = new Date(`${query.year}-01-01`);
+    const endDate = new Date(`${query.year}-12-31`);
+
+    matchFilter.createdAt = { $gte: startDate, $lt: endDate };
+  }
+
+  const userAnalytics = await User.aggregate([
+    {
+      $match: matchFilter,
+    },
+    {
+      $group: {
+        _id: {
+          year: { $year: '$createdAt' },
+          month: { $month: '$createdAt' },
+        },
+        count: { $sum: 1 },
+      },
+    },
+    {
+      $sort: { '_id.year': 1, '_id.month': 1 },
+    },
+    {
+      $project: {
+        _id: 0,
+        month: '$_id.month',
+        year: '$_id.year',
+        count: 1,
+      },
+    },
+  ]);
+
+  if (!userAnalytics || userAnalytics.length === 0) {
+    const result = [];
+    const monthNames = [
+      'January',
+      'February',
+      'March',
+      'April',
+      'May',
+      'June',
+      'July',
+      'August',
+      'September',
+      'October',
+      'November',
+      'December',
+    ];
+
+    const monthsCount = new Array(12).fill(0);
+
+    for (let month = 0; month < 12; month++) {
+      result.push({
+        month: monthNames[month],
+        count: monthsCount[month],
+      });
+    }
+
+    return result;
+  }
+
+  const monthsCount = new Array(12).fill(0);
+
+  userAnalytics.forEach((data: any) => {
+    const { month, count } = data;
+    monthsCount[month - 1] = count;
+  });
+
+  const result = [];
+  const monthNames = [
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December',
+  ];
+
+  for (let month = 0; month < 12; month++) {
+    result.push({
+      month: monthNames[month],
+      count: monthsCount[month],
+    });
+  }
+
+  return result;
+};
+// get location wise users 
+const getTopDistricts = async (query: Record<string, any>) => {
+  const matchFilter: any = {};
+
+  if (query?.month) {
+    const [year, month] = query?.month.split('-'); 
+    if (!year || !month) {
+      throw new AppError(StatusCodes.BAD_REQUEST, 'Invalid month format. Use YYYY-MM format.');
+    }
+    const startDate = new Date(`${year}-${month}-01`); 
+    const endDate = new Date(Number(year), Number(month), 0); 
+
+    matchFilter.createdAt = { $gte: startDate, $lt: endDate };
+  }
+
+  const topDistricts = await User.aggregate([
+    {
+      $match: matchFilter,
+    },
+    {
+      $group: {
+        _id: '$location',
+        count: { $sum: 1 },
+      },
+    },
+    {
+      $sort: { count: -1 }, 
+    },
+    {
+      $project: {
+        _id: 0, 
+        district: '$_id', 
+        count: 1, 
+      },
+    },
+    {
+      $skip: (parseInt(query?.page || '1') - 1) * parseInt(query?.limit || '5'), 
+    },
+    {
+      $limit: parseInt(query?.limit || '5'), 
+    },
+  ]);
+
+  if (!topDistricts || topDistricts.length === 0) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'No user data found for the given filters');
+  }
+
+  return topDistricts;
 };
 export const DashboardUserService = {
   allUser,
   singleUser,
   updateUserStatus,
   getSellerHistory,
+  getBuyerHistory,
+  getUserAnalytics,
+  getTopDistricts
 };

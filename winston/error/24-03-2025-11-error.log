@@ -1,2 +1,0 @@
-Mon Mar 24 2025 11:31:39 [SERVER-NAME] error: 10.0.70.126 - PUT /api/v1/admin/users-managments/status/67dbba3ad24e86ced4c878ba 404 - 203.624 ms
-Mon Mar 24 2025 11:40:16 [SERVER-NAME] error: 10.0.70.126 - PUT /api/v1/admin/users-managments/status/67dbba3ad24e86ced4c878ba 400 - 309.106 ms

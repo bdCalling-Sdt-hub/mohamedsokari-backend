@@ -1,0 +1,7 @@
+Tue Mar 25 2025 10:7:57 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/users-managments/user-analytics?year=2024 404 - 604.031 ms
+Tue Mar 25 2025 10:8:56 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/dashboard?year=2024 404 - 1.961 ms
+Tue Mar 25 2025 10:9:51 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/dashboard 404 - 2.311 ms
+Tue Mar 25 2025 10:10:30 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/users-managments/user-analytics?year=2024 404 - 588.507 ms
+Tue Mar 25 2025 10:11:4 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/users-managments/user-analytics?year=2024 404 - 570.367 ms
+Tue Mar 25 2025 10:12:50 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/users-managments/user-analytics?year=2024 404 - 1145.428 ms
+Tue Mar 25 2025 10:13:10 [SERVER-NAME] error: 10.0.70.126 - GET /api/v1/admin/users-managments/user-analytics?year=2024 404 - 585.066 ms
