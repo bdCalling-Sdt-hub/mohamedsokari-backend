@@ -4,7 +4,7 @@ import catchAsync from '../../../shared/catchAsync';
 import sendResponse from '../../../shared/sendResponse';
 import { AdminService } from './admin.service';
 
-const createAdmin = catchAsync(async (req: Request, res: Response) => {
+const createAdmin = catchAsync(async (req, res) => {
     const payload = req.body;
     const result = await AdminService.createAdminToDB(payload);
 
@@ -16,7 +16,7 @@ const createAdmin = catchAsync(async (req: Request, res: Response) => {
     });
 });
 
-const deleteAdmin = catchAsync(async (req: Request, res: Response) => {
+const deleteAdmin = catchAsync(async (req, res) => {
     const payload = req.params.id;
     const result = await AdminService.deleteAdminFromDB(payload);
 
@@ -29,7 +29,7 @@ const deleteAdmin = catchAsync(async (req: Request, res: Response) => {
 
 });
 
-const getAdmin = catchAsync(async (req: Request, res: Response) => {
+const getAdmin = catchAsync(async (req, res) => {
 
     const result = await AdminService.getAdminFromDB();
     sendResponse(res, {
