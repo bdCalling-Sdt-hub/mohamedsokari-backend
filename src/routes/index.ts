@@ -16,6 +16,7 @@ import { NotificationRoutes } from '../app/modules/notification/notification.rou
 import { DashboardUserRouter } from '../app/modules/dashboard/userManagment/userManagment.router';
 import { DashboardProductRouter } from '../app/modules/dashboard/productManagment/product.route';
 import { AdminRoutes } from '../app/modules/admin/admin.route';
+import { DashboardRouter } from '../app/modules/dashboard/dashboard.router';
 
 const router = express.Router();
 const routes = [
@@ -106,6 +107,10 @@ const routes = [
   {
     path: '/admin',
     route: AdminRoutes,
+  },
+  {
+    path: '/admin/dashboard',
+    route: DashboardRouter,
   },
 ];
 

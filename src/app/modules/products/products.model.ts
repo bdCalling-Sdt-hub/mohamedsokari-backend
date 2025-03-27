@@ -46,6 +46,7 @@ productsSchema.pre('aggregate', function (next) {
   this.pipeline().unshift({ $match: { isDeleted: { $ne: true } } });
   next();
 });
+
 const Product = model<IProduct>('Product', productsSchema);
 
 export default Product;

@@ -23,12 +23,12 @@ import { twilioService } from '../../builder/TwilioService';
 //login
 const login = async (payload: ILoginData) => {
   const { emailOrPhone, password } = payload;
-  
+
   // Detect if input is email or phone number
   const query = emailOrPhone.includes('@')
     ? { email: emailOrPhone }
     : { contactNumber: emailOrPhone };
-    
+
   const isExistUser = await User.findOne(query).select('+password');
   if (!isExistUser) {
     throw new AppError(StatusCodes.BAD_REQUEST, "User doesn't exist!");
@@ -38,7 +38,7 @@ const login = async (payload: ILoginData) => {
   if (!isExistUser.verified) {
     // Generate OTP
     const otp = generateOTP(4);
-    
+
     if (emailOrPhone.includes('@')) {
       const value = {
         otp,
@@ -56,7 +56,7 @@ const login = async (payload: ILoginData) => {
       oneTimeCode: otp,
       expireAt: new Date(Date.now() + 3 * 60000),
     };
-    
+
     // Fix: Use the proper query object instead of {query}
     await User.findOneAndUpdate(query, { $set: { authentication } });
 
@@ -81,22 +81,22 @@ const login = async (payload: ILoginData) => {
   ) {
     throw new AppError(StatusCodes.BAD_REQUEST, 'Password is incorrect!');
   }
-  
+
   // Prepare JWT data with additional fields
   const jwtData = {
     id: isExistUser._id,
     role: isExistUser.role,
     email: isExistUser.email,
-    contactNumber: isExistUser.contactNumber
+    contactNumber: isExistUser.contactNumber,
   };
-  
+
   // Create tokens
   const accessToken = jwtHelper.createToken(
     jwtData,
     config.jwt.jwt_secret as Secret,
     config.jwt.jwt_expire_in as string,
   );
-  
+
   const refreshToken = jwtHelper.createToken(
     jwtData,
     config.jwt.jwt_refresh_secret as string,
@@ -109,7 +109,7 @@ const login = async (payload: ILoginData) => {
 //forget password
 const forgetPasswordToDB = async (emailOrPhone: string) => {
   const isEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailOrPhone);
-  // Check if the user exists based on the input type 
+  // Check if the user exists based on the input type
   let isExistUser;
   if (isEmail) {
     isExistUser = await User.isExistUserByEmail(emailOrPhone);
