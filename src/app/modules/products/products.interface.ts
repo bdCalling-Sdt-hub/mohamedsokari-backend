@@ -8,6 +8,8 @@ export interface IProduct {
   description: string;
   location: string;
   totalViews: number;
+  liked: number;
+  countAddToCart: number;
   condition: 'good' | 'well';
   images: string[];
   status: 'available' | 'sold';

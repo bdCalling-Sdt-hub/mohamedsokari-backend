@@ -13,5 +13,12 @@ router.post(
   validateRequest(OrderValidation.orderSchema),
   OrderController.orderConfirmByBuyer,
 );
+router.post(
+  '/confirm-seller/:id',
+  auth(USER_ROLES.USER),
+  OrderController.orderConfirmBySeller,
+);
+router.get('/:id', auth(USER_ROLES.USER), OrderController.getOrderbyId);
+router.delete('/:id', auth(USER_ROLES.USER), OrderController.cancelledOrder);
 
 export const OrderRouter = router;

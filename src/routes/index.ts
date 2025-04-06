@@ -17,6 +17,7 @@ import { DashboardUserRouter } from '../app/modules/dashboard/userManagment/user
 import { DashboardProductRouter } from '../app/modules/dashboard/productManagment/product.route';
 import { AdminRoutes } from '../app/modules/admin/admin.route';
 import { DashboardRouter } from '../app/modules/dashboard/dashboard.router';
+import { LikedRouter } from '../app/modules/liked/liked.router';
 
 const router = express.Router();
 const routes = [
@@ -111,6 +112,10 @@ const routes = [
   {
     path: '/admin/dashboard',
     route: DashboardRouter,
+  },
+  {
+    path: '/likes',
+    route: LikedRouter,
   },
 ];
 

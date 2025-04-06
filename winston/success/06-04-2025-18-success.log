@@ -1,0 +1,12 @@
+Sun Apr 06 2025 18:54:39 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Apr 06 2025 18:54:45 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Apr 06 2025 18:54:47 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6008[39m
+Sun Apr 06 2025 18:54:47 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sun Apr 06 2025 18:55:12 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/likes/67d56a35beaf9940aa349b27 200 - 1406.264 ms
+Sun Apr 06 2025 18:56:7 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/likes/67d56a35beaf9940aa349b27 200 - 1400.487 ms
+Sun Apr 06 2025 18:56:16 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/likes/67d56a35beaf9940aa349b27 200 - 1395.534 ms
+Sun Apr 06 2025 18:56:21 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/likes/67d56a35beaf9940aa349b27 200 - 1394.686 ms
+Sun Apr 06 2025 18:56:51 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sun Apr 06 2025 18:56:53 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6008[39m
+Sun Apr 06 2025 18:56:53 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sun Apr 06 2025 18:56:55 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/likes/67d56a35beaf9940aa349b27 200 - 1404.194 ms
