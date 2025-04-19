@@ -7,13 +7,24 @@ import AppError from '../../../errors/AppError';
 import { USER_ROLES } from '../../../enums/user';
 import generateOTP from '../../../utils/generateOTP';
 import { twilioService } from '../../builder/TwilioService';
+import { emailHelper } from '../../../helpers/emailHelper';
+import { emailTemplate } from '../../../shared/emailTemplate';
+
 
 // create user
 const createUserToDB = async (payload: IUser): Promise<IUser> => {
-  // Check if user exists by phone number
-  const existingUser = await User.isExistUserByPhone(payload.contactNumber);
-  if (existingUser) {
-    throw new AppError(StatusCodes.CONFLICT, 'Phone number already exists');
+  // Detect if input is email or phone number
+
+  if (payload.email.includes('@')) {
+    const existingUser = await User.isExistUserByEmail(payload.email);
+    if (existingUser) {
+      throw new AppError(StatusCodes.CONFLICT, 'Email already exists');
+    }
+  } else {
+    const existingUser = await User.isExistUserByPhone(payload.contactNumber);
+    if (existingUser) {
+      throw new AppError(StatusCodes.CONFLICT, 'Phone number already exists');
+    }
   }
 
   // Set role
@@ -24,9 +35,22 @@ const createUserToDB = async (payload: IUser): Promise<IUser> => {
   }
   // Generate OTP
   const otp = generateOTP(4);
-  // Send OTP via Twilio SMS
-  await twilioService.sendOTP(createUser.contactNumber, otp);
-  // Save OTP to DB
+
+  // Send OTP via Email if email is provided, else send via Twilio SMS
+  if (createUser.email) {
+    const values = {
+      name: createUser.name,
+      otp: otp,
+      email: createUser.email!,
+    };
+    const registrationEmail = emailTemplate.createAccount(values);
+    emailHelper.sendEmail(registrationEmail);
+  } else {
+    console.log("sending otp to twilio");
+    await twilioService.sendOTP(createUser.contactNumber, otp);
+  }
+
+  // Save OTP to DB with expiry of 3 minutes
   const authentication = {
     oneTimeCode: otp,
     expireAt: new Date(Date.now() + 3 * 60000), // 3 minutes expiry
@@ -36,6 +60,7 @@ const createUserToDB = async (payload: IUser): Promise<IUser> => {
     { _id: createUser._id },
     { $set: { authentication } },
   );
+
   return createUser;
 };
 

@@ -1,0 +1,17 @@
+Fri Apr 18 2025 17:3:4 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products?page=1 200 - 567.069 ms
+Fri Apr 18 2025 17:3:11 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products?page=2 200 - 558.199 ms
+Fri Apr 18 2025 17:3:17 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products?page=1 200 - 559.373 ms
+Fri Apr 18 2025 17:38:25 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/login 200 - 480.512 ms
+Fri Apr 18 2025 17:38:26 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products?page=1 200 - 563.313 ms
+Fri Apr 18 2025 17:38:34 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products?page=2 200 - 563.860 ms
+Fri Apr 18 2025 17:39:38 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/login 200 - 486.903 ms
+Fri Apr 18 2025 17:39:39 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products?page=1 200 - 567.505 ms
+Fri Apr 18 2025 17:41:23 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products?page=2 200 - 570.397 ms
+Fri Apr 18 2025 17:41:24 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products?page=2 200 - 561.809 ms
+Fri Apr 18 2025 17:44:19 [SERVER-NAME] info: 10.0.60.240 - GET /image/eee-1744890776115.png 200 - 2.550 ms
+Fri Apr 18 2025 17:44:19 [SERVER-NAME] info: 10.0.60.240 - GET /image/eee-1744890796394.png 200 - 13.106 ms
+Fri Apr 18 2025 17:44:19 [SERVER-NAME] info: 10.0.60.240 - GET /image/msi_mpg-1742022974033.jpg 200 - 11.750 ms
+Fri Apr 18 2025 17:44:20 [SERVER-NAME] info: 10.0.60.240 - GET /image/msi-1742039605762.png 200 - 13.380 ms
+Fri Apr 18 2025 17:46:1 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 581.707 ms
+Fri Apr 18 2025 17:46:1 [SERVER-NAME] info: 10.0.60.240 - GET /image/msi_mpg-1742208939334.jpg 200 - 3.936 ms
+Fri Apr 18 2025 17:46:2 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products?page=1 200 - 575.719 ms

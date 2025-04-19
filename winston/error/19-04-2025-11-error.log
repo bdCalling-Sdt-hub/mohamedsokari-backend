@@ -1,0 +1,11 @@
+Sat Apr 19 2025 11:26:44 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/users/ 400 - 4.281 ms
+Sat Apr 19 2025 11:30:42 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/auth/verify-phone 400 - 1.297 ms
+Sat Apr 19 2025 11:32:51 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/auth/verify-phone 400 - 1.184 ms
+Sat Apr 19 2025 11:35:49 [SERVER-NAME] error: 10.0.60.34 - GET /api/v1/auth/verify-phone 404 - 2.748 ms
+Sat Apr 19 2025 11:35:49 [SERVER-NAME] error: 10.0.60.34 - GET /favicon.ico 404 - 0.886 ms
+Sat Apr 19 2025 11:36:6 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/users/ 409 - 282.148 ms
+Sat Apr 19 2025 11:37:15 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/users/ 400 - 1098.521 ms
+Sat Apr 19 2025 11:38:12 [SERVER-NAME] error: 10.0.60.34 - GET /api/v1/auth/verify-phone 404 - 0.474 ms
+Sat Apr 19 2025 11:46:52 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/auth/verify-phone 400 - 13.187 ms
+Sat Apr 19 2025 11:47:11 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/auth/verify-phone 400 - 249.495 ms
+Sat Apr 19 2025 11:59:41 [SERVER-NAME] error: 10.0.60.34 - GET /api/v1/settings/privacy-policy 404 - 3.115 ms

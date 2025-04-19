@@ -3,36 +3,33 @@ import AppError from '../../../errors/AppError';
 import Product from '../products/products.model';
 import { Cart } from './cart.model';
 import mongoose from 'mongoose';
-
 const addItemToCart = async (userId: string, productId: any) => {
   const session = await mongoose.startSession();
   session.startTransaction();
 
   try {
     let cart: any = await Cart.findOne({ userId }).session(session);
-
     if (!cart) {
-      // If cart doesn't exist, create a new one
+      console.log('Cart does not exist. Creating a new cart.');
       cart = new Cart({
         userId,
         items: [{ productId }],
         totalPrice: 0,
       });
-    }
-
-    const existingItem = cart.items.find(
-      (item: any) => item.productId.toString() === productId,
-    );
-
-    if (existingItem) {
-      throw new AppError(
-        StatusCodes.CONFLICT,
-        'Product already in the cart, not adding again.',
-      );
     } else {
-      cart.items.push({ productId });
+      // If the cart exists, check if the product is already in the cart
+      const existingItem = cart.items.find(
+        (item: any) => item.productId.toString() === productId,
+      );
+
+      if (existingItem) {
+        return cart;
+      } else {
+        cart.items.push({ productId });
+      }
     }
 
+    console.log('Updating product with ID:', productId);
     const updatedProduct = await Product.findByIdAndUpdate(
       productId,
       { $inc: { countAddToCart: 1 } },
@@ -43,19 +40,28 @@ const addItemToCart = async (userId: string, productId: any) => {
       throw new AppError(StatusCodes.NOT_FOUND, 'Product not found');
     }
 
+    // Update the total price of the cart
     cart.totalPrice = cart.items.reduce((total: any, item: any) => {
       const productPrice = updatedProduct.price;
       return total + productPrice;
     }, 0);
 
+    // Save the cart in the session
     await cart.save({ session });
 
+    // Commit the transaction
     await session.commitTransaction();
 
     return cart;
   } catch (error) {
-    await session.abortTransaction();
     console.error('Error during cart operation:', error);
+    if (error instanceof AppError) {
+      console.error('AppError details:', error);
+    } else {
+      console.error('Unexpected error details:', error);
+    }
+    // Abort the transaction in case of an error
+    await session.abortTransaction();
     throw new AppError(
       StatusCodes.INTERNAL_SERVER_ERROR,
       'Error adding to cart',

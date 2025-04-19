@@ -1,0 +1,193 @@
+Sat Apr 19 2025 15:0:40 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:0:40 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:0:40 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:0:40 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:0:53 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:0:53 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:0:53 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:0:53 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:1:17 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:1:17 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:1:17 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:1:17 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:4:15 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:4:15 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:4:15 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:4:15 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:4:21 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:4:21 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:4:21 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:4:21 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:4:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:4:57 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:4:57 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:4:57 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:7:25 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:7:25 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:7:25 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:7:25 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:7:45 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/reviews/6800eb9899b62e116ff50dde 200 - 1175.220 ms
+Sat Apr 19 2025 15:8:4 [SERVER-NAME] info: 10.0.60.126 - PUT /api/v1/reviews/6800eb9899b62e116ff50dde 200 - 1143.669 ms
+Sat Apr 19 2025 15:11:23 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:11:23 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:11:23 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:11:23 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:11:33 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:11:33 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:11:33 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:11:33 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:11:41 [SERVER-NAME] info: 10.0.60.126 - PUT /api/v1/reviews/6800eb9899b62e116ff50dde 200 - 1178.357 ms
+Sat Apr 19 2025 15:12:7 [SERVER-NAME] info: 10.0.60.126 - PUT /api/v1/reviews/6800eb9899b62e116ff50dde 200 - 1149.384 ms
+Sat Apr 19 2025 15:14:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:14:42 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:14:42 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:14:42 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:14:45 [SERVER-NAME] info: 10.0.60.126 - DELETE /api/v1/reviews/6800eb9899b62e116ff50dde 200 - 2269.971 ms
+Sat Apr 19 2025 15:14:55 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/reviews/6800eb9899b62e116ff50dde 200 - 1179.551 ms
+Sat Apr 19 2025 15:23:26 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:23:26 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:23:26 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:23:26 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:24:7 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:24:7 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:24:7 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:24:7 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:24:14 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:24:14 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:24:14 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:24:14 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:25:18 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:25:18 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:25:18 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:25:18 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:25:41 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:25:41 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:25:41 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:25:41 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:25:59 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:25:59 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:25:59 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:25:59 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:27:57 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/reviews/6800eb9899b62e116ff50dde 200 - 1152.848 ms
+Sat Apr 19 2025 15:28:23 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/reviews/6800eb9899b62e116ff50dde 200 - 1157.472 ms
+Sat Apr 19 2025 15:30:19 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:30:19 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:30:19 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:30:19 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:30:25 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:30:25 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:30:25 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:30:25 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:30:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:30:57 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:30:57 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:30:57 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:31:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:31:9 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:31:9 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:31:9 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:31:21 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/reviews/6800eb9899b62e116ff50dde 200 - 1253.101 ms
+Sat Apr 19 2025 15:32:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:32:9 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:32:9 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:32:9 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:32:26 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:32:26 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:32:26 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:32:26 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:32:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:32:35 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:32:35 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:32:35 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:32:40 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:32:40 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:32:40 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:32:40 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:32:48 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:32:48 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:32:48 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:32:48 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:32:55 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:32:55 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:32:55 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:32:55 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:33:43 [SERVER-NAME] info: 10.0.60.126 - PUT /api/v1/reviews/6800eb9899b62e116ff50dde 200 - 1247.391 ms
+Sat Apr 19 2025 15:34:28 [SERVER-NAME] info: 10.0.60.126 - DELETE /api/v1/reviews/6800eb9899b62e116ff50dde 200 - 1279.911 ms
+Sat Apr 19 2025 15:34:38 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/reviews/6800eb9899b62e116ff50dde 200 - 1319.536 ms
+Sat Apr 19 2025 15:37:8 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:37:8 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:37:8 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:37:8 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:39:19 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:39:19 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:39:19 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:39:19 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:39:27 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:39:27 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:39:27 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:39:27 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:39:31 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/reviews/680348da0ae1f813f5db4beb 200 - 323.278 ms
+Sat Apr 19 2025 15:42:32 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:42:32 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:42:32 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:42:32 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:44:14 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:44:14 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:44:14 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:44:14 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:45:29 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/cart 200 - 656.533 ms
+Sat Apr 19 2025 15:51:38 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:51:38 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:51:38 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:51:38 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:51:48 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/cart 200 - 1593.122 ms
+Sat Apr 19 2025 15:52:54 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/cart 200 - 937.678 ms
+Sat Apr 19 2025 15:53:32 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/cart 200 - 1563.223 ms
+Sat Apr 19 2025 15:53:47 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/cart 200 - 930.099 ms
+Sat Apr 19 2025 15:54:11 [SERVER-NAME] info: 10.0.60.126 - DELETE /api/v1/cart/67d56a35beaf9940aa349b27 200 - 1880.089 ms
+Sat Apr 19 2025 15:54:21 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/cart 200 - 930.541 ms
+Sat Apr 19 2025 15:55:43 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/cart 200 - 1551.734 ms
+Sat Apr 19 2025 15:57:12 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:57:12 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:57:12 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:57:12 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:57:18 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:57:18 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:57:18 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:57:18 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:57:22 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:57:22 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:57:22 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:57:22 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:57:29 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:57:29 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:57:29 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:57:29 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:57:33 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:57:33 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:57:33 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:57:33 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:57:43 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:57:43 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:57:43 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:57:43 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:57:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:57:57 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:57:57 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:57:57 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:58:6 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:58:6 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:58:6 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:58:6 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:58:17 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:58:17 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:58:17 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:58:17 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:58:21 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:58:21 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:58:21 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:58:21 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m
+Sat Apr 19 2025 15:58:40 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat Apr 19 2025 15:58:40 [SERVER-NAME] info: [33m♻️  Socket.io initialized on separate port[39m
+Sat Apr 19 2025 15:58:40 [SERVER-NAME] info: [33m♻️  Socket is listening on 10.0.60.126:6003[39m
+Sat Apr 19 2025 15:58:40 [SERVER-NAME] info: [33m♻️  Application listening on http://10.0.60.126:6008[39m

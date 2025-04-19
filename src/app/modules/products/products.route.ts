@@ -16,8 +16,12 @@ router.post(
   validateRequest(ProductValidation.productValidationSchema),
   Productcontroller.addProduct,
 );
-router.get('/', Productcontroller.getAllProducts);
-router.get('/resent', Productcontroller.getResentProducts);
-router.get('/:id', Productcontroller.getProduct);
+router.get('/', auth(USER_ROLES.USER), Productcontroller.getAllProducts);
+router.get(
+  '/resent',
+  auth(USER_ROLES.USER),
+  Productcontroller.getResentProducts,
+);
+router.get('/:id', auth(USER_ROLES.USER), Productcontroller.getProduct);
 
 export const ProductRouter = router;

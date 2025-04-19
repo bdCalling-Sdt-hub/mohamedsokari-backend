@@ -81,11 +81,11 @@ const getOrder = async (orderId: string) => {
       select: 'title category price images ',
     });
   if (!order) {
-    throw new AppError(StatusCodes.NOT_FOUND, 'Order not found');
+    return [];
   }
   return order;
 };
-// order confirm by seller  
+// order confirm by seller
 const orderConfirmBySeller = async (id: string, productId: string) => {
   const session = await mongoose.startSession();
   try {

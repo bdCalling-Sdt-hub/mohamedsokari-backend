@@ -31,11 +31,12 @@ class TwilioService {
         from: config.twilio.number,
         to: phoneNumber,
       });
-    } catch (error) {
+    } catch (error:any) {
       console.error('Failed to send SMS:', error);
+      console.error('Error details:', error.details); 
       throw new AppError(
         StatusCodes.EXPECTATION_FAILED,
-        'Failed to send verification code',
+        `Failed to send verification code: ${error.message}`,
       );
     }
   }

@@ -1,4 +1,0 @@
-Sun Apr 06 2025 12:28:44 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/orders/confirm-buyer 403 - 383.291 ms
-Sun Apr 06 2025 12:46:53 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/orders/confirm-buyer 400 - 332.168 ms
-Sun Apr 06 2025 12:48:3 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/orders/confirm-buyer 400 - 602.459 ms
-Sun Apr 06 2025 12:55:8 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/orders/confirm-buyer 404 - 578.824 ms

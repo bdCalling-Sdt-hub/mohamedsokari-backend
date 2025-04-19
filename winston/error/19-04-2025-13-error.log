@@ -1,0 +1,4 @@
+Sat Apr 19 2025 13:0:3 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/auth/verify-phone 400 - 23.248 ms
+Sat Apr 19 2025 13:0:55 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/auth/verify-phone 400 - 1.431 ms
+Sat Apr 19 2025 13:1:11 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/auth/verify-phone 400 - 1.295 ms
+Sat Apr 19 2025 13:1:18 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/auth/verify-phone 400 - 5.156 ms

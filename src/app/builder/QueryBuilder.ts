@@ -1,4 +1,3 @@
-
 import { FilterQuery, Query } from 'mongoose';
 import AppError from '../../errors/AppError';
 import { StatusCodes } from 'http-status-codes';
@@ -29,11 +28,35 @@ class QueryBuilder<T> {
   }
 
   filter() {
-    const excludeFields = ['searchTerm', 'sort', 'limit', 'page', 'fields'];
+    const excludeFields = ['searchTerm', 'sort', 'limit', 'page', 'fields', 'minPrice', 'maxPrice'];
     const queryObj = { ...this.query };
     excludeFields.forEach((el) => delete queryObj[el]);
 
     this.modelQuery = this.modelQuery.find(queryObj as FilterQuery<T>);
+    return this;
+  }
+
+  priceFilter(priceField: string = 'price') {
+    const minPrice = this.query?.minPrice ? Number(this.query.minPrice) : undefined;
+    const maxPrice = this.query?.maxPrice ? Number(this.query.maxPrice) : undefined;
+    
+    const priceFilter: Record<string, unknown> = {};
+    
+    if (minPrice !== undefined) {
+      priceFilter[priceField] = { ...priceFilter[priceField] as object, $gte: minPrice };
+    }
+    
+    if (maxPrice !== undefined) {
+      priceFilter[priceField] = { 
+        ...(priceFilter[priceField] as object || {}), 
+        $lte: maxPrice 
+      };
+    }
+    
+    if (Object.keys(priceFilter).length > 0) {
+      this.modelQuery = this.modelQuery.find(priceFilter as FilterQuery<T>);
+    }
+    
     return this;
   }
 

@@ -23,12 +23,13 @@ import { twilioService } from '../../builder/TwilioService';
 //login
 const login = async (payload: ILoginData) => {
   const { emailOrPhone, password } = payload;
-
+  if (!password) {
+    throw new AppError(StatusCodes.BAD_REQUEST, 'Password is required!');
+  }
   // Detect if input is email or phone number
   const query = emailOrPhone.includes('@')
     ? { email: emailOrPhone }
     : { contactNumber: emailOrPhone };
-
   const isExistUser = await User.findOne(query).select('+password');
   if (!isExistUser) {
     throw new AppError(StatusCodes.BAD_REQUEST, "User doesn't exist!");
@@ -103,7 +104,12 @@ const login = async (payload: ILoginData) => {
     config.jwt.jwt_refresh_expire_in as string,
   );
 
-  return { accessToken, refreshToken };
+  return {
+    accessToken,
+    refreshToken,
+    id: isExistUser._id,
+    userName: isExistUser.name,
+  };
 };
 
 //forget password

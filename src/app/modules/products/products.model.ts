@@ -11,8 +11,8 @@ const productsSchema = new Schema<IProduct>(
     description: { type: String, required: true },
     location: { type: String, required: true },
     totalViews: { type: Number, default: 0 },
-    liked: { type: Number },
-    countAddToCart: { type: Number },
+    liked: { type: Number, default: 0 },
+    countAddToCart: { type: Number, default: 0 },
     condition: {
       type: String,
       enum: ['Used but Good Conditions', 'Well Used'],

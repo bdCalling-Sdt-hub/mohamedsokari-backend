@@ -8,7 +8,6 @@ import { ChatRouter } from '../app/modules/chat/chat.route';
 import { CategoryRoutes } from '../app/modules/category/category.route';
 import { TutorialRouter } from '../app/modules/admin/tutorial/tutorial.router';
 import { BannerRoutes } from '../app/modules/banner/banner.routes';
-import { ReviewRoutes } from '../app/modules/review/review.routes';
 import { ReportRoutes } from '../app/modules/report/report.routes';
 import { AccauntRouter } from '../app/modules/acccaunt/accaunt.router';
 import { OrderRouter } from '../app/modules/order/order.route';
@@ -17,7 +16,9 @@ import { DashboardUserRouter } from '../app/modules/dashboard/userManagment/user
 import { DashboardProductRouter } from '../app/modules/dashboard/productManagment/product.route';
 import { AdminRoutes } from '../app/modules/admin/admin.route';
 import { DashboardRouter } from '../app/modules/dashboard/dashboard.router';
-import { LikedRouter } from '../app/modules/liked/liked.router';
+import { ReviewRoutes } from '../app/modules/review/review.router';
+import { CustomerReviewRoutes } from '../app/modules/customerreview/customerreview.routes';
+import { FavouritdRouter } from '../app/modules/favourit/favourit.router';
 
 const router = express.Router();
 const routes = [
@@ -90,6 +91,10 @@ const routes = [
     route: NotificationRoutes,
   },
   {
+    path: '/notifications',
+    route: NotificationRoutes,
+  },
+  {
     path: '/accaunts',
     route: AccauntRouter,
   },
@@ -115,8 +120,12 @@ const routes = [
   },
   {
     path: '/likes',
-    route: LikedRouter,
+    route: FavouritdRouter,
   },
+  {
+    path: '/reviews',
+    route: CustomerReviewRoutes,
+  }
 ];
 
 routes.forEach((element) => {

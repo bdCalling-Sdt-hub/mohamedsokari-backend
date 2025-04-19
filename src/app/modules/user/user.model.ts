@@ -5,7 +5,18 @@ import config from '../../../config';
 import { USER_ROLES } from '../../../enums/user';
 import AppError from '../../../errors/AppError';
 import { IUser, UserModel } from './user.interface';
-
+import mongoose from 'mongoose';
+// Review Schema embedded inside the Product Schema
+const reviewSchema = new Schema(
+  {
+    userId: { type: mongoose.Schema.ObjectId, ref: 'User', required: true },
+    rating: { type: Number, required: true, min: 1, max: 5 },
+    comment: { type: String, required: true },
+    images: { type: [String], default: [] },
+    date: { type: Date, default: Date.now },
+  },
+  { _id: false },
+);
 const userSchema = new Schema<IUser, UserModel>(
   {
     name: {
@@ -17,7 +28,7 @@ const userSchema = new Schema<IUser, UserModel>(
       enum: Object.values(USER_ROLES),
       default: USER_ROLES.USER,
     },
-    contactNumber: { type: String, required: true },
+    contactNumber: { type: String, required: true, unique: true },
     email: {
       type: String,
       required: false,
@@ -48,6 +59,7 @@ const userSchema = new Schema<IUser, UserModel>(
       default: false,
     },
 
+    reviews: { type: [reviewSchema], default: [] },
     isDeleted: {
       type: Boolean,
       default: false,

@@ -4,6 +4,7 @@ import { Notification } from './notification.model';
 import { sendNotifications } from '../../../helpers/notificationsHelper';
 import AppError from '../../../errors/AppError';
 import { StatusCodes } from 'http-status-codes';
+import { User } from '../user/user.model';
 
 // get notifications
 const getNotificationFromDB = async (
@@ -55,21 +56,61 @@ const adminReadNotificationToDB = async (): Promise<INotification | null> => {
 };
 const adminSendNotificationFromDB = async (payload: any) => {
   const { title, message, receiver } = payload;
+
+  // Validate required fields
   if (!title || !message) {
     throw new AppError(
       StatusCodes.BAD_REQUEST,
       'Title and message are required',
     );
   }
-  const notificationData = {
-    title,
-    referenceModel: 'MESSAGE',
-    text: message,
-    type: 'ADMIN',
-    receiver: receiver || null,
-  };
 
-  await sendNotifications(notificationData);
+  // Handle specific receiver if provided
+  if (receiver && typeof receiver === 'string') {
+    const notificationData = {
+      title,
+      referenceModel: 'MESSAGE',
+      text: message,
+      type: 'ADMIN',
+      receiver,
+    };
+    try {
+      await sendNotifications(notificationData);
+    } catch (error) {
+      throw new AppError(
+        StatusCodes.INTERNAL_SERVER_ERROR,
+        'Error sending notification to receiver',
+      );
+    }
+  }
+
+  // Fetch users with role 'USER'
+  const users = await User.find({ role: 'USER' });
+  if (!users || users.length === 0) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'No users found');
+  }
+
+  // Send notification to all users
+  const notificationPromises = users.map((user) => {
+    const notificationData = {
+      title,
+      referenceModel: 'MESSAGE',
+      text: message,
+      type: 'ADMIN',
+      receiver: user._id,
+    };
+    return sendNotifications(notificationData);
+  });
+
+  try {
+    await Promise.all(notificationPromises);
+  } catch (error) {
+    throw new AppError(
+      StatusCodes.INTERNAL_SERVER_ERROR,
+      'Error sending notifications to users',
+    );
+  }
+
   return;
 };
 
