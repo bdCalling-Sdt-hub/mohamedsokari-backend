@@ -1,3 +1,0 @@
-Sat Apr 19 2025 10:54:28 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/accaunts/edit/6800ebac99b62e116ff50de1 404 - 0.827 ms
-Sat Apr 19 2025 10:55:3 [SERVER-NAME] error: 10.0.60.126 - PATCH /api/v1/accaunts/edit/6800ebac99b62e116ff50de1 401 - 3.631 ms
-Sat Apr 19 2025 10:55:23 [SERVER-NAME] error: 10.0.60.126 - PATCH /api/v1/accaunts/edit/6800ebac99b62e116ff50de1 400 - 351.396 ms

@@ -108,6 +108,7 @@ const changePassword = catchAsync(async (req, res) => {
 });
 // resend Otp
 const resendOtp = catchAsync(async (req, res) => {
+
   const { emailOrPhone } = req.body;
   await AuthService.resendOtpFromDb(emailOrPhone);
 

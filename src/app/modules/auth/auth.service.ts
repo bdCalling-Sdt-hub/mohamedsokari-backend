@@ -256,6 +256,7 @@ const forgetPasswordByUrlToDB = async (email: string) => {
 //verify email
 const verifyPhoneToDB = async (payload: IVerifyPhone) => {
   const { emailOrPhone, oneTimeCode } = payload;
+
   // Determine if input is email or phone
   const isEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailOrPhone);
   const query = isEmail

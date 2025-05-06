@@ -1,0 +1,10 @@
+Tue May 06 2025 19:26:1 [SERVER-NAME] error: 10.0.60.240 - GET /api/v1/products?page=1 401 - 31.504 ms
+Tue May 06 2025 19:26:10 [SERVER-NAME] error: 10.0.60.240 - GET /api/v1/products?page=1 401 - 1.359 ms
+Tue May 06 2025 19:26:17 [SERVER-NAME] error: 10.0.60.240 - GET /api/v1/category 401 - 4.786 ms
+Tue May 06 2025 19:26:40 [SERVER-NAME] error: 10.0.60.240 - GET /api/v1/products?page=1 401 - 1.918 ms
+Tue May 06 2025 19:26:41 [SERVER-NAME] error: 10.0.60.240 - GET /api/v1/category 401 - 3.782 ms
+Tue May 06 2025 19:34:54 [SERVER-NAME] error: 10.0.60.240 - GET /api/v1/products?page=1 401 - 6.023 ms
+Tue May 06 2025 19:35:12 [SERVER-NAME] error: 10.0.60.240 - GET /api/v1/category 401 - 1.347 ms
+Tue May 06 2025 19:37:29 [SERVER-NAME] error: 10.0.60.240 - GET /api/v1/products?page=1 401 - 6.200 ms
+Tue May 06 2025 19:38:24 [SERVER-NAME] error: 10.0.60.240 - GET /api/v1/products?page=1 401 - 1.533 ms
+Tue May 06 2025 19:40:0 [SERVER-NAME] error: 10.0.60.240 - GET /api/v1/products?page=1 401 - 1.557 ms
