@@ -1,0 +1,9 @@
+Wed May 07 2025 15:36:24 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 502.013 ms
+Wed May 07 2025 15:36:27 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products?page=1 200 - 2844.424 ms
+Wed May 07 2025 15:36:28 [SERVER-NAME] info: 10.0.60.34 - GET /image/eee-1744890776115.png 200 - 11.034 ms
+Wed May 07 2025 15:36:31 [SERVER-NAME] info: 10.0.60.34 - GET /image/msi_mpg-1742022974033.jpg 200 - 6.957 ms
+Wed May 07 2025 15:36:32 [SERVER-NAME] info: 10.0.60.34 - GET /image/msi-1742039605762.png 200 - 9.297 ms
+Wed May 07 2025 15:41:46 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 497.166 ms
+Wed May 07 2025 15:41:48 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products?page=1 200 - 1195.675 ms
+Wed May 07 2025 15:43:51 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 491.810 ms
+Wed May 07 2025 15:43:52 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products?page=1 200 - 1189.819 ms
