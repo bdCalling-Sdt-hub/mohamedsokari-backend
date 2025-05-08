@@ -73,12 +73,13 @@ const getFeatureProduct = async (
   query: Record<string, unknown>,
   userId: string,
 ) => {
-  const defaultSort = { totalViews: -1 };
-  query = defaultSort;
-  const queryBuilder = new QueryBuilder(
-    Product.find({ totalViews: { $exists: true, $gt: 0 } }),
-    query,
-  );
+
+  const mergedQuery = {
+    totalViews: { $exists: true, $gt: 0 },
+    ...query, 
+  };
+
+  const queryBuilder = new QueryBuilder(Product.find(mergedQuery), query);
 
   const products = await queryBuilder
     .search(['location', 'title', 'category'])
@@ -98,6 +99,7 @@ const getFeatureProduct = async (
       };
     }),
   );
+
   const meta = await queryBuilder.countTotal();
   return { products: productsWithFavorites, meta };
 };

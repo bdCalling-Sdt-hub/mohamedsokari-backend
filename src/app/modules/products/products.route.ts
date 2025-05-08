@@ -22,6 +22,11 @@ router.get(
   auth(USER_ROLES.USER),
   Productcontroller.getResentProducts,
 );
+router.get(
+  '/feature',
+  auth(USER_ROLES.USER),
+  Productcontroller.getFeatureProduct,
+);
 router.get('/:id', auth(USER_ROLES.USER), Productcontroller.getProduct);
 
 export const ProductRouter = router;

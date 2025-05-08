@@ -1,5 +1,0 @@
-Wed May 07 2025 17:0:1 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/auth/login 400 - 516.750 ms
-Wed May 07 2025 17:7:31 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/auth/login 400 - 508.903 ms
-Wed May 07 2025 17:25:26 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/auth/login 400 - 482.397 ms
-Wed May 07 2025 17:30:18 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/auth/login 400 - 504.459 ms
-Wed May 07 2025 17:39:5 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/auth/login 400 - 468.205 ms

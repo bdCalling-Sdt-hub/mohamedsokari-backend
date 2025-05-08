@@ -1,6 +1,0 @@
-Tue May 06 2025 22:2:1 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/users/verify-otp 404 - 0.772 ms
-Tue May 06 2025 22:3:5 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/auth/reset-password 400 - 13.068 ms
-Tue May 06 2025 22:11:34 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/auth/reset-password 400 - 857.153 ms
-Tue May 06 2025 22:15:49 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/auth/change-password 400 - 807.842 ms
-Tue May 06 2025 22:16:0 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/auth/change-password 400 - 829.547 ms
-Tue May 06 2025 22:21:21 [SERVER-NAME] error: 10.0.60.34 - PATCH /api/v1/users/profile 401 - 2.159 ms

@@ -1,0 +1,4 @@
+Thu May 08 2025 20:12:21 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/auth/login 400 - 475.701 ms
+Thu May 08 2025 20:15:54 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/auth/login 400 - 495.700 ms
+Thu May 08 2025 20:17:13 [SERVER-NAME] error: 10.0.60.34 - GET /api/v1/products/resent 401 - 0.765 ms
+Thu May 08 2025 20:25:21 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/auth/login 400 - 476.068 ms

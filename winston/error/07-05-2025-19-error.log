@@ -1,6 +1,0 @@
-Wed May 07 2025 19:5:56 [SERVER-NAME] error: 10.0.60.34 - GET /api/v1/products 401 - 0.974 ms
-Wed May 07 2025 19:16:48 [SERVER-NAME] error: 10.0.60.34 - POST /api/v1/likes/6800eb9899b62e116ff50dde 401 - 1.194 ms
-Wed May 07 2025 19:20:9 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/auth/login 400 - 553.305 ms
-Wed May 07 2025 19:26:7 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/auth/login 400 - 540.045 ms
-Wed May 07 2025 19:55:41 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/auth/login 400 - 512.527 ms
-Wed May 07 2025 19:55:53 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/likes/id 500 - 349.773 ms
