@@ -1,32 +1,30 @@
-import mongoose from 'mongoose';
-const { Schema, model } = mongoose;
+import { Schema, model } from 'mongoose';
+import { IMessage, MessageModel } from './message.interface';
 
-const messageSchema = new Schema(
+const messageSchema = new Schema<IMessage, MessageModel>(
   {
-    chat: {
-      type: mongoose.Schema.Types.ObjectId,
+    chatId: {
+      type: Schema.Types.ObjectId,
+      required: true,
       ref: 'Chat',
-      required: true,
     },
-    message: { type: String, required: false },
-    type: {
-      type: String,
-      enum: ['general', 'special', 'reply', 'image'],
-      default: 'general',
-    },
-    link: { type: String, required: false },
-    image: { type: String, required: false },
-    audio: { type: String, required: false },
     sender: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'User',
+      type: Schema.Types.ObjectId,
       required: true,
+      ref: 'User',
+    },
+    text: { 
+      type: String,
+      required: false 
+    },
+    image: { 
+      type: String,
+      required: false 
     },
   },
   {
     timestamps: true,
-  },
+  }
 );
-const Message = model('Message', messageSchema);
 
-export default Message;
+export const Message = model<IMessage, MessageModel>('Message', messageSchema);

@@ -3,8 +3,6 @@ import { UserRouter } from '../app/modules/user/user.route';
 import { AuthRouter } from '../app/modules/auth/auth.route';
 import { ProductRouter } from '../app/modules/products/products.route';
 import { CartRoute } from '../app/modules/cart/cart.route';
-import { MessageRouter } from '../app/modules/message/message.route';
-import { ChatRouter } from '../app/modules/chat/chat.route';
 import { CategoryRoutes } from '../app/modules/category/category.route';
 import { TutorialRouter } from '../app/modules/admin/tutorial/tutorial.router';
 import { BannerRoutes } from '../app/modules/banner/banner.routes';
@@ -19,6 +17,8 @@ import { DashboardRouter } from '../app/modules/dashboard/dashboard.router';
 import { ReviewRoutes } from '../app/modules/review/review.router';
 import { CustomerReviewRoutes } from '../app/modules/customerreview/customerreview.routes';
 import { FavouritdRouter } from '../app/modules/favourit/favourit.router';
+import { ChatRoutes } from '../app/modules/chat/chat.routes';
+import { MessageRoutes } from '../app/modules/message/message.routes';
 
 const router = express.Router();
 const routes = [
@@ -40,11 +40,11 @@ const routes = [
   },
   {
     path: '/messages',
-    route: MessageRouter,
+    route: MessageRoutes,
   },
   {
     path: '/chat',
-    route: ChatRouter,
+    route: ChatRoutes,
   },
   {
     path: '/admin/category',
@@ -73,7 +73,7 @@ const routes = [
   {
     path: '/admin/feedback',
     route: ReviewRoutes,
-  },        
+  },
   {
     path: '/feedback',
     route: ReviewRoutes,
@@ -125,7 +125,7 @@ const routes = [
   {
     path: '/reviews',
     route: CustomerReviewRoutes,
-  }
+  },
 ];
 
 routes.forEach((element) => {

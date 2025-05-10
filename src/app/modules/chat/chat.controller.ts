@@ -1,40 +1,38 @@
-import { StatusCodes } from 'http-status-codes';
+import { Request, Response } from 'express';
 import catchAsync from '../../../shared/catchAsync';
 import sendResponse from '../../../shared/sendResponse';
-import { getChatByParticipantId } from './chat.service';
+import { StatusCodes } from 'http-status-codes';
+import { ChatService } from './chat.service';
 
-const getAllChats = catchAsync(async (req, res) => {
-  const options = {
-    limit: Number(req.query.limit) || 10,
-    page: Number(req.query.page) || 1,
-  };
-  const { id }: any = req.user;
-  // console.log('userId=====================', userId);
-  const filter: any = { participantId: id };
+const createChat = catchAsync(async (req: Request, res: Response) => {
+  const user: any = req.user;
+  const otherUser = req.params.id;
 
-  const search = req.query.search;
-  // console.log('serch', search);
-
-  if (search && search !== 'null' && search !== '' && search !== undefined) {
-    const searchRegExp = new RegExp('.*' + search + '.*', 'i');
-    filter.name = searchRegExp;
-    // filter._id = search;
-  }
-  //  const { userId } = req.user;
-  // // console.log({ filter });
-  // // console.log({ options });
-
-  const result = await getChatByParticipantId(filter, options);
+  const participants = [user?.id, otherUser];
+  const chat = await ChatService.createChatToDB(participants);
 
   sendResponse(res, {
-    success: true,
     statusCode: StatusCodes.OK,
-    //    meta: meta,
-    data: result,
-    message: 'chat list get successfully!',
+    success: true,
+    message: 'Create Chat Successfully',
+    data: chat,
   });
 });
 
-export const chatController = {
-  getAllChats,
+const getChat = catchAsync(async (req: Request, res: Response) => {
+  const user = req.user;
+  const search = req.query.search as string;
+  const chatList = await ChatService.getChatFromDB(user, search);
+
+  sendResponse(res, {
+    statusCode: StatusCodes.OK,
+    success: true,
+    message: 'Chat Retrieve Successfully',
+    data: chatList,
+  });
+});
+
+export const ChatController = {
+  createChat,
+  getChat,
 };

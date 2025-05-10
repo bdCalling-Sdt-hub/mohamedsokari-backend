@@ -1,10 +1,10 @@
-import { Types } from 'mongoose';
+import { Model, Types } from 'mongoose';
 
-export interface IMessageData {
-  chat: Types.ObjectId;
-  message?: string;
-  type: 'general' | 'special' | 'reply' | 'image';
-  link?: string;
-  image?: string;
+export type IMessage = {
+  chatId: Types.ObjectId;
   sender: Types.ObjectId;
-}
+  text?: string;
+  image?: string;
+};
+
+export type MessageModel = Model<IMessage, Record<string, unknown>>;
