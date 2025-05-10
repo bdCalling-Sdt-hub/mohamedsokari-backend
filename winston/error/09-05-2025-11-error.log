@@ -1,0 +1,22 @@
+Fri May 09 2025 11:46:50 [SERVER-NAME] error: [31mUncaught Exception:[39m listen EADDRINUSE: address already in use :::6003
+Fri May 09 2025 11:47:20 [SERVER-NAME] error: [31mUncaught Exception:[39m listen EADDRINUSE: address already in use 10.0.60.126:6008
+Fri May 09 2025 11:49:16 [SERVER-NAME] error: 10.0.60.110 - GET /favicon.ico 404 - 0.933 ms
+Fri May 09 2025 11:49:37 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/login 400 - 604.427 ms
+Fri May 09 2025 11:50:55 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/users/ 400 - 4.816 ms
+Fri May 09 2025 11:51:8 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/users/ 400 - 3.409 ms
+Fri May 09 2025 11:51:20 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/users/ 400 - 3.264 ms
+Fri May 09 2025 11:51:33 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/users/ 400 - 0.680 ms
+Fri May 09 2025 11:52:6 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/login 400 - 483.672 ms
+Fri May 09 2025 11:52:18 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/login 400 - 484.109 ms
+Fri May 09 2025 11:52:29 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/category 401 - 7.523 ms
+Fri May 09 2025 11:52:45 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/login 400 - 478.849 ms
+Fri May 09 2025 11:53:8 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/login 400 - 470.516 ms
+Fri May 09 2025 11:53:36 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/login 400 - 281.306 ms
+Fri May 09 2025 11:53:52 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/login 400 - 497.417 ms
+Fri May 09 2025 11:54:0 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/login 400 - 480.701 ms
+Fri May 09 2025 11:54:8 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/login 400 - 486.732 ms
+Fri May 09 2025 11:54:43 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/login 400 - 500.347 ms
+Fri May 09 2025 11:54:45 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/login 400 - 490.307 ms
+Fri May 09 2025 11:56:9 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/login 400 - 493.018 ms
+Fri May 09 2025 11:56:17 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/login 400 - 476.940 ms
+Fri May 09 2025 11:56:27 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/users/ 400 - 1.192 ms

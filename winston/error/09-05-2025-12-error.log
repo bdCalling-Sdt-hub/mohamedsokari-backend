@@ -1,0 +1,11 @@
+Fri May 09 2025 12:4:15 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/users/ 400 - 1082.907 ms
+Fri May 09 2025 12:5:8 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/login 417 - 1852.256 ms
+Fri May 09 2025 12:6:14 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/verify-phone 400 - 3.500 ms
+Fri May 09 2025 12:6:30 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/verify-phone 400 - 2.716 ms
+Fri May 09 2025 12:7:51 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/verify-phone 400 - 3.327 ms
+Fri May 09 2025 12:8:0 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/verify-phone 400 - 0.654 ms
+Fri May 09 2025 12:8:7 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/verify-phone 400 - 2.490 ms
+Fri May 09 2025 12:8:40 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/verify-phone 400 - 287.269 ms
+Fri May 09 2025 12:17:43 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/category 401 - 5.005 ms
+Fri May 09 2025 12:17:45 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/category 401 - 2.680 ms
+Fri May 09 2025 12:22:39 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/login 400 - 1.568 ms

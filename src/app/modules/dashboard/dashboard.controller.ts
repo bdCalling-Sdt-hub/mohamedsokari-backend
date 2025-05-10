@@ -30,7 +30,18 @@ const totalAnalysis = catchAsync(async (req, res) => {
 });
 
 const totalRevenue = catchAsync(async (req, res) => {
-  const result = await DashboardService.totalRevenueAnalisys();
+  const { year } = req.query;
+  if (!year) {
+    return sendResponse(res, {
+      success: false,
+      statusCode: StatusCodes.BAD_REQUEST,
+      message: 'Year is required',
+    });
+  }
+
+  // Convert the year to a number
+  const yearInt = parseInt(year as string);
+  const result = await DashboardService.totalRevenueAnalisys(yearInt);
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
@@ -40,4 +51,5 @@ const totalRevenue = catchAsync(async (req, res) => {
 });
 export const DashboardController = {
   totalAnalysis,
+  totalRevenue,
 };

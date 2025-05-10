@@ -9,4 +9,9 @@ router.get(
   auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),
   DashboardController.totalAnalysis,
 );
+router.get(
+  '/revenue',
+  auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),
+  DashboardController.totalRevenue,
+);
 export const DashboardRouter = router;

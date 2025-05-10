@@ -2,7 +2,6 @@ import mongoose, { ObjectId } from 'mongoose';
 import { IReview } from './review.interface';
 import { Review } from './review.model';
 import { StatusCodes } from 'http-status-codes';
-import { User } from '../user/user.model';
 import AppError from '../../../errors/AppError';
 import QueryBuilder from '../../builder/QueryBuilder';
 

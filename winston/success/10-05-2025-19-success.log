@@ -1,0 +1,145 @@
+Sat May 10 2025 19:5:34 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/seller-history/681a26ee4ea8d7e42b10ec89 200 - 841.188 ms
+Sat May 10 2025 19:5:48 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments 204 - 0.129 ms
+Sat May 10 2025 19:5:48 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/user-analytics?location=undefined&year=undefined 204 - 0.105 ms
+Sat May 10 2025 19:5:48 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=undefined&year=undefined 304 - 557.507 ms
+Sat May 10 2025 19:5:49 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments 304 - 840.294 ms
+Sat May 10 2025 19:6:16 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/681a26ee4ea8d7e42b10ec89 200 - 566.646 ms
+Sat May 10 2025 19:6:26 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/buyer-history/681a26ee4ea8d7e42b10ec89 200 - 856.182 ms
+Sat May 10 2025 19:11:11 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=dhaka&year=2025 200 - 567.873 ms
+Sat May 10 2025 19:11:20 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=dhaka&year=2025 200 - 565.309 ms
+Sat May 10 2025 19:11:27 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics 200 - 558.343 ms
+Sat May 10 2025 19:11:33 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=dhaka&year=2025 200 - 566.865 ms
+Sat May 10 2025 19:12:4 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/top-districts?location=dhaka&month=2025-03 200 - 567.055 ms
+Sat May 10 2025 19:12:13 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/top-districts 200 - 557.710 ms
+Sat May 10 2025 19:13:13 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/top-districts?month=2025-03 200 - 572.969 ms
+Sat May 10 2025 19:13:28 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/top-districts?month=2025-04 200 - 565.606 ms
+Sat May 10 2025 19:13:35 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/top-districts?month=2025-05 200 - 564.120 ms
+Sat May 10 2025 19:13:43 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/top-districts?month=2025-04 200 - 558.405 ms
+Sat May 10 2025 19:14:8 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=dhaka&year=2025 200 - 571.639 ms
+Sat May 10 2025 19:15:39 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 1130.346 ms
+Sat May 10 2025 19:18:24 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 532.772 ms
+Sat May 10 2025 19:18:26 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1137.714 ms
+Sat May 10 2025 19:18:28 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 2699.881 ms
+Sat May 10 2025 19:18:29 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 1124.602 ms
+Sat May 10 2025 19:20:59 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 527.936 ms
+Sat May 10 2025 19:21:1 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1140.620 ms
+Sat May 10 2025 19:21:1 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1149.776 ms
+Sat May 10 2025 19:21:3 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 1171.013 ms
+Sat May 10 2025 19:22:22 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 1155.784 ms
+Sat May 10 2025 19:23:23 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/user-analytics?location=undefined&year=undefined 204 - 0.327 ms
+Sat May 10 2025 19:23:23 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments 204 - 0.147 ms
+Sat May 10 2025 19:23:23 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=undefined&year=undefined 304 - 568.035 ms
+Sat May 10 2025 19:23:24 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments 304 - 859.211 ms
+Sat May 10 2025 19:23:54 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 548.970 ms
+Sat May 10 2025 19:23:56 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1138.931 ms
+Sat May 10 2025 19:23:56 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1145.209 ms
+Sat May 10 2025 19:23:58 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 1150.643 ms
+Sat May 10 2025 19:26:20 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 529.955 ms
+Sat May 10 2025 19:26:21 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1119.525 ms
+Sat May 10 2025 19:26:21 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1129.841 ms
+Sat May 10 2025 19:26:24 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 1136.503 ms
+Sat May 10 2025 19:28:21 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 1136.432 ms
+Sat May 10 2025 19:28:24 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 1138.754 ms
+Sat May 10 2025 19:28:31 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 1136.530 ms
+Sat May 10 2025 19:28:38 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 204 - 0.328 ms
+Sat May 10 2025 19:28:38 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 304 - 574.480 ms
+Sat May 10 2025 19:28:50 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 204 - 0.081 ms
+Sat May 10 2025 19:28:50 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 304 - 567.207 ms
+Sat May 10 2025 19:28:52 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 304 - 571.471 ms
+Sat May 10 2025 19:28:54 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 304 - 581.315 ms
+Sat May 10 2025 19:29:48 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 204 - 0.308 ms
+Sat May 10 2025 19:29:48 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 304 - 568.778 ms
+Sat May 10 2025 19:29:51 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments 204 - 0.295 ms
+Sat May 10 2025 19:29:52 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 304 - 566.879 ms
+Sat May 10 2025 19:29:52 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments 304 - 841.015 ms
+Sat May 10 2025 19:29:57 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 204 - 0.158 ms
+Sat May 10 2025 19:29:57 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 304 - 559.424 ms
+Sat May 10 2025 19:30:0 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 304 - 556.288 ms
+Sat May 10 2025 19:30:1 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 304 - 555.663 ms
+Sat May 10 2025 19:30:3 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 204 - 0.247 ms
+Sat May 10 2025 19:30:3 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 304 - 557.922 ms
+Sat May 10 2025 19:30:17 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=Afmadow&year=2025 200 - 557.967 ms
+Sat May 10 2025 19:34:58 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 538.629 ms
+Sat May 10 2025 19:34:59 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1127.612 ms
+Sat May 10 2025 19:35:0 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1149.428 ms
+Sat May 10 2025 19:35:6 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/likes/67d5293ee09d535f148a3e34 200 - 1484.254 ms
+Sat May 10 2025 19:35:6 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 1128.705 ms
+Sat May 10 2025 19:35:10 [SERVER-NAME] info: 10.0.60.34 - GET //image/msi_mpg-1742022974033.jpg 200 - 20.552 ms
+Sat May 10 2025 19:35:33 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 204 - 0.348 ms
+Sat May 10 2025 19:35:33 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 304 - 573.215 ms
+Sat May 10 2025 19:35:39 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 204 - 0.481 ms
+Sat May 10 2025 19:35:39 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 304 - 560.328 ms
+Sat May 10 2025 19:36:53 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/users/profile 200 - 561.641 ms
+Sat May 10 2025 19:39:38 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 204 - 0.091 ms
+Sat May 10 2025 19:39:38 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?location=2025-05&month=undefined 204 - 0.082 ms
+Sat May 10 2025 19:39:39 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 304 - 559.851 ms
+Sat May 10 2025 19:39:42 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?month=2025-05 204 - 0.299 ms
+Sat May 10 2025 19:39:42 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments 204 - 0.270 ms
+Sat May 10 2025 19:39:42 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/top-districts?month=2025-05 200 - 563.171 ms
+Sat May 10 2025 19:39:42 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 304 - 570.741 ms
+Sat May 10 2025 19:39:42 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments 304 - 834.992 ms
+Sat May 10 2025 19:39:45 [SERVER-NAME] info: 10.0.60.126 - DELETE /api/v1/likes/67d56a35beaf9940aa349b27 200 - 847.177 ms
+Sat May 10 2025 19:39:47 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?month=2025-04 204 - 0.350 ms
+Sat May 10 2025 19:39:48 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/top-districts?month=2025-04 200 - 560.418 ms
+Sat May 10 2025 19:39:50 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?month=2025 204 - 0.143 ms
+Sat May 10 2025 19:39:56 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 204 - 0.054 ms
+Sat May 10 2025 19:39:56 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?month=2025-05 204 - 0.065 ms
+Sat May 10 2025 19:39:56 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments 204 - 0.033 ms
+Sat May 10 2025 19:39:56 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 304 - 555.072 ms
+Sat May 10 2025 19:39:56 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/top-districts?month=2025-05 304 - 554.588 ms
+Sat May 10 2025 19:39:57 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments 304 - 858.023 ms
+Sat May 10 2025 19:40:3 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?month=2025-04 204 - 0.076 ms
+Sat May 10 2025 19:40:4 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/top-districts?month=2025-04 200 - 574.655 ms
+Sat May 10 2025 19:40:33 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?month=2025 204 - 0.073 ms
+Sat May 10 2025 19:40:36 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 204 - 0.507 ms
+Sat May 10 2025 19:40:36 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments 204 - 0.210 ms
+Sat May 10 2025 19:40:36 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?month=2025-05 204 - 1.628 ms
+Sat May 10 2025 19:40:36 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/top-districts?month=2025-05 304 - 556.730 ms
+Sat May 10 2025 19:40:36 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 304 - 585.504 ms
+Sat May 10 2025 19:40:37 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments 304 - 838.800 ms
+Sat May 10 2025 19:41:10 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 1109.986 ms
+Sat May 10 2025 19:41:13 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?month=2025 204 - 0.373 ms
+Sat May 10 2025 19:41:21 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?month=2025 204 - 0.158 ms
+Sat May 10 2025 19:41:24 [SERVER-NAME] info: 10.0.60.34 - DELETE /api/v1/likes/67d5293ee09d535f148a3e34 200 - 851.361 ms
+Sat May 10 2025 19:41:26 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?month=2025-04 204 - 0.126 ms
+Sat May 10 2025 19:41:27 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/top-districts?month=2025-04 200 - 560.057 ms
+Sat May 10 2025 19:41:47 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1122.354 ms
+Sat May 10 2025 19:41:47 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1137.658 ms
+Sat May 10 2025 19:41:49 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 1147.497 ms
+Sat May 10 2025 19:41:58 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?month=2025 204 - 0.099 ms
+Sat May 10 2025 19:42:8 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?month=2025 204 - 0.153 ms
+Sat May 10 2025 19:42:18 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/likes/67d56a35beaf9940aa349b27 200 - 1443.505 ms
+Sat May 10 2025 19:42:20 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 1143.553 ms
+Sat May 10 2025 19:43:11 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 522.921 ms
+Sat May 10 2025 19:43:13 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1125.175 ms
+Sat May 10 2025 19:43:13 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1137.100 ms
+Sat May 10 2025 19:43:17 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 1132.061 ms
+Sat May 10 2025 19:43:19 [SERVER-NAME] info: 10.0.60.34 - DELETE /api/v1/likes/67d56a35beaf9940aa349b27 200 - 841.955 ms
+Sat May 10 2025 19:43:35 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/category 200 - 562.377 ms
+Sat May 10 2025 19:43:38 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1127.422 ms
+Sat May 10 2025 19:43:38 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1173.025 ms
+Sat May 10 2025 19:43:42 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/likes/67d56a35beaf9940aa349b27 200 - 1399.144 ms
+Sat May 10 2025 19:43:44 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/likes/67d5293ee09d535f148a3e34 200 - 1386.773 ms
+Sat May 10 2025 19:43:45 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 1121.066 ms
+Sat May 10 2025 19:44:6 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/cart 200 - 865.303 ms
+Sat May 10 2025 19:49:48 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/users/profile 200 - 571.507 ms
+Sat May 10 2025 19:53:16 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Sat May 10 2025 19:53:18 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat May 10 2025 19:53:57 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Sat May 10 2025 19:53:59 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat May 10 2025 19:54:1 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Sat May 10 2025 19:54:4 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat May 10 2025 19:55:19 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Sat May 10 2025 19:55:22 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat May 10 2025 19:55:30 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Sat May 10 2025 19:55:34 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Sat May 10 2025 19:55:36 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat May 10 2025 19:55:38 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Sat May 10 2025 19:55:40 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Sat May 10 2025 19:55:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat May 10 2025 19:56:17 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 527.357 ms
+Sat May 10 2025 19:56:35 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/users-managments/top-districts?location=dhaka&month=2025-03 200 - 851.274 ms
+Sat May 10 2025 19:56:51 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/users-managments/top-districts?location=dhaka&month=2025-04 200 - 842.136 ms
+Sat May 10 2025 19:58:59 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Sat May 10 2025 19:59:2 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Sat May 10 2025 19:59:36 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/users-managments/top-districts?location=dhaka&year=2025 200 - 853.700 ms

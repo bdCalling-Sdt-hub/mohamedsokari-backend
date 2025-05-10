@@ -1,7 +1,0 @@
-Thu May 08 2025 18:58:49 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/login 200 - 500.464 ms
-Thu May 08 2025 18:58:52 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products?page=1 200 - 1138.224 ms
-Thu May 08 2025 18:58:53 [SERVER-NAME] info: 10.0.60.240 - GET /image/eee-1744890776115.png 200 - 6.365 ms
-Thu May 08 2025 18:58:53 [SERVER-NAME] info: 10.0.60.240 - GET /image/msi_mpg-1742022974033.jpg 200 - 7.485 ms
-Thu May 08 2025 18:58:54 [SERVER-NAME] info: 10.0.60.240 - GET /image/msi-1742039605762.png 200 - 8.785 ms
-Thu May 08 2025 18:59:1 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products?page=2 200 - 856.025 ms
-Thu May 08 2025 18:59:55 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/likes/67d56a35beaf9940aa349b27 200 - 1443.290 ms

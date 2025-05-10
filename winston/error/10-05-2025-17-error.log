@@ -1,0 +1,10 @@
+Sat May 10 2025 17:3:21 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/notifications/admin 401 - 10.876 ms
+Sat May 10 2025 17:5:34 [SERVER-NAME] error: 10.0.60.110 - PATCH /api/v1/admin/notifications/admin 401 - 2.613 ms
+Sat May 10 2025 17:5:43 [SERVER-NAME] error: 10.0.60.110 - PATCH /api/v1/admin/notifications/admin 403 - 284.595 ms
+Sat May 10 2025 17:5:48 [SERVER-NAME] error: 10.0.60.110 - PATCH /api/v1/admin/notifications/admin 403 - 281.159 ms
+Sat May 10 2025 17:8:13 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/reviews/67d56a35beaf9940aa349b27 404 - 279.902 ms
+Sat May 10 2025 17:19:59 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/change-password 401 - 1.080 ms
+Sat May 10 2025 17:38:58 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/reviews/67d56a35beaf9940aa349b27 400 - 288.706 ms
+Sat May 10 2025 17:38:58 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/dashboard?filter=thisMonth 401 - 1.408 ms
+Sat May 10 2025 17:40:58 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/reviews/67d56a35beaf9940aa349b27 400 - 299.862 ms
+Sat May 10 2025 17:56:33 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/dashboard?filter=thisMonth 401 - 1.701 ms

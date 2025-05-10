@@ -39,7 +39,7 @@ const updateStatus = catchAsync(async (req, res) => {
 });
 // get sells history
 const getSellsHistory = catchAsync(async (req, res) => {
-  const { userId }: any = req.body;
+  const { userId }: any = req.params;
   const result = await DashboardUserService.getSellerHistory(userId, req.query);
   sendResponse(res, {
     statusCode: StatusCodes.OK,

@@ -73,7 +73,7 @@ const routes = [
   {
     path: '/admin/feedback',
     route: ReviewRoutes,
-  },
+  },        
   {
     path: '/feedback',
     route: ReviewRoutes,

@@ -1,9 +1,0 @@
-Thu May 08 2025 22:9:34 [SERVER-NAME] error: 10.0.60.240 - GET /api/v1/products/feature?page=1 400 - 288.308 ms
-Thu May 08 2025 22:10:35 [SERVER-NAME] error: 10.0.60.34 - GET /api/v1/products/feature 401 - 0.955 ms
-Thu May 08 2025 22:11:20 [SERVER-NAME] error: 10.0.60.34 - GET /api/v1/products/feature 400 - 287.144 ms
-Thu May 08 2025 22:11:42 [SERVER-NAME] error: 10.0.60.34 - GET /api/v1/products/feature 400 - 293.251 ms
-Thu May 08 2025 22:12:8 [SERVER-NAME] error: 10.0.60.34 - GET /api/v1/products/feature?maxPrice%20=200&minPrice=120 400 - 291.447 ms
-Thu May 08 2025 22:14:57 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/products/feature 401 - 1.069 ms
-Thu May 08 2025 22:16:17 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/products/feature 400 - 281.116 ms
-Thu May 08 2025 22:16:25 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/products/feature?searchTerm=&category=&sort=&location=Dhaka&maxPrice%20=200&minPrice=120 400 - 287.543 ms
-Thu May 08 2025 22:16:29 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/products/feature 400 - 285.042 ms

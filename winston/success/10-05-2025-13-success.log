@@ -1,0 +1,17 @@
+Sat May 10 2025 13:56:48 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/category 204 - 5.334 ms
+Sat May 10 2025 13:56:49 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/category 200 - 596.952 ms
+Sat May 10 2025 13:56:49 [SERVER-NAME] info: 10.0.60.110 - GET /image/msi_mpg-1742208939334.jpg 200 - 8.983 ms
+Sat May 10 2025 13:56:53 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/category 304 - 554.634 ms
+Sat May 10 2025 13:56:53 [SERVER-NAME] info: 10.0.60.110 - GET /image/msi_mpg-1742208939334.jpg 304 - 0.865 ms
+Sat May 10 2025 13:56:56 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/category 204 - 0.042 ms
+Sat May 10 2025 13:56:57 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/category 304 - 554.065 ms
+Sat May 10 2025 13:56:57 [SERVER-NAME] info: 10.0.60.110 - GET /image/msi_mpg-1742208939334.jpg 304 - 0.332 ms
+Sat May 10 2025 13:56:59 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/category 304 - 554.258 ms
+Sat May 10 2025 13:56:59 [SERVER-NAME] info: 10.0.60.110 - GET /image/msi_mpg-1742208939334.jpg 304 - 0.314 ms
+Sat May 10 2025 13:57:1 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/category 304 - 554.856 ms
+Sat May 10 2025 13:57:1 [SERVER-NAME] info: 10.0.60.110 - GET /image/msi_mpg-1742208939334.jpg 304 - 0.822 ms
+Sat May 10 2025 13:57:11 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/category 204 - 0.040 ms
+Sat May 10 2025 13:57:12 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/category 304 - 555.413 ms
+Sat May 10 2025 13:57:12 [SERVER-NAME] info: 10.0.60.110 - GET /image/msi_mpg-1742208939334.jpg 304 - 0.513 ms
+Sat May 10 2025 13:57:17 [SERVER-NAME] info: 10.0.60.110 - GET /image/msi_mpg-1742208939334.jpg 304 - 0.320 ms
+Sat May 10 2025 13:58:24 [SERVER-NAME] info: 10.0.60.110 - GET /image/msi_mpg-1742208939334.jpg 304 - 0.665 ms

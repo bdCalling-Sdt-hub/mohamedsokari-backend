@@ -1,0 +1,7 @@
+Sat May 10 2025 18:0:1 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/admin/revenue?filter=thisMonth 404 - 4.950 ms
+Sat May 10 2025 18:0:44 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/admin/revenue 404 - 0.680 ms
+Sat May 10 2025 18:2:8 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/admin/dashboard/revenue 403 - 288.485 ms
+Sat May 10 2025 18:2:36 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/admin/dashboard 403 - 288.157 ms
+Sat May 10 2025 18:5:2 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics 401 - 2.528 ms
+Sat May 10 2025 18:58:17 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/users-managments/67dbba3ad24e86ced4c878ba 401 - 2.503 ms
+Sat May 10 2025 18:58:39 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/users-managments/67dbba3ad24e86ced4c878ba 404 - 570.298 ms

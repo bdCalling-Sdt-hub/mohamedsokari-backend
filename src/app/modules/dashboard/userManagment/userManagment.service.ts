@@ -73,7 +73,7 @@ const getBuyerHistory = async (
 
   return { history, meta };
 };
-// get user analysis history 
+// get user analysis history
 const getUserAnalytics = async (query: Record<string, any>) => {
   const matchFilter: any = {};
 
@@ -175,20 +175,51 @@ const getUserAnalytics = async (query: Record<string, any>) => {
 
   return result;
 };
-// get location wise users 
+// get location wise users
 const getTopDistricts = async (query: Record<string, any>) => {
   const matchFilter: any = {};
 
+  // Check if a month is provided in the query
   if (query?.month) {
-    const [year, month] = query?.month.split('-'); 
+    const [year, month] = query?.month.split('-');
     if (!year || !month) {
       throw new AppError(StatusCodes.BAD_REQUEST, 'Invalid month format. Use YYYY-MM format.');
     }
-    const startDate = new Date(`${year}-${month}-01`); 
-    const endDate = new Date(Number(year), Number(month), 0); 
+    const startDate = new Date(`${year}-${month}-01`);
+    const endDate = new Date(Number(year), Number(month), 0);
 
     matchFilter.createdAt = { $gte: startDate, $lt: endDate };
   }
+  // If no month is provided, filter by year if provided
+  else if (query?.year) {
+    const year = query?.year;
+    if (!year) {
+      throw new AppError(StatusCodes.BAD_REQUEST, 'Year is required in YYYY format.');
+    }
+    const startDate = new Date(`${year}-01-01`);
+    const endDate = new Date(Number(year) + 1, 0, 0);
+
+    matchFilter.createdAt = { $gte: startDate, $lt: endDate };
+  }
+  // If no specific month or year is provided, filter by this year
+  else {
+    const currentYear = new Date().getFullYear();
+    const startDate = new Date(`${currentYear}-01-01`);
+    const endDate = new Date(currentYear + 1, 0, 0);
+
+    matchFilter.createdAt = { $gte: startDate, $lt: endDate };
+  }
+
+  // Pagination: page and limit with defaults
+  const page = parseInt(query?.page || '1');  // Default to 1
+  const limit = parseInt(query?.limit || '5'); // Default to 5
+
+  // Ensure valid pagination values
+  if (page <= 0 || limit <= 0) {
+    throw new AppError(StatusCodes.BAD_REQUEST, 'Page and limit should be positive integers.');
+  }
+
+  const skip = (page - 1) * limit;
 
   const topDistricts = await User.aggregate([
     {
@@ -211,10 +242,10 @@ const getTopDistricts = async (query: Record<string, any>) => {
       },
     },
     {
-      $skip: (parseInt(query?.page || '1') - 1) * parseInt(query?.limit || '5'), 
+      $skip: skip,  // Skip for pagination
     },
     {
-      $limit: parseInt(query?.limit || '5'), 
+      $limit: limit, // Limit the number of records returned
     },
   ]);
 
@@ -222,8 +253,25 @@ const getTopDistricts = async (query: Record<string, any>) => {
     throw new AppError(StatusCodes.NOT_FOUND, 'No user data found for the given filters');
   }
 
-  return topDistricts;
+  // Return results with pagination metadata
+  const totalUsers = await User.countDocuments(matchFilter); // Get total number of users matching the filter
+
+  const totalPages = Math.ceil(totalUsers / limit); // Calculate total pages
+
+  return {
+    success: true,
+    message: 'Top districts retrieved successfully',
+    data: topDistricts,
+    pagination: {
+      page,
+      limit,
+      totalUsers,
+      totalPages,
+    },
+  };
 };
+
+
 export const DashboardUserService = {
   allUser,
   singleUser,
@@ -231,5 +279,5 @@ export const DashboardUserService = {
   getSellerHistory,
   getBuyerHistory,
   getUserAnalytics,
-  getTopDistricts
+  getTopDistricts,
 };

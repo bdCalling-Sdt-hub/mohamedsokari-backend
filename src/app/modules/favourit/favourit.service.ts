@@ -66,7 +66,13 @@ const getAllFavouritList = async (
   userId: string,
   query: Record<string, unknown>,
 ) => {
-  const queryBuilder = new QueryBuilder(Like.find({ userId }), query);
+  const queryBuilder = new QueryBuilder(
+    Like.find({ userId }).populate(
+      'productId',
+      'title images status price location',
+    ),
+    query,
+  );
   const favouritList = await queryBuilder.fields().paginate().modelQuery.exec();
 
   const meta = await queryBuilder.countTotal();

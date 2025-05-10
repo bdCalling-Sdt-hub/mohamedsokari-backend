@@ -7,16 +7,13 @@ import AppError from '../../../errors/AppError';
 import { IUser, UserModel } from './user.interface';
 import mongoose from 'mongoose';
 // Review Schema embedded inside the Product Schema
-const reviewSchema = new Schema(
-  {
-    userId: { type: mongoose.Schema.ObjectId, ref: 'User', required: true },
-    rating: { type: Number, required: true, min: 1, max: 5 },
-    comment: { type: String, required: true },
-    images: { type: [String], default: [] },
-    date: { type: Date, default: Date.now },
-  },
-  { _id: false },
-);
+const reviewSchema = new Schema({
+  userId: { type: mongoose.Schema.ObjectId, ref: 'User', required: true },
+  rating: { type: Number, required: true, min: 1, max: 5 },
+  comment: { type: String, required: true },
+  images: { type: [String], default: [] },
+  date: { type: Date, default: Date.now },
+});
 const userSchema = new Schema<IUser, UserModel>(
   {
     name: {

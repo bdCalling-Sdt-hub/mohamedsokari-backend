@@ -1,4 +1,0 @@
-Thu May 08 2025 19:3:33 [SERVER-NAME] error: 10.0.60.34 - POST /api/v1/likes/6800eb9899b62e116ff50dde 401 - 0.742 ms
-Thu May 08 2025 19:5:27 [SERVER-NAME] error: 10.0.60.34 - POST /api/v1/cart 401 - 1.301 ms
-Thu May 08 2025 19:13:54 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/auth/login 400 - 498.543 ms
-Thu May 08 2025 19:14:0 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/auth/login 400 - 495.772 ms

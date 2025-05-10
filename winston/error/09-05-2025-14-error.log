@@ -1,0 +1,12 @@
+Fri May 09 2025 14:1:56 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/login 400 - 493.768 ms
+Fri May 09 2025 14:4:33 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/login 400 - 494.963 ms
+Fri May 09 2025 14:19:37 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/forget-password 400 - 1.402 ms
+Fri May 09 2025 14:37:0 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/verify-phone 400 - 297.639 ms
+Fri May 09 2025 14:40:51 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/reset-password 401 - 298.180 ms
+Fri May 09 2025 14:41:22 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/reset-password 401 - 292.218 ms
+Fri May 09 2025 14:41:32 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/reset-password 401 - 295.578 ms
+Fri May 09 2025 14:51:37 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/reset-password 401 - 295.397 ms
+Fri May 09 2025 14:51:44 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/reset-password 401 - 295.520 ms
+Fri May 09 2025 14:52:59 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/reset-password 401 - 293.646 ms
+Fri May 09 2025 14:55:3 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/reset-password 401 - 290.809 ms
+Fri May 09 2025 14:59:6 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/reset-password 401 - 293.631 ms

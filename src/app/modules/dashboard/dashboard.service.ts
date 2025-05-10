@@ -61,13 +61,68 @@ const totalRevenue = async (filter: string) => {
   const totalRevenue = orders.reduce((sum, order) => sum + order.totalPrice, 0);
   return totalRevenue;
 };
-const totalRevenueAnalisys = async () => {
+const totalRevenueAnalisys = async (year: number) => {
+  try {
+    const startDate = new Date(`${year}-01-01T00:00:00Z`);
+    const endDate = new Date(`${year + 1}-01-01T00:00:00Z`);
 
+    const revenueChart = await Order.aggregate([
+      {
+        $match: {
+          status: { $in: ['completed'] }, // Adjusted to check the value inside the object
+          createdAt: { $gte: startDate, $lt: endDate },
+        },
+      },
+      {
+        $project: {
+          month: { $month: '$createdAt' },
+          totalPrice: 1,
+        },
+      },
+      {
+        $group: {
+          _id: '$month',
+          totalRevenue: { $sum: '$totalPrice' },
+        },
+      },
+      { $sort: { _id: 1 } },
+    ]);
+
+    const monthsOfYear = [
+      'January',
+      'February',
+      'March',
+      'April',
+      'May',
+      'June',
+      'July',
+      'August',
+      'September',
+      'October',
+      'November',
+      'December',
+    ];
+
+    const formattedRevenueChart = monthsOfYear.map((month, index) => {
+      const monthData = revenueChart.find(item => item._id === index + 1);
+      return {
+        month,
+        totalRevenue: monthData ? monthData.totalRevenue : 0,
+      };
+    });
+
+    return formattedRevenueChart;
+  } catch (error) {
+    console.error('Error in totalRevenueAnalisys:', error);
+    throw error;
+  }
 };
+
+
 export const DashboardService = {
   totalUsers,
   totalActiveListing,
   totalSoldListing,
   totalRevenue,
-  totalRevenueAnalisys
+  totalRevenueAnalisys,
 };

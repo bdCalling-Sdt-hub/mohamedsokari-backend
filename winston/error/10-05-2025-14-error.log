@@ -1,0 +1,12 @@
+Sat May 10 2025 14:13:44 [SERVER-NAME] error: [31mUncaught Exception:[39m listen EADDRINUSE: address already in use 10.0.60.126:6008
+Sat May 10 2025 14:22:47 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/category 401 - 11.492 ms
+Sat May 10 2025 14:24:19 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/login 400 - 394.619 ms
+Sat May 10 2025 14:24:29 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/login 400 - 471.300 ms
+Sat May 10 2025 14:25:45 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 400 - 501.921 ms
+Sat May 10 2025 14:25:52 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 400 - 513.139 ms
+Sat May 10 2025 14:25:58 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 400 - 504.247 ms
+Sat May 10 2025 14:27:3 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/category 401 - 0.903 ms
+Sat May 10 2025 14:27:5 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/category 401 - 1.079 ms
+Sat May 10 2025 14:27:6 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/category 401 - 3.842 ms
+Sat May 10 2025 14:27:16 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/category 401 - 1.690 ms
+Sat May 10 2025 14:59:11 [SERVER-NAME] error: [31mUncaught Exception:[39m listen EADDRINUSE: address already in use :::8080

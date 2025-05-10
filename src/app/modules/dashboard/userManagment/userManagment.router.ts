@@ -13,12 +13,12 @@ router.get(
   DashboardUserController.getAllUser,
 );
 router.get(
-  '/seller-history',
+  '/seller-history/:userId',
   auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),
   DashboardUserController.getSellsHistory,
 );
 router.get(
-  '/buyer-history',
+  '/buyer-history/:userId',
   auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),
   DashboardUserController.getBuyerHistory,
 );
