@@ -18,6 +18,9 @@ router.post(
   CustomerReviewController.createReview,
 );
 // Get all reviews
+router.get('/comments/:id', CustomerReviewController.getReview);
+router.get('/seller/:id', CustomerReviewController.getReviewForSelelr);
+
 router.get('/:id', CustomerReviewController.analysisReview);
 
 // Update a review

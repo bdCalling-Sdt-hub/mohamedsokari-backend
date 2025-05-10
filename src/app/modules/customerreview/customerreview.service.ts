@@ -3,6 +3,7 @@ import AppError from '../../../errors/AppError';
 import mongoose from 'mongoose';
 import { User } from '../user/user.model';
 import Product from '../products/products.model';
+import QueryBuilder from '../../builder/QueryBuilder';
 
 // Helper function to find product
 const findUserById = async (userId: string) => {
@@ -44,6 +45,7 @@ const createReviewToDB = async (
   const newReview = {
     userId,
     ...payload,
+    productId,
     date: new Date(),
   };
   await User.findByIdAndUpdate(
@@ -77,7 +79,11 @@ const updateReviewInDB = async (
 
   // Use findOneAndUpdate to directly target the review by userId
   const updatedSeller = await User.findOneAndUpdate(
-    { _id: seller._id, 'reviews.userId': userId },
+    {
+      _id: seller._id,
+      'reviews.userId': userId,
+      'reviews.productId': productId,
+    },
     {
       $set: {
         'reviews.$.rating': rating, // Update the rating
@@ -120,7 +126,11 @@ const deleteReviewFromDB = async (userId: string, productId: string) => {
 
   // Find the review to delete using the $pull operator
   const updatedSeller = await User.findOneAndUpdate(
-    { _id: seller._id },
+    {
+      _id: seller._id,
+      'reviews.userId': userId,
+      'reviews.productId': productId,
+    },
     { $pull: { reviews: { userId: userId } } },
     { new: true },
   );
@@ -189,10 +199,60 @@ const getUserReviewStats = async (id: string) => {
     ratingsDistribution,
   };
 };
+const getUserComments = async (id: string) => {
+  const result = await User.findById(id);
+  if (!result) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'User not found!');
+  }
+
+  return result.reviews;
+};
+const getUserReview = async (id: string) => {
+  // Aggregation to get reviews by rating
+  const product = await User.aggregate([
+    {
+      $match: { _id: new mongoose.Types.ObjectId(id) },
+    },
+    {
+      $unwind: '$reviews',
+    },
+    {
+      $group: {
+        _id: '$reviews.rating',
+        count: { $sum: 1 },
+      },
+    },
+    {
+      $sort: { _id: 1 },
+    },
+  ]);
+
+  if (!product || product.length === 0) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'No reviews found for the user');
+  }
+
+  // Calculate the total count of reviews
+  const totalReviews = product.reduce(
+    (sum: number, item: any) => sum + item.count,
+    0,
+  );
+
+  // Calculate the average rating
+  const averageRating =
+    product.reduce((sum: number, item: any) => sum + item._id * item.count, 0) /
+    totalReviews;
+
+  return {
+    averageRating,
+    totalReviews,
+  };
+};
 
 export const CustomerReviewService = {
   createReviewToDB,
   updateReviewInDB,
   deleteReviewFromDB,
   getUserReviewStats,
+  getUserComments,
+  getUserReview
 };
