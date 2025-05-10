@@ -3,7 +3,6 @@ import { USER_ROLES } from '../../../enums/user';
 import { MessageController } from './message.controller';
 import fileUploadHandler from '../../middleware/fileUploadHandler';
 import auth from '../../middleware/auth';
-import parseData from '../../middleware/parseData';
 import parseSingleFileData from '../../middleware/parseFileData';
 
 const router = express.Router();
