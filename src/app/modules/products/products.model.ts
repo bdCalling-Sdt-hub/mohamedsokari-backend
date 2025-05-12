@@ -1,5 +1,6 @@
 import mongoose, { model, Schema } from 'mongoose';
 import { IProduct } from './products.interface';
+import { string } from 'zod';
 
 // Item Schema Definition
 const productsSchema = new Schema<IProduct>(
@@ -9,6 +10,7 @@ const productsSchema = new Schema<IProduct>(
     price: { type: Number, required: true },
     category: { type: String, required: true },
     description: { type: String, required: true },
+    additionalInfo:{type: String, default:''},
     location: { type: String, required: true },
     totalViews: { type: Number, default: 0 },
     liked: { type: Number, default: 0 },

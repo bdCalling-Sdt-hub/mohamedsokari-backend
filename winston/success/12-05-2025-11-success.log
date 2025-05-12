@@ -1,0 +1,153 @@
+Mon May 12 2025 11:2:27 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?year=2025&month=2025-05 204 - 0.054 ms
+Mon May 12 2025 11:2:27 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?searchTerm=&page=1 204 - 0.034 ms
+Mon May 12 2025 11:2:28 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?searchTerm=&page=1 304 - 812.034 ms
+Mon May 12 2025 11:2:28 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/top-districts?year=2025&month=2025-05 304 - 838.503 ms
+Mon May 12 2025 11:2:35 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?searchTerm=&page=1 204 - 0.042 ms
+Mon May 12 2025 11:2:36 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?searchTerm=&page=1 304 - 841.913 ms
+Mon May 12 2025 11:6:46 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?searchTerm=&page=1 204 - 0.331 ms
+Mon May 12 2025 11:6:47 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?searchTerm=&page=1 304 - 851.301 ms
+Mon May 12 2025 11:6:50 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?searchTerm=&page=1 304 - 852.827 ms
+Mon May 12 2025 11:7:34 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?searchTerm=&category=&location= 200 - 840.093 ms
+Mon May 12 2025 11:7:53 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?searchTerm=&page=1 204 - 0.239 ms
+Mon May 12 2025 11:7:54 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?searchTerm=&page=1 304 - 858.528 ms
+Mon May 12 2025 11:7:54 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?searchTerm=&page=1 304 - 855.064 ms
+Mon May 12 2025 11:9:29 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?searchTerm=&category=&location= 200 - 846.951 ms
+Mon May 12 2025 11:9:36 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?searchTerm= 200 - 842.906 ms
+Mon May 12 2025 11:11:5 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 204 - 0.319 ms
+Mon May 12 2025 11:11:5 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments?page=1 204 - 0.028 ms
+Mon May 12 2025 11:11:6 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 304 - 545.288 ms
+Mon May 12 2025 11:11:6 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments?page=1 304 - 844.526 ms
+Mon May 12 2025 11:11:17 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 204 - 0.347 ms
+Mon May 12 2025 11:11:17 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 304 - 564.775 ms
+Mon May 12 2025 11:12:46 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?searchTerm=&page=1 204 - 0.129 ms
+Mon May 12 2025 11:12:47 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?searchTerm=&page=1 304 - 847.522 ms
+Mon May 12 2025 11:12:49 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?year=2025&month=2025-05 204 - 0.169 ms
+Mon May 12 2025 11:12:49 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.117 ms
+Mon May 12 2025 11:12:50 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/top-districts?year=2025&month=2025-05 304 - 815.028 ms
+Mon May 12 2025 11:12:50 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 200 - 840.389 ms
+Mon May 12 2025 11:13:25 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.070 ms
+Mon May 12 2025 11:13:25 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 841.653 ms
+Mon May 12 2025 11:13:28 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 841.270 ms
+Mon May 12 2025 11:13:30 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.169 ms
+Mon May 12 2025 11:13:31 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 841.704 ms
+Mon May 12 2025 11:13:32 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 840.120 ms
+Mon May 12 2025 11:13:34 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 844.308 ms
+Mon May 12 2025 11:13:35 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 843.370 ms
+Mon May 12 2025 11:13:36 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.132 ms
+Mon May 12 2025 11:13:36 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 848.668 ms
+Mon May 12 2025 11:13:37 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 846.157 ms
+Mon May 12 2025 11:13:38 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 840.107 ms
+Mon May 12 2025 11:13:39 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 842.553 ms
+Mon May 12 2025 11:13:39 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 843.914 ms
+Mon May 12 2025 11:19:11 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.205 ms
+Mon May 12 2025 11:19:12 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 849.764 ms
+Mon May 12 2025 11:19:47 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?year=2025&month=2025-05 204 - 0.256 ms
+Mon May 12 2025 11:19:47 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.335 ms
+Mon May 12 2025 11:19:48 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 825.028 ms
+Mon May 12 2025 11:19:48 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/top-districts?year=2025&month=2025-05 304 - 854.145 ms
+Mon May 12 2025 11:25:14 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 11:25:16 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 11:26:10 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?year=2025&month=2025-05 204 - 1.021 ms
+Mon May 12 2025 11:26:10 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.104 ms
+Mon May 12 2025 11:26:11 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/top-districts?year=2025&month=2025-05 304 - 833.649 ms
+Mon May 12 2025 11:26:11 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 858.220 ms
+Mon May 12 2025 11:26:21 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?category=Sports%20Equipment&page=1 204 - 0.129 ms
+Mon May 12 2025 11:26:22 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?category=Sports%20Equipment&page=1 200 - 849.212 ms
+Mon May 12 2025 11:26:26 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.110 ms
+Mon May 12 2025 11:26:27 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 837.318 ms
+Mon May 12 2025 11:26:28 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?location=Rangpur&page=1 204 - 0.104 ms
+Mon May 12 2025 11:26:28 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?location=Rangpur&page=1 200 - 836.068 ms
+Mon May 12 2025 11:26:31 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 847.492 ms
+Mon May 12 2025 11:26:32 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.133 ms
+Mon May 12 2025 11:26:33 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 836.294 ms
+Mon May 12 2025 11:26:37 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.120 ms
+Mon May 12 2025 11:26:38 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 836.334 ms
+Mon May 12 2025 11:26:43 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.103 ms
+Mon May 12 2025 11:26:43 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 842.057 ms
+Mon May 12 2025 11:26:49 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?searchTerm=H&page=1 204 - 0.180 ms
+Mon May 12 2025 11:26:49 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?searchTerm=He&page=1 204 - 0.120 ms
+Mon May 12 2025 11:26:50 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?searchTerm=H&page=1 200 - 836.445 ms
+Mon May 12 2025 11:26:50 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?searchTerm=He&page=1 200 - 813.608 ms
+Mon May 12 2025 11:26:52 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.095 ms
+Mon May 12 2025 11:26:53 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 815.093 ms
+Mon May 12 2025 11:26:59 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.955 ms
+Mon May 12 2025 11:26:59 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 826.445 ms
+Mon May 12 2025 11:27:4 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 813.935 ms
+Mon May 12 2025 11:27:6 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?year=2025&month=2025-05 204 - 0.216 ms
+Mon May 12 2025 11:27:6 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.350 ms
+Mon May 12 2025 11:27:7 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/top-districts?year=2025&month=2025-05 304 - 817.235 ms
+Mon May 12 2025 11:27:7 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 841.197 ms
+Mon May 12 2025 11:27:36 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.135 ms
+Mon May 12 2025 11:27:36 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 839.697 ms
+Mon May 12 2025 11:29:10 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.280 ms
+Mon May 12 2025 11:29:10 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 836.529 ms
+Mon May 12 2025 11:29:11 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 838.885 ms
+Mon May 12 2025 11:29:13 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 836.387 ms
+Mon May 12 2025 11:29:14 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 835.577 ms
+Mon May 12 2025 11:29:39 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.123 ms
+Mon May 12 2025 11:29:39 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 841.582 ms
+Mon May 12 2025 11:29:40 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 835.194 ms
+Mon May 12 2025 11:29:43 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 849.880 ms
+Mon May 12 2025 11:29:43 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 835.211 ms
+Mon May 12 2025 11:35:17 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.085 ms
+Mon May 12 2025 11:35:19 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 2293.864 ms
+Mon May 12 2025 11:43:31 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?year=2025&month=2025-05 204 - 0.542 ms
+Mon May 12 2025 11:43:31 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.197 ms
+Mon May 12 2025 11:43:32 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/top-districts?year=2025&month=2025-05 304 - 827.494 ms
+Mon May 12 2025 11:43:33 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 2368.732 ms
+Mon May 12 2025 11:43:41 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/681f63ddae21ff7d8692f823 204 - 0.098 ms
+Mon May 12 2025 11:43:41 [SERVER-NAME] info: 10.0.60.110 - DELETE /api/v1/admin/product-managments/681f63ddae21ff7d8692f823 200 - 560.921 ms
+Mon May 12 2025 11:43:41 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.045 ms
+Mon May 12 2025 11:43:42 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 200 - 823.830 ms
+Mon May 12 2025 11:43:45 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?year=2025&month=2025-05 204 - 0.149 ms
+Mon May 12 2025 11:43:46 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 826.645 ms
+Mon May 12 2025 11:43:46 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/top-districts?year=2025&month=2025-05 304 - 828.790 ms
+Mon May 12 2025 11:43:56 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/delete-multiple 204 - 0.711 ms
+Mon May 12 2025 11:44:27 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.097 ms
+Mon May 12 2025 11:44:28 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 817.028 ms
+Mon May 12 2025 11:44:28 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 823.366 ms
+Mon May 12 2025 11:44:29 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 818.431 ms
+Mon May 12 2025 11:44:30 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 822.785 ms
+Mon May 12 2025 11:44:31 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 822.855 ms
+Mon May 12 2025 11:44:32 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 826.069 ms
+Mon May 12 2025 11:44:33 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.066 ms
+Mon May 12 2025 11:44:33 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 827.342 ms
+Mon May 12 2025 11:44:41 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?year=2025&month=2025-05 204 - 0.143 ms
+Mon May 12 2025 11:44:41 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.094 ms
+Mon May 12 2025 11:44:42 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/top-districts?year=2025&month=2025-05 304 - 821.927 ms
+Mon May 12 2025 11:44:42 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 824.727 ms
+Mon May 12 2025 11:45:0 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/delete-multiple 204 - 0.200 ms
+Mon May 12 2025 11:46:9 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.049 ms
+Mon May 12 2025 11:46:10 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 812.526 ms
+Mon May 12 2025 11:46:10 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 827.963 ms
+Mon May 12 2025 11:46:12 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 810.615 ms
+Mon May 12 2025 11:46:13 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 820.836 ms
+Mon May 12 2025 11:46:14 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 816.246 ms
+Mon May 12 2025 11:46:15 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.097 ms
+Mon May 12 2025 11:46:15 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 817.918 ms
+Mon May 12 2025 11:46:17 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 821.351 ms
+Mon May 12 2025 11:46:18 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 811.553 ms
+Mon May 12 2025 11:47:5 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/delete-multiple 204 - 0.088 ms
+Mon May 12 2025 11:54:59 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/product-stats 200 - 550.710 ms
+Mon May 12 2025 11:55:30 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?year=2025&month=2025-04 204 - 0.049 ms
+Mon May 12 2025 11:55:30 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/top-districts?year=2025&month=2025-04 200 - 817.530 ms
+Mon May 12 2025 11:55:54 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 204 - 0.044 ms
+Mon May 12 2025 11:55:54 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments?page=1 204 - 0.049 ms
+Mon May 12 2025 11:55:54 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 304 - 543.656 ms
+Mon May 12 2025 11:55:54 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments?page=1 304 - 825.592 ms
+Mon May 12 2025 11:56:20 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 11:56:23 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 11:56:32 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.426 ms
+Mon May 12 2025 11:56:33 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 851.396 ms
+Mon May 12 2025 11:57:54 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/product-stats?searchTerm=undefined&category=undefined 204 - 0.291 ms
+Mon May 12 2025 11:57:54 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/product-stats?searchTerm=undefined&category=undefined 200 - 550.886 ms
+Mon May 12 2025 11:58:5 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 11:58:8 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 11:58:14 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 11:58:17 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 11:58:45 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 11:58:48 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 11:58:50 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 11:58:52 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 11:58:53 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 11:58:56 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m

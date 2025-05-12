@@ -4,10 +4,29 @@ import { IProduct } from './products.interface';
 import Product from './products.model';
 import QueryBuilder from '../../builder/QueryBuilder';
 import { Like } from '../favourit/favourit.model';
+import { Cart } from '../cart/cart.model';
+import mongoose from 'mongoose';
 
 const getFevoriteProduct = async (productId: string, userId: string) => {
   return await Like.find({ userId, productId });
 };
+
+// Helper function to check if a product is in the cart
+async function isProductInCart(id: string, productId: string) {
+  const cart = await Cart.findOne({
+    userId: new mongoose.Types.ObjectId(id),
+  }).populate('items');
+
+  if (
+    cart &&
+    cart.items.some(
+      (item) => item.productId.toString() === productId.toString(),
+    )
+  ) {
+    return true;
+  }
+  return false;
+}
 const addProduct = async (payload: IProduct, sellerId: string) => {
   // Add seller id to product
   const data = {
@@ -23,6 +42,8 @@ const addProduct = async (payload: IProduct, sellerId: string) => {
 };
 const getProduct = async (query: Record<string, unknown>, userId: string) => {
   const queryBuilder = new QueryBuilder(Product.find({}), query);
+
+  // Fetch all products based on query filters, sorting, pagination, etc.
   const products = await queryBuilder
     .search(['location', 'title', 'category'])
     .filter()
@@ -31,18 +52,24 @@ const getProduct = async (query: Record<string, unknown>, userId: string) => {
     .fields()
     .priceFilter()
     .modelQuery.exec();
-  const productsWithFavorites = await Promise.all(
+
+  // Modify this block to also include cart status
+  const productsWithStatus = await Promise.all(
     products.map(async (product: any) => {
       const isLiked = await getFevoriteProduct(product._id.toString(), userId);
+      const isInCart = await isProductInCart(userId, product._id);
       return {
         ...product.toObject(),
         isFavorite: isLiked.length > 0,
+        isInCart,
       };
     }),
   );
+
   const meta = await queryBuilder.countTotal();
-  return { products: productsWithFavorites, meta };
+  return { products: productsWithStatus, meta };
 };
+
 const getResentProduct = async (
   query: Record<string, unknown>,
   userId: string,
@@ -60,9 +87,11 @@ const getResentProduct = async (
   const productsWithFavorites = await Promise.all(
     products.map(async (product: any) => {
       const isLiked = await getFevoriteProduct(product._id.toString(), userId);
+      const isInCart = await isProductInCart(userId, product._id);
       return {
         ...product.toObject(),
         isFavorite: isLiked.length > 0,
+        isInCart,
       };
     }),
   );
@@ -73,10 +102,9 @@ const getFeatureProduct = async (
   query: Record<string, unknown>,
   userId: string,
 ) => {
-
   const mergedQuery = {
     totalViews: { $exists: true, $gt: 0 },
-    ...query, 
+    ...query,
   };
 
   const queryBuilder = new QueryBuilder(Product.find(mergedQuery), query);
@@ -93,9 +121,11 @@ const getFeatureProduct = async (
   const productsWithFavorites = await Promise.all(
     products.map(async (product: any) => {
       const isLiked = await getFevoriteProduct(product._id.toString(), userId);
+      const isInCart = await isProductInCart(userId, product._id);
       return {
         ...product.toObject(),
         isFavorite: isLiked.length > 0,
+        isInCart,
       };
     }),
   );

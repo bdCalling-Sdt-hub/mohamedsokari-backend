@@ -1,4 +1,4 @@
-import { Schema } from 'mongoose';
+import { Schema, Types } from 'mongoose';
 
 export interface IProduct {
   sellerId: Schema.Types.ObjectId;
@@ -7,6 +7,7 @@ export interface IProduct {
   category: string;
   description: string;
   location: string;
+  additionalInfo: string;
   totalViews: number;
   liked: number;
   countAddToCart: number;

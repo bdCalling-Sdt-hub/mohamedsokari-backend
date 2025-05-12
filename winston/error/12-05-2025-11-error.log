@@ -1,0 +1,12 @@
+Mon May 12 2025 11:43:56 [SERVER-NAME] error: 10.0.60.110 - DELETE /api/v1/admin/product-managments/delete-multiple 400 - 441.889 ms
+Mon May 12 2025 11:45:0 [SERVER-NAME] error: 10.0.60.110 - DELETE /api/v1/admin/product-managments/delete-multiple 400 - 277.435 ms
+Mon May 12 2025 11:47:5 [SERVER-NAME] error: 10.0.60.110 - DELETE /api/v1/admin/product-managments/delete-multiple 400 - 275.063 ms
+Mon May 12 2025 11:49:15 [SERVER-NAME] error: 10.0.60.110 - DELETE /api/v1/admin/product-managments/delete-multiple 400 - 5.316 ms
+Mon May 12 2025 11:50:52 [SERVER-NAME] error: 10.0.60.110 - DELETE /api/v1/admin/product-managments/delete-multiple 401 - 5.382 ms
+Mon May 12 2025 11:51:8 [SERVER-NAME] error: 10.0.60.110 - DELETE /api/v1/admin/product-managments/delete-multiple 400 - 273.850 ms
+Mon May 12 2025 11:54:49 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/product-managments/product-stats 401 - 2.095 ms
+Mon May 12 2025 11:56:26 [SERVER-NAME] error: 10.0.60.110 - DELETE /api/v1/admin/product-managments/delete-multiple 400 - 317.564 ms
+Mon May 12 2025 11:56:44 [SERVER-NAME] error: 10.0.60.110 - DELETE /api/v1/admin/product-managments/delete-multiple 400 - 287.663 ms
+Mon May 12 2025 11:58:11 [SERVER-NAME] error: 10.0.60.110 - DELETE /api/v1/admin/product-managments/delete-multiple 400 - 294.517 ms
+Mon May 12 2025 11:58:19 [SERVER-NAME] error: 10.0.60.110 - DELETE /api/v1/admin/product-managments/delete-multiple 400 - 420.231 ms
+Mon May 12 2025 11:58:56 [SERVER-NAME] error: 10.0.60.110 - DELETE /api/v1/admin/product-managments/delete-multiple 400 - 897.001 ms

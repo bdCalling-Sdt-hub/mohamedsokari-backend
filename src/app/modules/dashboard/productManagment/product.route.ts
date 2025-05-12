@@ -10,10 +10,20 @@ router.get(
   DashboardProductController.getAllProducts,
 );
 router.get(
-    '/product-stats',
-    auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),
-    DashboardProductController.getProductStatistics,
-  );
+  '/product-stats',
+  auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),
+  DashboardProductController.getProductStatistics,
+);
+router.get(
+  '/top-district',
+  auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),
+  DashboardProductController.getTopDistricts,
+);
+router.get(
+  '/top-category',
+  auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),
+  DashboardProductController.getTopCategory,
+);
 router.get(
   '/:id',
   auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),
@@ -24,7 +34,7 @@ router.delete(
   auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),
   DashboardProductController.deleteProduct,
 );
-router.delete(
+router.post(
   '/delete-multiple',
   auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),
   DashboardProductController.deleteMultipleProducts,

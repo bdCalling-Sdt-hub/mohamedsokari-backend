@@ -1,0 +1,110 @@
+Mon May 12 2025 15:0:7 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics?location=[object%20Object]&month=undefined 204 - 0.058 ms
+Mon May 12 2025 15:0:16 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics?location=[object%20Object]&month=undefined 204 - 0.205 ms
+Mon May 12 2025 15:1:7 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/reports/statistics 200 - 553.705 ms
+Mon May 12 2025 15:1:16 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics?location=[object%20Object]&month=undefined 204 - 0.085 ms
+Mon May 12 2025 15:1:25 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics?location=undefined&month=undefined 204 - 0.042 ms
+Mon May 12 2025 15:1:35 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics 204 - 0.046 ms
+Mon May 12 2025 15:1:35 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/reports/statistics 200 - 549.853 ms
+Mon May 12 2025 15:2:59 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 15:3:2 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 15:3:20 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 15:3:23 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 15:4:29 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 15:4:31 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 15:4:32 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 15:4:34 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 15:4:35 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 15:4:37 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 15:4:40 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 15:4:42 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 15:4:44 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 15:4:45 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 15:4:47 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 15:4:51 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 15:4:55 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 15:4:58 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 15:5:0 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 15:5:1 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 15:5:4 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 15:5:5 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 15:5:8 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics 204 - 1.064 ms
+Mon May 12 2025 15:5:8 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 15:5:10 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/reports/statistics 304 - 2560.480 ms
+Mon May 12 2025 15:5:30 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 15:5:33 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 15:5:37 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 15:5:37 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics?location=[object%20Object] 204 - 0.619 ms
+Mon May 12 2025 15:5:39 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 15:5:42 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 15:5:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 15:5:49 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 15:5:51 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 15:6:3 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 15:6:6 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 15:6:7 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 15:6:14 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 15:6:16 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics?location=[object%20Object] 204 - 0.684 ms
+Mon May 12 2025 15:6:17 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 15:6:24 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics?location=[object%20Object] 204 - 0.203 ms
+Mon May 12 2025 15:6:30 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics?location=[object%20Object] 204 - 0.254 ms
+Mon May 12 2025 15:6:55 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics?location=[object%20Object] 204 - 0.159 ms
+Mon May 12 2025 15:7:14 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics?location=[object%20Object] 204 - 0.166 ms
+Mon May 12 2025 15:7:21 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics?location=[object%20Object] 204 - 0.118 ms
+Mon May 12 2025 15:7:34 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics?location=[object%20Object] 204 - 0.134 ms
+Mon May 12 2025 15:7:47 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics?location=[object%20Object] 204 - 0.118 ms
+Mon May 12 2025 15:8:44 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics?location=[object%20Object] 204 - 0.108 ms
+Mon May 12 2025 15:8:55 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics?location=[object%20Object] 204 - 0.072 ms
+Mon May 12 2025 15:8:59 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 545.598 ms
+Mon May 12 2025 15:9:1 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics?location=[object%20Object] 204 - 0.098 ms
+Mon May 12 2025 15:9:13 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 526.171 ms
+Mon May 12 2025 15:10:46 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 494.588 ms
+Mon May 12 2025 15:11:8 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/product-managments/top-district 200 - 840.103 ms
+Mon May 12 2025 15:11:25 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/product-managments/top-category 200 - 838.714 ms
+Mon May 12 2025 15:12:16 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/product-managments/top-category?year=2025 200 - 839.654 ms
+Mon May 12 2025 15:12:29 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/product-managments/top-category?year=2025 200 - 838.647 ms
+Mon May 12 2025 15:12:30 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics?location=[object%20Object] 204 - 0.055 ms
+Mon May 12 2025 15:13:30 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics? 204 - 0.050 ms
+Mon May 12 2025 15:13:30 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/reports/statistics? 200 - 563.188 ms
+Mon May 12 2025 15:13:46 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics? 204 - 0.063 ms
+Mon May 12 2025 15:13:47 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/reports/statistics? 304 - 559.555 ms
+Mon May 12 2025 15:13:50 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/admin/product-managments/top-category 200 - 841.948 ms
+Mon May 12 2025 15:13:51 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/reports/statistics? 304 - 576.924 ms
+Mon May 12 2025 15:13:55 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics?location=Dharkenley 204 - 0.122 ms
+Mon May 12 2025 15:14:1 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics?location=Yaqshid 204 - 0.050 ms
+Mon May 12 2025 15:14:4 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics? 204 - 0.135 ms
+Mon May 12 2025 15:14:4 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/reports/statistics? 304 - 577.347 ms
+Mon May 12 2025 15:14:11 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics?location=Hamar-Weyne 204 - 0.046 ms
+Mon May 12 2025 15:15:2 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics? 204 - 0.111 ms
+Mon May 12 2025 15:15:3 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/reports/statistics? 304 - 572.147 ms
+Mon May 12 2025 15:15:9 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics?location=Dharkenley 204 - 0.056 ms
+Mon May 12 2025 15:15:17 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/dashboard?filter=undefined 204 - 0.050 ms
+Mon May 12 2025 15:15:19 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/dashboard?filter=undefined 200 - 1435.366 ms
+Mon May 12 2025 15:15:19 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/dashboard/revenue?year=2025 204 - 0.052 ms
+Mon May 12 2025 15:15:19 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/product-stats??location=[object%20Object]&year=undefined 204 - 0.035 ms
+Mon May 12 2025 15:15:19 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?year=2025&month=2025-05 204 - 0.034 ms
+Mon May 12 2025 15:15:19 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/product-stats??location=[object%20Object]&year=undefined 304 - 560.636 ms
+Mon May 12 2025 15:15:19 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/dashboard/revenue?year=2025 304 - 572.760 ms
+Mon May 12 2025 15:15:19 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/top-districts?year=2025&month=2025-05 304 - 822.532 ms
+Mon May 12 2025 15:28:31 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics? 204 - 0.086 ms
+Mon May 12 2025 15:28:31 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/reports/statistics? 304 - 565.370 ms
+Mon May 12 2025 15:28:34 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics?location=Dharkenley 204 - 0.087 ms
+Mon May 12 2025 15:28:48 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics?location=Hamar-Weyne 204 - 0.049 ms
+Mon May 12 2025 15:29:23 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics?location=Bondhere 204 - 0.087 ms
+Mon May 12 2025 15:29:27 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics? 204 - 0.072 ms
+Mon May 12 2025 15:29:27 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/reports/statistics? 304 - 555.022 ms
+Mon May 12 2025 15:29:42 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics?location=Bondhere 204 - 0.084 ms
+Mon May 12 2025 15:50:44 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/reports/statistics? 204 - 0.072 ms
+Mon May 12 2025 15:50:44 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/reports/statistics? 304 - 561.216 ms
+Mon May 12 2025 15:51:48 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/feedback/analysis 204 - 0.048 ms
+Mon May 12 2025 15:51:48 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/feedback 204 - 0.036 ms
+Mon May 12 2025 15:51:49 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/feedback/analysis 304 - 557.959 ms
+Mon May 12 2025 15:51:49 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/feedback 304 - 859.676 ms
+Mon May 12 2025 15:51:49 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/category 204 - 0.047 ms
+Mon May 12 2025 15:51:50 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/category 304 - 572.749 ms
+Mon May 12 2025 15:51:50 [SERVER-NAME] info: 10.0.60.110 - GET /image/msi_mpg-1742208939334.jpg 304 - 0.774 ms
+Mon May 12 2025 15:51:50 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/product-stats??location=[object%20Object]&year=undefined 204 - 0.055 ms
+Mon May 12 2025 15:51:50 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?year=2025&month=2025-05 204 - 0.037 ms
+Mon May 12 2025 15:51:50 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.035 ms
+Mon May 12 2025 15:51:51 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/product-stats??location=[object%20Object]&year=undefined 304 - 554.730 ms
+Mon May 12 2025 15:51:51 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 304 - 843.367 ms
+Mon May 12 2025 15:51:51 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/top-districts?year=2025&month=2025-05 304 - 857.718 ms

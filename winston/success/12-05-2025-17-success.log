@@ -1,0 +1,82 @@
+Mon May 12 2025 17:2:50 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/products 200 - 1688.613 ms
+Mon May 12 2025 17:3:26 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:3:28 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:3:31 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 17:3:34 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:3:37 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:3:39 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:3:41 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 17:3:45 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/products 200 - 2238.769 ms
+Mon May 12 2025 17:5:38 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/products 200 - 1679.596 ms
+Mon May 12 2025 17:5:47 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/cart 200 - 575.191 ms
+Mon May 12 2025 17:5:56 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/products 200 - 1674.353 ms
+Mon May 12 2025 17:6:41 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:6:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 17:6:53 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:6:56 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:7:0 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:7:4 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:7:6 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 17:7:10 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:7:12 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:7:14 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 17:7:22 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/products 200 - 1720.223 ms
+Mon May 12 2025 17:7:28 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/products 200 - 1726.216 ms
+Mon May 12 2025 17:10:21 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:10:24 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 17:11:47 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:11:49 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 17:11:52 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/cart 200 - 1874.618 ms
+Mon May 12 2025 17:12:2 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/products 200 - 1710.254 ms
+Mon May 12 2025 17:12:16 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:12:18 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 17:12:20 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:12:23 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:12:26 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:12:30 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:12:32 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 17:12:36 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/products 200 - 4735.351 ms
+Mon May 12 2025 17:12:56 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:12:59 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:13:1 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:13:2 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:13:6 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:13:9 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 17:13:13 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/products 200 - 6677.990 ms
+Mon May 12 2025 17:14:54 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:14:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 17:14:59 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/cart 200 - 2456.018 ms
+Mon May 12 2025 17:15:6 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/products 200 - 1474.302 ms
+Mon May 12 2025 17:15:35 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:15:37 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 17:15:39 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:15:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 17:15:44 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:15:45 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:15:48 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 17:15:52 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/products 200 - 3799.669 ms
+Mon May 12 2025 17:16:3 [SERVER-NAME] info: 10.0.60.126 - DELETE /api/v1/cart/6821d04beb6ca7ccec821c01 200 - 1726.965 ms
+Mon May 12 2025 17:16:8 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/products 200 - 1414.847 ms
+Mon May 12 2025 17:16:21 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?limit=1 200 - 1126.335 ms
+Mon May 12 2025 17:16:42 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature 200 - 1125.004 ms
+Mon May 12 2025 17:17:8 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:17:11 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 17:17:46 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:17:49 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 17:17:51 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:17:54 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 17:17:57 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:18:0 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 17:18:1 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:18:3 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 17:18:8 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:18:9 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:18:12 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 17:18:16 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:18:18 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 17:18:31 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:18:33 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 17:19:15 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:19:17 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 17:19:32 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 17:19:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m

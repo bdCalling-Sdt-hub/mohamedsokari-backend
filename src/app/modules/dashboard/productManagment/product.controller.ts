@@ -35,7 +35,8 @@ const deleteProduct = catchAsync(async (req, res) => {
 });
 const deleteMultipleProducts = catchAsync(async (req, res) => {
   const { productIds } = req.body;
-  const result = await DashboardProductService.deleteProductFromDb(productIds);
+  const result =
+    await DashboardProductService.deleteMultipleProductFromDb(productIds);
   sendResponse(res, {
     success: true,
     statusCode: StatusCodes.OK,
@@ -53,10 +54,34 @@ const getProductStatistics = catchAsync(async (req, res) => {
     data: result,
   });
 });
+const getTopDistricts = catchAsync(async (req, res) => {
+  const result = await DashboardProductService.getTopDistricts(req.query);
+
+  sendResponse(res, {
+    statusCode: StatusCodes.OK,
+    success: true,
+    message: 'Top districts retrieved successfully',
+    data: result.data,
+    pagination: result.pagination
+  });
+});
+const getTopCategory = catchAsync(async (req, res) => {
+  const result = await DashboardProductService.getTopCategory(req.query);
+
+  sendResponse(res, {
+    statusCode: StatusCodes.OK,
+    success: true,
+    message: 'Top category retrieved successfully',
+    data: result.data,
+    pagination: result.pagination
+  });
+});
 export const DashboardProductController = {
   getAllProducts,
   getSingleProduct,
   deleteProduct,
   deleteMultipleProducts,
   getProductStatistics,
+  getTopDistricts,
+  getTopCategory
 };
