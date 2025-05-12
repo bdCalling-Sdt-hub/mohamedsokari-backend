@@ -6,6 +6,7 @@ import Product from '../products/products.model';
 import { Cart } from '../cart/cart.model';
 import { Like } from '../favourit/favourit.model';
 import mongoose from 'mongoose';
+import unlinkFile from '../../../shared/unlinkFile';
 
 const getMyListingProduct = async (
   sellerId: string,
@@ -37,6 +38,11 @@ const editProduct = async (
       StatusCodes.UNAUTHORIZED,
       'You are not authorized to edit this product',
     );
+  }
+  if (products.images && product.images) {
+    product.images.map((image: string) => {
+      unlinkFile(image);
+    });
   }
   const data = {
     ...products,

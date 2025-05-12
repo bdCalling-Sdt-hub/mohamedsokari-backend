@@ -1,0 +1,26 @@
+Mon May 12 2025 21:5:10 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/login 200 - 495.406 ms
+Mon May 12 2025 21:5:13 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1416.392 ms
+Mon May 12 2025 21:5:13 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1390.196 ms
+Mon May 12 2025 21:5:18 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 557.462 ms
+Mon May 12 2025 21:5:21 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/accaunts?page=1&limit=10 200 - 837.234 ms
+Mon May 12 2025 21:5:25 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 571.651 ms
+Mon May 12 2025 21:11:53 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/login 200 - 514.602 ms
+Mon May 12 2025 21:11:56 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1403.454 ms
+Mon May 12 2025 21:11:56 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1414.919 ms
+Mon May 12 2025 21:12:0 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 586.447 ms
+Mon May 12 2025 21:12:2 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/accaunts?page=1&limit=10 200 - 848.829 ms
+Mon May 12 2025 21:12:7 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 563.505 ms
+Mon May 12 2025 21:12:37 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 566.431 ms
+Mon May 12 2025 21:20:18 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 21:20:21 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 21:20:25 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?limit=1 200 - 3526.882 ms
+Mon May 12 2025 21:20:26 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 21:20:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 21:20:32 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 21:20:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 21:20:38 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 21:20:40 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 21:20:43 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 21:20:46 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 21:20:49 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 21:20:54 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products 200 - 7406.128 ms

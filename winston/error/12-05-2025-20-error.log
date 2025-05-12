@@ -1,1 +1,2 @@
 Mon May 12 2025 20:3:19 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/products/create 400 - 383.531 ms
+Mon May 12 2025 20:26:10 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/likes/6822028ed60a0b6b733a31d6 500 - 1198.507 ms
