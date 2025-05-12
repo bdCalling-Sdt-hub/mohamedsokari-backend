@@ -31,6 +31,7 @@ const addProduct = async (payload: IProduct, sellerId: string) => {
   // Add seller id to product
   const data = {
     ...payload,
+    price: Number(payload.price),
     sellerId,
   };
   // save to DB

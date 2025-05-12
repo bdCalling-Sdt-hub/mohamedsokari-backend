@@ -1,0 +1,27 @@
+Mon May 12 2025 20:1:10 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 20:1:13 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 20:1:22 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 20:1:27 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 20:1:31 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 20:1:38 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 20:2:0 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 20:2:2 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 20:2:4 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 20:2:5 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 20:2:7 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 20:2:10 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 20:2:13 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 20:3:43 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 20:3:45 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 20:3:48 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/products/create 201 - 2961.539 ms
+Mon May 12 2025 20:4:15 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/products/create 201 - 747.524 ms
+Mon May 12 2025 20:4:46 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 2899.992 ms
+Mon May 12 2025 20:4:46 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 2803.469 ms
+Mon May 12 2025 20:4:47 [SERVER-NAME] info: 10.0.60.240 - GET /image/old-tv-1747057991139.webp 200 - 0.869 ms
+Mon May 12 2025 20:4:47 [SERVER-NAME] info: 10.0.60.240 - GET /image/old-tv-1747057977854.webp 200 - 1.155 ms
+Mon May 12 2025 20:4:47 [SERVER-NAME] info: 10.0.60.240 - GET /image/scaled_1000000189-1747058655257.jpg 200 - 1.517 ms
+Mon May 12 2025 20:4:47 [SERVER-NAME] info: 10.0.60.240 - GET /image/scaled_1000000189-1747058626164.jpg 200 - 0.940 ms
+Mon May 12 2025 20:4:48 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1390.050 ms
+Mon May 12 2025 20:4:50 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 2817.302 ms
+Mon May 12 2025 20:5:3 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 559.081 ms
+Mon May 12 2025 20:5:5 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 551.834 ms

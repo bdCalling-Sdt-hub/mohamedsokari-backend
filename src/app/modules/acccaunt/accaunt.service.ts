@@ -38,7 +38,11 @@ const editProduct = async (
       'You are not authorized to edit this product',
     );
   }
-  const updatedProduct = await Product.findByIdAndUpdate(productId, products, {
+  const data = {
+    ...products,
+    price: Number(products.price),
+  };
+  const updatedProduct = await Product.findByIdAndUpdate(productId, data, {
     new: true,
   });
   if (!updatedProduct) {
@@ -75,7 +79,8 @@ const deleteProduct = async (id: string, productId: string) => {
     await Like.deleteMany({ productId }, { session });
 
     // Delete the product itself
-    const deletedProduct = await Product.findByIdAndDelete(productId).session(session);
+    const deletedProduct =
+      await Product.findByIdAndDelete(productId).session(session);
     if (!deletedProduct) {
       throw new AppError(StatusCodes.NOT_FOUND, 'Failed to delete product');
     }
@@ -88,7 +93,7 @@ const deleteProduct = async (id: string, productId: string) => {
   } catch (error) {
     await session.abortTransaction();
     session.endSession();
-    throw error; 
+    throw error;
   }
 };
 export const AccauntService = {

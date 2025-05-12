@@ -1,4 +1,4 @@
-import { Schema, Types } from 'mongoose';
+import { Schema } from 'mongoose';
 
 export interface IProduct {
   sellerId: Schema.Types.ObjectId;

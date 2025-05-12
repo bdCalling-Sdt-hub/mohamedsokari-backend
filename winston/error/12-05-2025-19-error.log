@@ -1,0 +1,5 @@
+Mon May 12 2025 19:49:0 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/products/create 400 - 399.923 ms
+Mon May 12 2025 19:51:23 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/products/create 400 - 391.481 ms
+Mon May 12 2025 19:51:59 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/products/create 400 - 366.361 ms
+Mon May 12 2025 19:54:38 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/products/create 400 - 411.057 ms
+Mon May 12 2025 19:55:8 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/products/create 400 - 399.024 ms
