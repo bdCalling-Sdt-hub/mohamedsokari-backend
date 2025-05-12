@@ -1,0 +1,114 @@
+Mon May 12 2025 18:0:5 [SERVER-NAME] info: 10.0.60.34 - GET //image/sports-court-3-1747046475435.png 200 - 0.899 ms
+Mon May 12 2025 18:5:57 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 18:6:0 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 18:6:17 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 18:6:20 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 18:6:22 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 18:6:24 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 18:6:26 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 18:6:28 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 18:14:10 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/products/create 201 - 612.195 ms
+Mon May 12 2025 18:14:18 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/accaunts?page=1&limit=10 200 - 867.782 ms
+Mon May 12 2025 18:14:18 [SERVER-NAME] info: 10.0.60.34 - GET //image/old-tv-1747052050006.webp 200 - 1.320 ms
+Mon May 12 2025 18:15:16 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/accaunts?page=1&limit=10&sort=price 200 - 850.833 ms
+Mon May 12 2025 18:15:23 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/accaunts?page=1&limit=10&sort=-price 200 - 851.814 ms
+Mon May 12 2025 18:15:36 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/accaunts?page=1&limit=10&sort=-createdAt 200 - 846.545 ms
+Mon May 12 2025 18:15:42 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/accaunts?page=1&limit=10&sort=createdAt 200 - 850.108 ms
+Mon May 12 2025 18:15:49 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/accaunts?page=1&limit=10&sort=createdAt&status=available 200 - 846.225 ms
+Mon May 12 2025 18:15:53 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/accaunts?page=1&limit=10&sort=createdAt&status=sold 200 - 848.613 ms
+Mon May 12 2025 18:15:57 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/accaunts?page=1&limit=10&sort=createdAt&status=available 200 - 849.260 ms
+Mon May 12 2025 18:16:2 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/accaunts?page=1&limit=10&sort=price&status=available 200 - 850.865 ms
+Mon May 12 2025 18:22:3 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 506.886 ms
+Mon May 12 2025 18:22:5 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1381.704 ms
+Mon May 12 2025 18:22:6 [SERVER-NAME] info: 10.0.60.34 - GET /image/old-tv-1747052050006.webp 200 - 1.020 ms
+Mon May 12 2025 18:22:7 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 2945.046 ms
+Mon May 12 2025 18:22:8 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/users/profile 200 - 572.728 ms
+Mon May 12 2025 18:22:11 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/accaunts?page=1&limit=10 200 - 857.011 ms
+Mon May 12 2025 18:22:15 [SERVER-NAME] info: 10.0.60.34 - DELETE /api/v1/accaunts/delete/6821d04beb6ca7ccec821c01 200 - 878.083 ms
+Mon May 12 2025 18:22:41 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1408.351 ms
+Mon May 12 2025 18:22:41 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1425.590 ms
+Mon May 12 2025 18:22:47 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/users/profile 200 - 571.831 ms
+Mon May 12 2025 18:22:49 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/accaunts?page=1&limit=10 200 - 857.636 ms
+Mon May 12 2025 18:22:59 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/cart 200 - 877.152 ms
+Mon May 12 2025 18:23:34 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/cart 200 - 864.676 ms
+Mon May 12 2025 18:25:13 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1440.565 ms
+Mon May 12 2025 18:25:13 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1446.291 ms
+Mon May 12 2025 18:25:25 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 1178.559 ms
+Mon May 12 2025 18:25:55 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 1161.486 ms
+Mon May 12 2025 18:26:34 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/category 200 - 574.463 ms
+Mon May 12 2025 18:30:26 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 18:30:29 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 18:30:32 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Mon May 12 2025 18:30:34 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Mon May 12 2025 18:31:7 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/users/profile 200 - 569.655 ms
+Mon May 12 2025 18:31:10 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/cart 200 - 839.375 ms
+Mon May 12 2025 18:31:15 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1395.664 ms
+Mon May 12 2025 18:31:15 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1400.470 ms
+Mon May 12 2025 18:31:16 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 1121.571 ms
+Mon May 12 2025 18:31:44 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/6821e61217ba63e437ae5c68 200 - 845.457 ms
+Mon May 12 2025 18:31:51 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 1121.479 ms
+Mon May 12 2025 18:31:54 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/users/profile 200 - 562.184 ms
+Mon May 12 2025 18:31:55 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/cart 200 - 850.275 ms
+Mon May 12 2025 18:32:30 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1398.537 ms
+Mon May 12 2025 18:32:30 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1397.741 ms
+Mon May 12 2025 18:32:32 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 1147.875 ms
+Mon May 12 2025 18:32:37 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/cart 200 - 1413.417 ms
+Mon May 12 2025 18:32:40 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/users/profile 200 - 556.690 ms
+Mon May 12 2025 18:32:43 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/cart 200 - 856.005 ms
+Mon May 12 2025 18:32:58 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/cart 200 - 837.055 ms
+Mon May 12 2025 18:33:0 [SERVER-NAME] info: 10.0.60.34 - DELETE /api/v1/cart/6821e61217ba63e437ae5c68 200 - 1692.915 ms
+Mon May 12 2025 18:33:9 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/accaunts?page=1&limit=10 200 - 832.803 ms
+Mon May 12 2025 18:33:21 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1397.872 ms
+Mon May 12 2025 18:33:21 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1405.512 ms
+Mon May 12 2025 18:33:24 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/cart 200 - 1395.276 ms
+Mon May 12 2025 18:33:27 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/users/profile 200 - 555.606 ms
+Mon May 12 2025 18:33:28 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/cart 200 - 834.927 ms
+Mon May 12 2025 18:33:32 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/accaunts?page=1&limit=10 200 - 835.668 ms
+Mon May 12 2025 18:33:35 [SERVER-NAME] info: 10.0.60.34 - DELETE /api/v1/accaunts/delete/6821e61217ba63e437ae5c68 200 - 1417.406 ms
+Mon May 12 2025 18:33:38 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/cart 200 - 555.832 ms
+Mon May 12 2025 18:33:53 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1387.994 ms
+Mon May 12 2025 18:33:53 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1387.401 ms
+Mon May 12 2025 18:33:55 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 1126.807 ms
+Mon May 12 2025 18:34:5 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 846.106 ms
+Mon May 12 2025 18:34:20 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 835.640 ms
+Mon May 12 2025 18:34:37 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/login 200 - 550.601 ms
+Mon May 12 2025 18:34:40 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1386.832 ms
+Mon May 12 2025 18:34:40 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1397.071 ms
+Mon May 12 2025 18:34:41 [SERVER-NAME] info: 10.0.60.240 - GET /image/msi_mpg-1742022974033.jpg 200 - 13.954 ms
+Mon May 12 2025 18:35:42 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/login 200 - 533.981 ms
+Mon May 12 2025 18:35:45 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1386.860 ms
+Mon May 12 2025 18:35:45 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1392.656 ms
+Mon May 12 2025 18:36:23 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 565.789 ms
+Mon May 12 2025 18:36:23 [SERVER-NAME] info: 10.0.60.240 - GET /image/msi_mpg-1742208939334.jpg 200 - 8.563 ms
+Mon May 12 2025 18:36:36 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1389.144 ms
+Mon May 12 2025 18:36:36 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1396.298 ms
+Mon May 12 2025 18:36:47 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1386.564 ms
+Mon May 12 2025 18:36:47 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1391.838 ms
+Mon May 12 2025 18:36:51 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1389.224 ms
+Mon May 12 2025 18:36:51 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1394.612 ms
+Mon May 12 2025 18:38:28 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1403.723 ms
+Mon May 12 2025 18:38:28 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1401.252 ms
+Mon May 12 2025 18:38:52 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/likes/67d5293ee09d535f148a3e34 200 - 1418.686 ms
+Mon May 12 2025 18:38:53 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/likes 200 - 1128.879 ms
+Mon May 12 2025 18:38:54 [SERVER-NAME] info: 10.0.60.240 - GET //image/msi_mpg-1742022974033.jpg 200 - 0.940 ms
+Mon May 12 2025 18:38:58 [SERVER-NAME] info: 10.0.60.240 - DELETE /api/v1/likes/67d5293ee09d535f148a3e34 200 - 841.137 ms
+Mon May 12 2025 18:39:2 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 561.208 ms
+Mon May 12 2025 18:39:5 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1399.366 ms
+Mon May 12 2025 18:39:5 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1398.567 ms
+Mon May 12 2025 18:45:43 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1391.404 ms
+Mon May 12 2025 18:45:43 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1405.984 ms
+Mon May 12 2025 18:54:20 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/login 200 - 538.116 ms
+Mon May 12 2025 18:54:23 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1395.489 ms
+Mon May 12 2025 18:54:23 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1395.673 ms
+Mon May 12 2025 18:54:29 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 558.684 ms
+Mon May 12 2025 18:56:18 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/login 200 - 522.334 ms
+Mon May 12 2025 18:56:20 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1390.721 ms
+Mon May 12 2025 18:56:20 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1391.531 ms
+Mon May 12 2025 18:56:22 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 565.834 ms
+Mon May 12 2025 18:58:55 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/login 200 - 527.592 ms
+Mon May 12 2025 18:58:57 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1401.395 ms
+Mon May 12 2025 18:58:58 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1896.322 ms
+Mon May 12 2025 18:59:0 [SERVER-NAME] info: 10.0.60.240 - GET / 200 - 0.784 ms
+Mon May 12 2025 18:59:0 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 560.439 ms
+Mon May 12 2025 18:59:0 [SERVER-NAME] info: 10.0.60.240 - GET /image/scaled_1000000300-1746802772684.jpg 200 - 7.308 ms
+Mon May 12 2025 18:59:2 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/category 200 - 558.055 ms
