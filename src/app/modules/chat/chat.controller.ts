@@ -1,38 +1,48 @@
-import { Request, Response } from 'express';
-import catchAsync from '../../../shared/catchAsync';
-import sendResponse from '../../../shared/sendResponse';
 import { StatusCodes } from 'http-status-codes';
+import catchAsync from '../../../shared/catchAsync';
 import { ChatService } from './chat.service';
+import sendResponse from '../../../shared/sendResponse';
 
-const createChat = catchAsync(async (req: Request, res: Response) => {
-  const user: any = req.user;
-  const otherUser = req.params.id;
-
-  const participants = [user?.id, otherUser];
-  const chat = await ChatService.createChatToDB(participants);
+const createChat = catchAsync(async (req, res) => {
+  const participant = req.body.participant;
+  const { id }: any = req.user;
+  const participants = [id, participant];
+  const result = await ChatService.createChatIntoDB(participants);
 
   sendResponse(res, {
     statusCode: StatusCodes.OK,
     success: true,
-    message: 'Create Chat Successfully',
-    data: chat,
+    message: 'Chat created successfully',
+    data: result,
   });
 });
 
-const getChat = catchAsync(async (req: Request, res: Response) => {
-  const user = req.user;
-  const search = req.query.search as string;
-  const chatList = await ChatService.getChatFromDB(user, search);
+const markChatAsRead = catchAsync(async (req, res) => {
+  const { id } = req.params;
+  const user: any = req?.user;
 
+  const result = await ChatService.markChatAsRead(user.id, id);
   sendResponse(res, {
     statusCode: StatusCodes.OK,
     success: true,
-    message: 'Chat Retrieve Successfully',
-    data: chatList,
+    message: 'Chat marked as read',
+    data: result,
+  });
+});
+const getChats = catchAsync(async (req, res) => {
+  const { id }: any = req.user;
+
+  const result = await ChatService.getAllChatsFromDB(id, req.query);
+  sendResponse(res, {
+    statusCode: StatusCodes.OK,
+    success: true,
+    message: 'Chats retrieved successfully',
+    data: result,
   });
 });
 
 export const ChatController = {
   createChat,
-  getChat,
+  getChats,
+  markChatAsRead,
 };

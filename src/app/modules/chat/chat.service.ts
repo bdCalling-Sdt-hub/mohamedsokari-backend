@@ -1,56 +1,97 @@
-import { IMessage } from '../message/message.interface';
-import { Message } from '../message/message.model';
-import { IChat } from './chat.interface';
+import { User } from '../user/user.model';
 import { Chat } from './chat.model';
 
-const createChatToDB = async (payload: any): Promise<IChat> => {
-  const isExistChat: IChat | null = await Chat.findOne({
-    participants: { $all: payload },
+const createChatIntoDB = async (participants: string[]) => {
+  const isExistChat = await Chat.findOne({
+    participants: { $all: participants },
   });
 
   if (isExistChat) {
     return isExistChat;
   }
-  const chat: IChat = await Chat.create({ participants: payload });
-  return chat;
+  const newChat = await Chat.create({
+    participants: participants,
+    lastMessage: null,
+  });
+  if (!newChat) {
+    throw new Error('Failed to create chat');
+  }
+
+  //@ts-ignore
+  const io = global.io;
+  newChat.participants.forEach((participant) => {
+    //@ts-ignore
+    io.emit(`newChat::${participant._id}`, newChat);
+  });
+  return newChat;
 };
 
-const getChatFromDB = async (user: any, search: string): Promise<IChat[]> => {
-  const chats: any = await Chat.find({ participants: { $in: [user.id] } })
-    .populate({
-      path: 'participants',
-      select: '_id firstName lastName image',
-      match: {
-        _id: { $ne: user.id }, // Exclude user.id in the populated participants
-        ...(search && { name: { $regex: search, $options: 'i' } }), // Apply $regex only if search is valid
-      },
-    })
-    .select('participants status');
-
-  // Filter out chats where no participants match the search (empty participants)
-  const filteredChats = chats?.filter(
-    (chat: any) => chat?.participants?.length > 0,
+const markChatAsRead = async (userId: string, chatId: string) => {
+  return Chat.findByIdAndUpdate(
+    chatId,
+    { $addToSet: { readBy: userId } },
+    { new: true },
   );
+};
 
-  //Use Promise.all to handle the asynchronous operations inside the map
-  const chatList: IChat[] = await Promise.all(
-    filteredChats?.map(async (chat: any) => {
-      const data = chat?.toObject();
-
-      const lastMessage: IMessage | null = await Message.findOne({
-        chatId: chat?._id,
-      })
-        .sort({ createdAt: -1 })
-        .select('text offer createdAt sender');
-
+const getAllChatsFromDB = async (userId: string, query: Record<string, any>) => {
+      const searchTerm = query.searchTerm?.toLowerCase();
+    
+      // First get all chats for the user
+      const chats = await Chat.find({ participants: { $in: [userId] } })
+        .populate('lastMessage')
+        .lean()
+        .sort({ updatedAt: -1 });
+    
+      const unreadChat = await Chat.countDocuments({
+        participants: userId,
+        readBy: { $ne: userId },
+      });
+    
+      const chatLists = await Promise.all(
+        chats.map(async (chat) => {
+          // Ensure that `participants` exists and filter out invalid participantIds
+          const otherParticipantIds = chat.participants.filter((participantId) => {
+            return participantId && participantId.toString() !== userId.toString();
+          });
+    
+          const otherParticipants = await User.find({
+            _id: { $in: otherParticipantIds },
+          })
+            .select('_id profile userName email')
+            .lean();
+    
+          const isRead = !!(
+            Array.isArray(chat.readBy) &&
+            chat.readBy.some((id: any) => id && id.toString() === userId)
+          );
+    
+          return {
+            ...chat,
+            participants: otherParticipants,
+            isRead,
+          };
+        })
+      );
+    
+      // Filter chats based on searchTerm if provided
+      const filteredChatLists = searchTerm
+        ? chatLists.filter((chat) => {
+            // Check if any participant's userName matches the searchTerm
+            return chat.participants.some((participant) =>
+              participant.name.toLowerCase().includes(searchTerm)
+            );
+          })
+        : chatLists;
+    
       return {
-        ...data,
-        lastMessage: lastMessage || null,
+        data: filteredChatLists,
+        unreadChat,
       };
-    }),
-  );
-
-  return chatList;
+    };
+    
+export const ChatService = {
+  createChatIntoDB,
+  getAllChatsFromDB,
+  markChatAsRead,
 };
-
-export const ChatService = { createChatToDB, getChatFromDB };

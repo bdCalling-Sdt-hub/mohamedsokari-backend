@@ -228,7 +228,10 @@ const getUserReview = async (id: string) => {
   ]);
 
   if (!product || product.length === 0) {
-    throw new AppError(StatusCodes.NOT_FOUND, 'No reviews found for the user');
+    return {
+      averageRating: 0,
+      totalReviews: 0,
+    };
   }
 
   // Calculate the total count of reviews
@@ -254,5 +257,5 @@ export const CustomerReviewService = {
   deleteReviewFromDB,
   getUserReviewStats,
   getUserComments,
-  getUserReview
+  getUserReview,
 };

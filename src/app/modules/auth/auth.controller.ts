@@ -38,6 +38,7 @@ const loginUser = catchAsync(async (req, res) => {
       accessToken: result.accessToken,
       userId: result.id,
       userName: result.userName,
+      image: result.image,
     },
   });
 });
@@ -108,7 +109,6 @@ const changePassword = catchAsync(async (req, res) => {
 });
 // resend Otp
 const resendOtp = catchAsync(async (req, res) => {
-
   const { emailOrPhone } = req.body;
   await AuthService.resendOtpFromDb(emailOrPhone);
 

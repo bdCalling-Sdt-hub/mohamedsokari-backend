@@ -109,6 +109,7 @@ const login = async (payload: ILoginData) => {
     refreshToken,
     id: isExistUser._id,
     userName: isExistUser.name,
+    image: isExistUser.image,
   };
 };
 

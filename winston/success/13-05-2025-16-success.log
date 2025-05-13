@@ -25,3 +25,133 @@ Tue May 13 2025 16:8:50 [SERVER-NAME] info: [33m♻️  Application listening o
 Tue May 13 2025 16:8:53 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
 Tue May 13 2025 16:8:56 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
 Tue May 13 2025 16:8:59 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 13 2025 16:13:11 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/products/resent?sort=-totalViews 200 - 886.221 ms
+Tue May 13 2025 16:13:50 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/products/feature?sort=-totalViews&page=1 200 - 1464.554 ms
+Tue May 13 2025 16:14:35 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1 200 - 1482.103 ms
+Tue May 13 2025 16:15:4 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?sort=-totalViews 200 - 894.317 ms
+Tue May 13 2025 16:15:14 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?sort=-totalViews 200 - 891.063 ms
+Tue May 13 2025 16:15:28 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?sort=-totalViews&page=1 200 - 1486.907 ms
+Tue May 13 2025 16:16:37 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 543.763 ms
+Tue May 13 2025 16:16:40 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 2948.748 ms
+Tue May 13 2025 16:16:41 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 2978.104 ms
+Tue May 13 2025 16:32:51 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 511.282 ms
+Tue May 13 2025 16:32:52 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/banner 200 - 583.044 ms
+Tue May 13 2025 16:32:53 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1459.073 ms
+Tue May 13 2025 16:32:55 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 2899.027 ms
+Tue May 13 2025 16:33:48 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 501.894 ms
+Tue May 13 2025 16:33:49 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/banner 200 - 559.227 ms
+Tue May 13 2025 16:33:50 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 1423.625 ms
+Tue May 13 2025 16:33:50 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1503.689 ms
+Tue May 13 2025 16:37:0 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/banner 200 - 591.699 ms
+Tue May 13 2025 16:37:1 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1426.615 ms
+Tue May 13 2025 16:37:1 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 1485.910 ms
+Tue May 13 2025 16:37:52 [SERVER-NAME] info: 10.0.60.34 - GET //image/msi_meg_godlike-1742263541705.jpg 200 - 9.472 ms
+Tue May 13 2025 16:38:8 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 505.717 ms
+Tue May 13 2025 16:38:9 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/banner 200 - 592.505 ms
+Tue May 13 2025 16:38:10 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1441.162 ms
+Tue May 13 2025 16:38:10 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 1481.211 ms
+Tue May 13 2025 16:39:7 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/category 200 - 594.516 ms
+Tue May 13 2025 16:39:10 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/banner 200 - 589.379 ms
+Tue May 13 2025 16:39:11 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 1425.926 ms
+Tue May 13 2025 16:39:11 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1486.845 ms
+Tue May 13 2025 16:39:33 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/category 200 - 596.987 ms
+Tue May 13 2025 16:39:35 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/banner 200 - 591.031 ms
+Tue May 13 2025 16:39:36 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 1426.070 ms
+Tue May 13 2025 16:39:36 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1466.538 ms
+Tue May 13 2025 16:39:45 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 519.271 ms
+Tue May 13 2025 16:39:46 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/banner 200 - 586.469 ms
+Tue May 13 2025 16:39:47 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 1433.955 ms
+Tue May 13 2025 16:39:47 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1466.804 ms
+Tue May 13 2025 16:39:56 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/category 200 - 597.485 ms
+Tue May 13 2025 16:39:58 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/banner 200 - 589.799 ms
+Tue May 13 2025 16:39:59 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 1432.730 ms
+Tue May 13 2025 16:39:59 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1462.343 ms
+Tue May 13 2025 16:40:0 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/category 200 - 587.074 ms
+Tue May 13 2025 16:40:2 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/banner 200 - 586.544 ms
+Tue May 13 2025 16:40:3 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 1437.209 ms
+Tue May 13 2025 16:40:3 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1469.942 ms
+Tue May 13 2025 16:40:10 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/category 200 - 595.370 ms
+Tue May 13 2025 16:40:12 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/banner 200 - 589.834 ms
+Tue May 13 2025 16:40:13 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1432.031 ms
+Tue May 13 2025 16:40:13 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 1455.717 ms
+Tue May 13 2025 16:40:19 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/category 200 - 587.607 ms
+Tue May 13 2025 16:40:20 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/banner 200 - 586.005 ms
+Tue May 13 2025 16:40:21 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1430.747 ms
+Tue May 13 2025 16:40:21 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 1463.847 ms
+Tue May 13 2025 16:40:23 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/category 200 - 603.661 ms
+Tue May 13 2025 16:40:25 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/banner 200 - 579.578 ms
+Tue May 13 2025 16:40:26 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 1441.130 ms
+Tue May 13 2025 16:40:26 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1479.352 ms
+Tue May 13 2025 16:40:28 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/category 200 - 591.536 ms
+Tue May 13 2025 16:40:30 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/banner 200 - 590.202 ms
+Tue May 13 2025 16:40:31 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1424.638 ms
+Tue May 13 2025 16:40:31 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 1451.415 ms
+Tue May 13 2025 16:40:37 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/category 200 - 592.688 ms
+Tue May 13 2025 16:40:38 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/banner 200 - 588.083 ms
+Tue May 13 2025 16:40:39 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1449.472 ms
+Tue May 13 2025 16:40:39 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 1476.833 ms
+Tue May 13 2025 16:40:40 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/category 200 - 589.389 ms
+Tue May 13 2025 16:40:41 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/banner 200 - 603.758 ms
+Tue May 13 2025 16:40:42 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 1447.645 ms
+Tue May 13 2025 16:40:42 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1477.510 ms
+Tue May 13 2025 16:40:47 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 920.347 ms
+Tue May 13 2025 16:40:57 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/users/profile 200 - 591.341 ms
+Tue May 13 2025 16:40:58 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/accaunts?page=1&limit=10 200 - 888.909 ms
+Tue May 13 2025 16:40:58 [SERVER-NAME] info: 10.0.60.34 - GET //image/old-tv-1747057977854.webp 200 - 7.007 ms
+Tue May 13 2025 16:41:3 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/cart 200 - 592.383 ms
+Tue May 13 2025 16:41:17 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/banner 200 - 590.550 ms
+Tue May 13 2025 16:41:18 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 1427.497 ms
+Tue May 13 2025 16:41:18 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1452.927 ms
+Tue May 13 2025 16:43:53 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 497.981 ms
+Tue May 13 2025 16:43:54 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/banner 200 - 573.740 ms
+Tue May 13 2025 16:43:55 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1437.426 ms
+Tue May 13 2025 16:43:55 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 1468.405 ms
+Tue May 13 2025 16:45:31 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/682215e5a6505aa745666d03 200 - 887.679 ms
+Tue May 13 2025 16:47:7 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 540.966 ms
+Tue May 13 2025 16:47:8 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/banner 200 - 1110.911 ms
+Tue May 13 2025 16:47:9 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1&limit=2&sort=-totalViews 200 - 1957.253 ms
+Tue May 13 2025 16:47:9 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1&limit=2 200 - 1955.979 ms
+Tue May 13 2025 16:49:3 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/68220095d60a0b6b733a31ae 200 - 880.079 ms
+Tue May 13 2025 16:49:23 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/682215e5a6505aa745666d03 200 - 865.118 ms
+Tue May 13 2025 16:50:0 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 535.078 ms
+Tue May 13 2025 16:50:1 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/banner 200 - 577.051 ms
+Tue May 13 2025 16:50:2 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 1449.731 ms
+Tue May 13 2025 16:50:2 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1452.189 ms
+Tue May 13 2025 16:52:18 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 541.801 ms
+Tue May 13 2025 16:52:33 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/users/profile 200 - 595.031 ms
+Tue May 13 2025 16:52:35 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/banner 200 - 590.497 ms
+Tue May 13 2025 16:52:36 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1429.471 ms
+Tue May 13 2025 16:52:36 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 1497.865 ms
+Tue May 13 2025 16:53:30 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 887.449 ms
+Tue May 13 2025 16:53:35 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/likes/68220095d60a0b6b733a31ae 200 - 1502.875 ms
+Tue May 13 2025 16:53:36 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 884.993 ms
+Tue May 13 2025 16:53:58 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Tue May 13 2025 16:54:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 13 2025 16:54:6 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 563.476 ms
+Tue May 13 2025 16:54:12 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 514.033 ms
+Tue May 13 2025 16:54:18 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 512.056 ms
+Tue May 13 2025 16:54:28 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 897.703 ms
+Tue May 13 2025 16:54:35 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Tue May 13 2025 16:54:37 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 13 2025 16:54:39 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Tue May 13 2025 16:54:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 13 2025 16:54:44 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Tue May 13 2025 16:54:46 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Tue May 13 2025 16:54:49 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 13 2025 16:54:50 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Tue May 13 2025 16:54:53 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 13 2025 16:54:58 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/likes 200 - 865.461 ms
+Tue May 13 2025 16:55:14 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 509.807 ms
+Tue May 13 2025 16:56:4 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 500.246 ms
+Tue May 13 2025 16:56:5 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/banner 200 - 572.859 ms
+Tue May 13 2025 16:56:6 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 1417.156 ms
+Tue May 13 2025 16:56:7 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 3079.604 ms
+Tue May 13 2025 16:57:10 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 505.142 ms
+Tue May 13 2025 16:57:11 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/banner 200 - 579.961 ms
+Tue May 13 2025 16:57:12 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1422.544 ms
+Tue May 13 2025 16:57:14 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 2958.736 ms
+Tue May 13 2025 16:59:24 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 499.723 ms
+Tue May 13 2025 16:59:26 [SERVER-NAME] info: 10.0.60.34 - GET //image/scaled_1000000300-1746802772684.jpg 200 - 7.933 ms
+Tue May 13 2025 16:59:26 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/banner 200 - 564.169 ms
+Tue May 13 2025 16:59:27 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 1436.759 ms
+Tue May 13 2025 16:59:27 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 1470.792 ms

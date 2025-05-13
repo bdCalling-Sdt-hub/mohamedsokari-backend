@@ -1,0 +1,10 @@
+Tue May 13 2025 21:34:43 [SERVER-NAME] error: 10.0.60.34 - GET /api/v1/reviews 404 - 0.631 ms
+Tue May 13 2025 21:43:38 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/chat/create-chat 401 - 5.844 ms
+Tue May 13 2025 21:43:45 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/chat/create-chat 400 - 891.979 ms
+Tue May 13 2025 21:45:34 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/messages/send-message/682368b16a04cdbf8e6f8452 400 - 296.311 ms
+Tue May 13 2025 21:45:40 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/messages/send-message/682368b16a04cdbf8e6f8452 400 - 873.076 ms
+Tue May 13 2025 21:46:5 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/chat/ 400 - 1146.723 ms
+Tue May 13 2025 21:47:35 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/chat/ 400 - 3964.515 ms
+Tue May 13 2025 21:59:2 [SERVER-NAME] error: 10.0.60.34 - GET /api/v1/reviews/seller/67d5293ee09d535f148a3e34 404 - 290.240 ms
+Tue May 13 2025 21:59:27 [SERVER-NAME] error: 10.0.60.34 - GET /api/v1/reviews/seller/682215e5a6505aa745666d03 404 - 285.980 ms
+Tue May 13 2025 21:59:40 [SERVER-NAME] error: 10.0.60.34 - GET /api/v1/reviews/seller/6822028ed60a0b6b733a31d6 404 - 285.345 ms

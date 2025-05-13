@@ -17,8 +17,8 @@ import { DashboardRouter } from '../app/modules/dashboard/dashboard.router';
 import { ReviewRoutes } from '../app/modules/review/review.router';
 import { CustomerReviewRoutes } from '../app/modules/customerreview/customerreview.routes';
 import { FavouritdRouter } from '../app/modules/favourit/favourit.router';
-import { ChatRoutes } from '../app/modules/chat/chat.routes';
-import { MessageRoutes } from '../app/modules/message/message.routes';
+import { ChatRoutes } from '../app/modules/chat/chat.route';
+import { MessageRoutes } from '../app/modules/message/message.route';
 
 const router = express.Router();
 const routes = [

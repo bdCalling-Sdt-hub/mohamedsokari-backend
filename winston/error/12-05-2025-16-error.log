@@ -1,6 +1,0 @@
-Mon May 12 2025 16:11:14 [SERVER-NAME] error: 10.0.60.34 - GET /api/v1/products/6800eb9899b62e116ff50dde 404 - 577.064 ms
-Mon May 12 2025 16:34:14 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 409 - 605.759 ms
-Mon May 12 2025 16:34:27 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 400 - 523.047 ms
-Mon May 12 2025 16:34:35 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 400 - 531.998 ms
-Mon May 12 2025 16:34:49 [SERVER-NAME] error: 10.0.60.126 - POST /api/v1/auth/login 400 - 552.796 ms
-Mon May 12 2025 16:57:16 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/products/67d56a35beaf9940aa349b27 404 - 592.260 ms

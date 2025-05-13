@@ -7,6 +7,8 @@ export interface IReview {
   date: Date;
 }
 export type IUser = {
+  _id: any;
+  id: any;
   name: string;
   role: USER_ROLES;
   contactNumber: string;

@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from 'express';
 import { StatusCodes } from 'http-status-codes';
-import { Secret } from 'jsonwebtoken';
+import { JwtPayload, Secret } from 'jsonwebtoken';
 import config from '../../config';
 import AppError from '../../errors/AppError';
 import { verifyToken } from '../../utils/verifyToken';
@@ -14,13 +14,13 @@ const auth =
       if (!tokenWithBearer) {
         throw new AppError(
           StatusCodes.UNAUTHORIZED,
-          'You are not authorized !!'
+          'You are not authorized !!',
         );
       }
       if (!tokenWithBearer.startsWith('Bearer')) {
         throw new AppError(
           StatusCodes.UNAUTHORIZED,
-          'Token send is not valid !!'
+          'Token send is not valid !!',
         );
       }
 
@@ -34,7 +34,7 @@ const auth =
         } catch (error) {
           throw new AppError(
             StatusCodes.UNAUTHORIZED,
-            'You are not authorized !!'
+            'You are not authorized !!',
           );
         }
 
@@ -43,7 +43,7 @@ const auth =
         if (!user) {
           throw new AppError(
             StatusCodes.NOT_FOUND,
-            'This user is not found !!'
+            'This user is not found !!',
           );
         }
 
@@ -54,7 +54,7 @@ const auth =
         if (user?.isDeleted) {
           throw new AppError(
             StatusCodes.FORBIDDEN,
-            'This user accaunt is deleted !!'
+            'This user accaunt is deleted !!',
           );
         }
 
@@ -62,12 +62,12 @@ const auth =
         if (roles.length && !roles.includes(verifyUser?.role)) {
           throw new AppError(
             StatusCodes.FORBIDDEN,
-            "You don't have permission to access this api !!"
+            "You don't have permission to access this api !!",
           );
         }
 
         //set user to header
-        req.user = verifyUser;
+        req.user = verifyUser as JwtPayload;
         next();
       }
     } catch (error) {
