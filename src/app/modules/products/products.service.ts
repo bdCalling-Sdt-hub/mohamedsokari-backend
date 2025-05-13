@@ -75,7 +75,7 @@ const getResentProduct = async (
   query: Record<string, unknown>,
   userId: string,
 ) => {
-  const queryBuilder = new QueryBuilder(Product.find({}), query);
+  const queryBuilder = new QueryBuilder(Product.find(), query);
   const products = await queryBuilder
     .search(['location', 'title', 'category'])
     .filter()
@@ -104,8 +104,7 @@ const getFeatureProduct = async (
   userId: string,
 ) => {
   const mergedQuery = {
-    totalViews: { $exists: true, $gt: 0 },
-    ...query,
+    totalViews: { $gt: 0 },
   };
 
   const queryBuilder = new QueryBuilder(Product.find(mergedQuery), query);

@@ -68,7 +68,7 @@ class QueryBuilder<T> {
   }
 
   paginate(defaultLimit = 10) {
-    const page = Number(this.query?.page) || 1;
+    const page = Number(this.query?.page) || 10;
     const limit = Number(this.query?.limit) || defaultLimit;
     const skip = (page - 1) * limit;
 

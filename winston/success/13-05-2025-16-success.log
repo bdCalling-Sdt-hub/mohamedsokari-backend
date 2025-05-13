@@ -1,0 +1,27 @@
+Tue May 13 2025 16:0:2 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 13 2025 16:0:5 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/products/resent 200 - 3912.466 ms
+Tue May 13 2025 16:1:45 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Tue May 13 2025 16:1:47 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 13 2025 16:1:51 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/products/resent 200 - 1770.751 ms
+Tue May 13 2025 16:2:3 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Tue May 13 2025 16:2:5 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 13 2025 16:2:9 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/products/resent 200 - 4329.986 ms
+Tue May 13 2025 16:2:26 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/products/resent?page=2 200 - 1396.424 ms
+Tue May 13 2025 16:2:44 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Tue May 13 2025 16:2:47 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Tue May 13 2025 16:2:50 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Tue May 13 2025 16:2:52 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 13 2025 16:2:55 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/products/resent?page=2 200 - 5426.982 ms
+Tue May 13 2025 16:3:2 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/products/resent?page=1 200 - 1456.301 ms
+Tue May 13 2025 16:5:0 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/banner 200 - 585.317 ms
+Tue May 13 2025 16:6:11 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Tue May 13 2025 16:6:14 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 13 2025 16:6:21 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Tue May 13 2025 16:6:23 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Tue May 13 2025 16:8:32 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/products/resent 200 - 821.234 ms
+Tue May 13 2025 16:8:40 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/products/resent?sort=-totalViews 200 - 818.358 ms
+Tue May 13 2025 16:8:48 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Tue May 13 2025 16:8:50 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Tue May 13 2025 16:8:53 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Tue May 13 2025 16:8:56 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Tue May 13 2025 16:8:59 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
