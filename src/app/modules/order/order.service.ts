@@ -9,21 +9,24 @@ import { User } from '../user/user.model';
 
 // Order confirm by buyer
 const orderConfirmByBuyer = async (payload: Partial<IOrder>) => {
-  const user = await User.findById(payload.customerId);
+  // Check if the customer exists
+  const data = {
+    ...payload,
+    price: Number(payload.totalPrice),
+    confirmBybyer: true,
+  };
+  const user = await User.findById(data.customerId);
   if (!user) {
     throw new AppError(StatusCodes.NOT_FOUND, 'User not found');
   }
 
   // Check if an order already exists for the given customerId
   const isExistOrderByUser = await Order.findOne({
-    customerId: payload.customerId,
+    customerId: data.customerId,
   });
 
   if (isExistOrderByUser) {
-    throw new AppError(
-      StatusCodes.BAD_REQUEST,
-      'Order already requested by user',
-    );
+    throw new AppError(StatusCodes.OK, 'Order already requested by user');
   }
 
   const session = await mongoose.startSession();
@@ -31,13 +34,13 @@ const orderConfirmByBuyer = async (payload: Partial<IOrder>) => {
     session.startTransaction();
 
     // Fetch the product and ensure it's
-    const product = await Product.findById(payload.productId).session(session);
+    const product = await Product.findById(data.productId).session(session);
     if (!product) {
       throw new AppError(StatusCodes.NOT_FOUND, 'Product not found');
     }
 
     // Create the order with the session
-    const order = await Order.create([payload], { session });
+    const order = await Order.create([data], { session });
     if (!order) {
       throw new AppError(
         StatusCodes.INTERNAL_SERVER_ERROR,
@@ -49,7 +52,7 @@ const orderConfirmByBuyer = async (payload: Partial<IOrder>) => {
 
     // Send notifications to the seller
     await sendNotifications({
-      receiver: payload.sellerId,
+      receiver: data.sellerId,
       text: `New order has been placed by ${user.name} for the product: ${product.title}.`,
       type: 'ORDER',
       orderId: order[0]._id,
@@ -103,8 +106,6 @@ const orderConfirmBySeller = async (id: string, productId: string) => {
         'Order not found or already completed',
       );
     }
-    console.log('first');
-    console.log('first', order.customerId);
     // Update the product status to 'sold'
     const product = await Product.findByIdAndUpdate(
       productId,

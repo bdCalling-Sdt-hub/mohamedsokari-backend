@@ -34,62 +34,64 @@ const markChatAsRead = async (userId: string, chatId: string) => {
   );
 };
 
-const getAllChatsFromDB = async (userId: string, query: Record<string, any>) => {
-      const searchTerm = query.searchTerm?.toLowerCase();
-    
-      // First get all chats for the user
-      const chats = await Chat.find({ participants: { $in: [userId] } })
-        .populate('lastMessage')
-        .lean()
-        .sort({ updatedAt: -1 });
-    
-      const unreadChat = await Chat.countDocuments({
-        participants: userId,
-        readBy: { $ne: userId },
-      });
-    
-      const chatLists = await Promise.all(
-        chats.map(async (chat) => {
-          // Ensure that `participants` exists and filter out invalid participantIds
-          const otherParticipantIds = chat.participants.filter((participantId) => {
-            return participantId && participantId.toString() !== userId.toString();
-          });
-    
-          const otherParticipants = await User.find({
-            _id: { $in: otherParticipantIds },
-          })
-            .select('_id profile userName email')
-            .lean();
-    
-          const isRead = !!(
-            Array.isArray(chat.readBy) &&
-            chat.readBy.some((id: any) => id && id.toString() === userId)
-          );
-    
-          return {
-            ...chat,
-            participants: otherParticipants,
-            isRead,
-          };
-        })
+const getAllChatsFromDB = async (
+  userId: string,
+  query: Record<string, any>,
+) => {
+  const searchTerm = query.searchTerm?.toLowerCase();
+
+  // First get all chats for the user
+  const chats = await Chat.find({ participants: { $in: [userId] } })
+    .populate('lastMessage')
+    .lean()
+    .sort({ updatedAt: -1 });
+
+  const unreadChat = await Chat.countDocuments({
+    participants: userId,
+    readBy: { $ne: userId },
+  });
+
+  const chatLists = await Promise.all(
+    chats.map(async (chat) => {
+      const otherParticipantIds = chat.participants.filter(
+        (participantId) => participantId.toString() !== userId,
       );
-    
-      // Filter chats based on searchTerm if provided
-      const filteredChatLists = searchTerm
-        ? chatLists.filter((chat) => {
-            // Check if any participant's userName matches the searchTerm
-            return chat.participants.some((participant) =>
-              participant.name.toLowerCase().includes(searchTerm)
-            );
-          })
-        : chatLists;
-    
+
+      const otherParticipants = await User.find({
+        _id: { $in: otherParticipantIds },
+      })
+        .select('_id profile name email')
+        .lean();
+
+      const isRead = !!(
+        Array.isArray(chat.readBy) &&
+        chat.readBy.some((id: any) => id.toString() === userId)
+      );
+
       return {
-        data: filteredChatLists,
-        unreadChat,
+        ...chat,
+        participants: otherParticipants,
+        isRead,
       };
-    };
-    
+    }),
+  );
+
+  // Filter chats based on searchTerm if provided
+  const filteredChatLists = searchTerm
+    ? chatLists.filter((chat) => {
+        // Check if any participant's userName matches the searchTerm
+        return chat.participants.some((participant) =>
+          participant.name.toLowerCase().includes(searchTerm),
+        );
+      })
+    : chatLists;
+
+  return {
+    data: filteredChatLists,
+    unreadChat,
+  };
+};
+
 export const ChatService = {
   createChatIntoDB,
   getAllChatsFromDB,

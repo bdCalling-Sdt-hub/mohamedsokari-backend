@@ -1,50 +1,50 @@
 import { StatusCodes } from 'http-status-codes';
 import { Chat } from '../chat/chat.model';
-import { IMessage, IReaction } from './message.interface';
+import { IMessage } from './message.interface';
 import { Message } from './message.model';
 import AppError from '../../../errors/AppError';
 
-const sendMessageToDB = async (
-      payload: IMessage,
-    ): Promise<IMessage> => {
-      const response = await Message.create(payload);
-    
-      // Update the lastMessage and readBy fields of the associated chat
-      const chat = await Chat.findByIdAndUpdate(
-        response?.chatId,
-        { lastMessage: response._id, readBy: [payload.sender.toString()] },
-        { new: true },
-      );
-    
-      //@ts-ignore
-      const io = global.io;
-    
-      // Ensure `chat?.participants` is an array and filter out invalid values
-      const notificationReceiver = chat?.participants
-        ?.filter((participant) => participant && participant.toString() !== payload.sender.toString()) 
-        .map((participant) => participant.toString())
-        .find(() => true); 
-    
-      if (notificationReceiver && io) {
-        io.emit(`newMessage::${notificationReceiver}`, response); 
-      }
-    
-      return response;
-    };
-    
+const sendMessageToDB = async (payload: IMessage): Promise<IMessage> => {
+  const response = await Message.create(payload);
+
+  // Update the lastMessage and readBy fields of the associated chat
+  const chat = await Chat.findByIdAndUpdate(
+    response?.chatId,
+    { lastMessage: response._id, readBy: [payload.sender.toString()] },
+    { new: true },
+  );
+
+  //@ts-ignore
+  const io = global.io;
+
+  // Ensure `chat?.participants` is an array and filter out invalid values
+  const notificationReceiver = chat?.participants
+    ?.filter(
+      (participant) =>
+        participant && participant.toString() !== payload.sender.toString(),
+    )
+    .map((participant) => participant.toString())
+    .find(() => true);
+
+  if (notificationReceiver && io) {
+    io.emit(`newMessage::${notificationReceiver}`, response);
+  }
+
+  return response;
+};
 
 const getMessagesFromDB = async (chatId: string): Promise<IMessage[]> => {
-  const response = await Message.find({ chatId: chatId }).populate({
-    path: 'sender',
-    select: 'userName email profile',
-  });
+  const response = await Message.find({ chatId: chatId })
+    .populate({
+      path: 'sender',
+      select: 'userName email profile',
+    })
+    .populate({ path: 'reactions.userId', select: 'name' });
   const formattedMessages = response.map((message) => {
     return {
       ...message.toObject(),
       isDeleted: message.isDeleted,
-      content: message.isDeleted
-        ? 'This message has been deleted.'
-        : message.text,
+      text: message.isDeleted ? 'This message has been deleted.' : message.text,
     };
   });
   return formattedMessages;
@@ -85,7 +85,7 @@ const addReactionToMessage = async (
     const updatedMessage = await message.save();
 
     // Return the updated message as response
-    return updatedMessage; 
+    return updatedMessage;
   } catch (error) {
     console.error('Error updating reaction:', error);
     throw new AppError(

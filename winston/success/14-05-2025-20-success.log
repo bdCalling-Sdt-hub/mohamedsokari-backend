@@ -1,0 +1,188 @@
+Wed May 14 2025 20:0:10 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/cart 200 - 1425.211 ms
+Wed May 14 2025 20:0:18 [SERVER-NAME] info: 10.0.60.126 - GET /api/v1/messages/67d685793b22980e20486bd1 200 - 851.997 ms
+Wed May 14 2025 20:0:29 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/chat?searchTerm= 204 - 0.246 ms
+Wed May 14 2025 20:0:29 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/67d685793b22980e20486bd1 204 - 0.098 ms
+Wed May 14 2025 20:0:29 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/messages/67d685793b22980e20486bd1 200 - 854.415 ms
+Wed May 14 2025 20:0:30 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/chat?searchTerm= 200 - 1433.874 ms
+Wed May 14 2025 20:0:34 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/send-message/67d685793b22980e20486bd1 204 - 0.107 ms
+Wed May 14 2025 20:0:35 [SERVER-NAME] info: 10.0.60.110 - POST /api/v1/messages/send-message/67d685793b22980e20486bd1 200 - 855.317 ms
+Wed May 14 2025 20:0:35 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/67d685793b22980e20486bd1 204 - 0.069 ms
+Wed May 14 2025 20:0:35 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/chat?searchTerm= 204 - 0.057 ms
+Wed May 14 2025 20:0:36 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/messages/67d685793b22980e20486bd1 200 - 848.809 ms
+Wed May 14 2025 20:0:36 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/chat?searchTerm= 200 - 1411.620 ms
+Wed May 14 2025 20:0:47 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/reviews/seller/680348da0ae1f813f5db4beb 200 - 290.630 ms
+Wed May 14 2025 20:0:48 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 867.741 ms
+Wed May 14 2025 20:0:48 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/feature?page=1&category=Sports+Equipment 200 - 1401.155 ms
+Wed May 14 2025 20:1:40 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/send-message/67d685793b22980e20486bd1 204 - 0.074 ms
+Wed May 14 2025 20:1:41 [SERVER-NAME] info: 10.0.60.110 - POST /api/v1/messages/send-message/67d685793b22980e20486bd1 200 - 892.072 ms
+Wed May 14 2025 20:1:41 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/67d685793b22980e20486bd1 204 - 0.065 ms
+Wed May 14 2025 20:1:41 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/chat?searchTerm= 204 - 0.045 ms
+Wed May 14 2025 20:1:42 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/messages/67d685793b22980e20486bd1 200 - 849.917 ms
+Wed May 14 2025 20:1:43 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/chat?searchTerm= 200 - 1408.012 ms
+Wed May 14 2025 20:2:41 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/send-message/67d685793b22980e20486bd1 204 - 0.074 ms
+Wed May 14 2025 20:2:42 [SERVER-NAME] info: 10.0.60.110 - POST /api/v1/messages/send-message/67d685793b22980e20486bd1 200 - 852.134 ms
+Wed May 14 2025 20:2:42 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/67d685793b22980e20486bd1 204 - 0.067 ms
+Wed May 14 2025 20:2:42 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/chat?searchTerm= 204 - 0.044 ms
+Wed May 14 2025 20:2:43 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/messages/67d685793b22980e20486bd1 200 - 847.578 ms
+Wed May 14 2025 20:2:43 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/chat?searchTerm= 200 - 1400.872 ms
+Wed May 14 2025 20:2:56 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/login 200 - 500.597 ms
+Wed May 14 2025 20:2:58 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/banner 200 - 565.591 ms
+Wed May 14 2025 20:3:0 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1677.465 ms
+Wed May 14 2025 20:3:1 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 3000.079 ms
+Wed May 14 2025 20:3:22 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/reviews/seller/680348da0ae1f813f5db4beb 200 - 294.718 ms
+Wed May 14 2025 20:3:22 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/67d5293ee09d535f148a3e34 200 - 838.683 ms
+Wed May 14 2025 20:3:23 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/feature?page=1&category=Sports+Equipment 200 - 1418.569 ms
+Wed May 14 2025 20:4:6 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/reviews/seller/680348da0ae1f813f5db4beb 200 - 279.778 ms
+Wed May 14 2025 20:4:6 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/6821fd39821f27e6eec5c996 200 - 886.194 ms
+Wed May 14 2025 20:4:7 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/feature?page=1&category=Electronics 200 - 1410.924 ms
+Wed May 14 2025 20:4:32 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/send-message/67d685793b22980e20486bd1 204 - 0.082 ms
+Wed May 14 2025 20:4:33 [SERVER-NAME] info: 10.0.60.110 - POST /api/v1/messages/send-message/67d685793b22980e20486bd1 200 - 865.263 ms
+Wed May 14 2025 20:4:33 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/67d685793b22980e20486bd1 204 - 0.061 ms
+Wed May 14 2025 20:4:33 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/chat?searchTerm= 204 - 0.050 ms
+Wed May 14 2025 20:4:34 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/messages/67d685793b22980e20486bd1 200 - 841.935 ms
+Wed May 14 2025 20:4:34 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/chat?searchTerm= 200 - 1403.039 ms
+Wed May 14 2025 20:4:47 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/orders/67f247c68d22beac5661e83d 200 - 579.858 ms
+Wed May 14 2025 20:8:59 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/send-message/67d685793b22980e20486bd1 204 - 0.065 ms
+Wed May 14 2025 20:9:0 [SERVER-NAME] info: 10.0.60.110 - POST /api/v1/messages/send-message/67d685793b22980e20486bd1 200 - 880.669 ms
+Wed May 14 2025 20:9:0 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/67d685793b22980e20486bd1 204 - 0.051 ms
+Wed May 14 2025 20:9:0 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/chat?searchTerm= 204 - 0.047 ms
+Wed May 14 2025 20:9:1 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/messages/67d685793b22980e20486bd1 200 - 847.865 ms
+Wed May 14 2025 20:9:1 [SERVER-NAME] info: 10.0.60.110 - GET /image/6522516-1747231739880.png 200 - 1.903 ms
+Wed May 14 2025 20:9:1 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/chat?searchTerm= 200 - 1421.535 ms
+Wed May 14 2025 20:10:14 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/send-message/67d685793b22980e20486bd1 204 - 0.050 ms
+Wed May 14 2025 20:10:15 [SERVER-NAME] info: 10.0.60.110 - POST /api/v1/messages/send-message/67d685793b22980e20486bd1 200 - 852.896 ms
+Wed May 14 2025 20:10:15 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/67d685793b22980e20486bd1 204 - 0.049 ms
+Wed May 14 2025 20:10:15 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/chat?searchTerm= 204 - 0.038 ms
+Wed May 14 2025 20:10:16 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/messages/67d685793b22980e20486bd1 200 - 858.512 ms
+Wed May 14 2025 20:10:16 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/chat?searchTerm= 200 - 1419.934 ms
+Wed May 14 2025 20:12:0 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:12:3 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 14 2025 20:13:3 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:13:7 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:13:10 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 14 2025 20:13:15 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/68245dd70a06f180c42faa69 200 - 855.539 ms
+Wed May 14 2025 20:14:31 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 573.486 ms
+Wed May 14 2025 20:14:32 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 573.304 ms
+Wed May 14 2025 20:24:36 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/banner 200 - 566.007 ms
+Wed May 14 2025 20:24:37 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 1992.487 ms
+Wed May 14 2025 20:24:38 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 2925.713 ms
+Wed May 14 2025 20:26:36 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/send-message/67d685793b22980e20486bd1 204 - 0.275 ms
+Wed May 14 2025 20:26:37 [SERVER-NAME] info: 10.0.60.110 - POST /api/v1/messages/send-message/67d685793b22980e20486bd1 200 - 922.748 ms
+Wed May 14 2025 20:26:37 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/67d685793b22980e20486bd1 204 - 0.100 ms
+Wed May 14 2025 20:26:37 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/chat?searchTerm= 204 - 0.100 ms
+Wed May 14 2025 20:26:38 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/messages/67d685793b22980e20486bd1 200 - 875.548 ms
+Wed May 14 2025 20:26:39 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/chat?searchTerm= 200 - 1445.038 ms
+Wed May 14 2025 20:27:41 [SERVER-NAME] info: 10.0.60.110 - POST /api/v1/messages/send-message/67d685793b22980e20486bd1 200 - 876.115 ms
+Wed May 14 2025 20:28:12 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/reviews/seller/680348da0ae1f813f5db4beb 200 - 289.042 ms
+Wed May 14 2025 20:28:12 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/68245dc00a06f180c42faa66 200 - 855.955 ms
+Wed May 14 2025 20:28:13 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/feature?page=1&category=Equipment 200 - 1442.294 ms
+Wed May 14 2025 20:29:55 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/chat?searchTerm= 204 - 0.096 ms
+Wed May 14 2025 20:29:55 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/67d685793b22980e20486bd1 204 - 0.111 ms
+Wed May 14 2025 20:29:55 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/messages/67d685793b22980e20486bd1 200 - 873.979 ms
+Wed May 14 2025 20:29:55 [SERVER-NAME] info: 10.0.60.110 - GET /image/6522516-1747231739880.png 304 - 1.052 ms
+Wed May 14 2025 20:29:56 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/chat?searchTerm= 200 - 1423.923 ms
+Wed May 14 2025 20:30:1 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/send-message/67d685793b22980e20486bd1 204 - 0.118 ms
+Wed May 14 2025 20:30:1 [SERVER-NAME] info: 10.0.60.110 - POST /api/v1/messages/send-message/67d685793b22980e20486bd1 200 - 885.141 ms
+Wed May 14 2025 20:30:1 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/chat?searchTerm= 204 - 0.191 ms
+Wed May 14 2025 20:30:2 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/67d685793b22980e20486bd1 204 - 0.086 ms
+Wed May 14 2025 20:30:2 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/messages/67d685793b22980e20486bd1 200 - 867.042 ms
+Wed May 14 2025 20:30:3 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/chat?searchTerm= 200 - 1429.271 ms
+Wed May 14 2025 20:30:14 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/react/6824a8e97952a36a641f77c3 204 - 0.117 ms
+Wed May 14 2025 20:30:15 [SERVER-NAME] info: 10.0.60.110 - POST /api/v1/messages/react/6824a8e97952a36a641f77c3 200 - 875.432 ms
+Wed May 14 2025 20:30:15 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/chat?searchTerm= 204 - 0.124 ms
+Wed May 14 2025 20:30:15 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/67d685793b22980e20486bd1 204 - 0.076 ms
+Wed May 14 2025 20:30:16 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/messages/67d685793b22980e20486bd1 200 - 863.743 ms
+Wed May 14 2025 20:30:16 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/chat?searchTerm= 200 - 1422.781 ms
+Wed May 14 2025 20:30:50 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/delete/6824a3fb443f42f626c1e44b 204 - 0.092 ms
+Wed May 14 2025 20:30:51 [SERVER-NAME] info: 10.0.60.110 - DELETE /api/v1/messages/delete/6824a3fb443f42f626c1e44b 200 - 863.556 ms
+Wed May 14 2025 20:30:51 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/67d685793b22980e20486bd1 204 - 0.085 ms
+Wed May 14 2025 20:30:51 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/chat?searchTerm= 204 - 0.121 ms
+Wed May 14 2025 20:30:52 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/messages/67d685793b22980e20486bd1 200 - 871.613 ms
+Wed May 14 2025 20:30:53 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/chat?searchTerm= 304 - 1430.011 ms
+Wed May 14 2025 20:31:54 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/messages/67d685793b22980e20486bd1 200 - 863.908 ms
+Wed May 14 2025 20:33:45 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:33:47 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:33:49 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 14 2025 20:33:55 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:33:58 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 14 2025 20:34:3 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/messages/67d685793b22980e20486bd1 200 - 875.740 ms
+Wed May 14 2025 20:34:14 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/chat?searchTerm= 204 - 0.240 ms
+Wed May 14 2025 20:34:14 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/67d685793b22980e20486bd1 204 - 0.059 ms
+Wed May 14 2025 20:34:15 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/messages/67d685793b22980e20486bd1 200 - 864.063 ms
+Wed May 14 2025 20:34:15 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/chat?searchTerm= 304 - 1417.275 ms
+Wed May 14 2025 20:35:35 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/chat?searchTerm= 204 - 0.070 ms
+Wed May 14 2025 20:35:35 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/67d685793b22980e20486bd1 204 - 0.056 ms
+Wed May 14 2025 20:35:36 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/messages/67d685793b22980e20486bd1 304 - 848.853 ms
+Wed May 14 2025 20:35:36 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/chat?searchTerm= 304 - 1418.072 ms
+Wed May 14 2025 20:36:42 [SERVER-NAME] info: 10.0.60.240 - GET / 200 - 1.142 ms
+Wed May 14 2025 20:37:0 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/login 200 - 507.879 ms
+Wed May 14 2025 20:37:2 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/banner 200 - 562.401 ms
+Wed May 14 2025 20:37:4 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 2030.813 ms
+Wed May 14 2025 20:37:5 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 2922.939 ms
+Wed May 14 2025 20:37:7 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/reviews/seller/680348da0ae1f813f5db4beb 200 - 296.527 ms
+Wed May 14 2025 20:37:8 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/68245dc00a06f180c42faa66 200 - 869.823 ms
+Wed May 14 2025 20:37:9 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/feature?page=1&category=Equipment 200 - 1405.256 ms
+Wed May 14 2025 20:37:31 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:37:33 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 14 2025 20:37:41 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:37:43 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 14 2025 20:37:49 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/chat?searchTerm= 204 - 0.721 ms
+Wed May 14 2025 20:37:49 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/67d685793b22980e20486bd1 204 - 0.146 ms
+Wed May 14 2025 20:37:50 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/messages/67d685793b22980e20486bd1 304 - 899.833 ms
+Wed May 14 2025 20:37:50 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/chat?searchTerm= 304 - 1479.526 ms
+Wed May 14 2025 20:39:23 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:39:24 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:39:27 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 14 2025 20:39:32 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/67d685793b22980e20486bd1 204 - 0.698 ms
+Wed May 14 2025 20:39:32 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/chat?searchTerm= 204 - 0.051 ms
+Wed May 14 2025 20:39:33 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/messages/67d685793b22980e20486bd1 304 - 860.563 ms
+Wed May 14 2025 20:39:33 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/chat?searchTerm= 200 - 1410.854 ms
+Wed May 14 2025 20:40:16 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/chat?searchTerm= 204 - 0.087 ms
+Wed May 14 2025 20:40:16 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/67d685793b22980e20486bd1 204 - 0.078 ms
+Wed May 14 2025 20:40:17 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/messages/67d685793b22980e20486bd1 304 - 841.788 ms
+Wed May 14 2025 20:40:18 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/chat?searchTerm= 304 - 1404.563 ms
+Wed May 14 2025 20:40:25 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/chat/mark-chat-as-read/67d685793b22980e20486bd1 204 - 0.082 ms
+Wed May 14 2025 20:40:25 [SERVER-NAME] info: 10.0.60.110 - PATCH /api/v1/chat/mark-chat-as-read/67d685793b22980e20486bd1 200 - 566.635 ms
+Wed May 14 2025 20:40:25 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/chat?searchTerm= 204 - 0.067 ms
+Wed May 14 2025 20:40:25 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/messages/67d685793b22980e20486bd1 204 - 0.069 ms
+Wed May 14 2025 20:40:26 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/messages/67d685793b22980e20486bd1 304 - 845.478 ms
+Wed May 14 2025 20:40:27 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/chat?searchTerm= 200 - 1421.893 ms
+Wed May 14 2025 20:45:37 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/auth/login 200 - 536.663 ms
+Wed May 14 2025 20:48:30 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:48:33 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 14 2025 20:49:26 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:49:28 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:49:29 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:49:38 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:49:41 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 14 2025 20:49:46 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:49:49 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 14 2025 20:49:51 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:49:56 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:49:58 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:50:0 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 14 2025 20:50:23 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:50:26 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 14 2025 20:50:32 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:50:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 14 2025 20:50:46 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:50:49 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 14 2025 20:50:59 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:51:1 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 14 2025 20:51:20 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:51:23 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 14 2025 20:55:57 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/orders/confirm-buyer 202 - 2028.287 ms
+Wed May 14 2025 20:56:48 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:56:51 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 14 2025 20:57:8 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:57:10 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 14 2025 20:57:12 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:57:14 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 14 2025 20:57:16 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:57:19 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 14 2025 20:57:22 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:57:25 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 14 2025 20:57:28 [SERVER-NAME] info: 10.0.60.126 - POST /api/v1/orders/confirm-buyer 200 - 4779.155 ms
+Wed May 14 2025 20:58:49 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:58:50 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Wed May 14 2025 20:58:53 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m

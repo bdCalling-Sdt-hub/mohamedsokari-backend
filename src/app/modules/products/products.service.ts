@@ -147,8 +147,8 @@ const getSingleProduct = async (id: string) => {
       select:
         'title price category description location condition images status totalViews sellerId buyerId',
       populate: [
-        { path: 'sellerId', select: 'name email contactNumber location' },
-        { path: 'buyerId', select: 'name email contactNumber location' },
+        { path: 'sellerId', select: 'name email contactNumber location image' },
+        { path: 'buyerId', select: 'name email contactNumber location image' },
       ],
     },
   );

@@ -9,20 +9,24 @@ const router = express.Router();
 
 router.post(
   '/send-message/:chatId',
-  auth(USER_ROLES.USER),
+  auth(USER_ROLES.USER, USER_ROLES.SUPER_ADMIN),
   fileUploadHandler(),
   parseSingleFileData,
   MessageController.sendMessage,
 );
-router.get('/:id', auth(USER_ROLES.USER), MessageController.getAllMessage);
-router.post(
-  '/react/:messageId',
-  auth(USER_ROLES.USER),
-  MessageController.addReaction,
+router.get(
+  '/:id',
+  auth(USER_ROLES.USER, USER_ROLES.SUPER_ADMIN),
+  MessageController.getAllMessage,
 );
 router.post(
+  '/react/:messageId',
+  auth(USER_ROLES.USER, USER_ROLES.SUPER_ADMIN),
+  MessageController.addReaction,
+);
+router.delete(
   '/delete/:messageId',
-  auth(USER_ROLES.USER),
+  auth(USER_ROLES.USER, USER_ROLES.SUPER_ADMIN),
   MessageController.deleteMessage,
 );
 
