@@ -1,16 +1,22 @@
 import mongoose, { model, Schema } from 'mongoose';
 import { IProduct } from './products.interface';
-import { string } from 'zod';
+
 
 // Item Schema Definition
 const productsSchema = new Schema<IProduct>(
   {
     sellerId: { type: mongoose.Schema.ObjectId, ref: 'User', required: true },
+    buyerId: {
+      type: mongoose.Schema.ObjectId,
+      ref: 'User',
+      required: false,
+      default: null,
+    },
     title: { type: String, required: true },
     price: { type: Number, required: true },
     category: { type: String, required: true },
     description: { type: String, required: true },
-    additionalInfo:{type: String, default:''},
+    additionalInfo: { type: String, default: '' },
     location: { type: String, required: true },
     totalViews: { type: Number, default: 0 },
     liked: { type: Number, default: 0 },

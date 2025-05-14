@@ -19,10 +19,18 @@ const getAllProductsFromDb = async (query: Record<string, unknown>) => {
   return { products, meta };
 };
 const getSingleProductFromDb = async (id: string) => {
-  const result = await Product.findById(id);
-  if (!result) throw new AppError(StatusCodes.NOT_FOUND, 'Product not found');
+  const result = await Product.findById(id).populate([
+    { path: 'sellerId', select: 'name contactNumber email image location' },
+    { path: 'buyerId', select: 'name contactNumber email image location' },
+  ]);
+
+  if (!result) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'Product not found');
+  }
+
   return result;
 };
+
 const deleteProductFromDb = async (id: string) => {
   const result = await Product.findByIdAndDelete(id);
   if (!result) throw new AppError(StatusCodes.NOT_FOUND, 'Product not found');
@@ -209,7 +217,7 @@ const getTopDistricts = async (query: Record<string, any>) => {
       $group: {
         _id: {
           location: '$location',
-          category: '$category',  // Group by both location and category
+          category: '$category', // Group by both location and category
         },
         count: { $sum: 1 },
       },
@@ -220,8 +228,8 @@ const getTopDistricts = async (query: Record<string, any>) => {
     {
       $project: {
         _id: 0,
-        district: '$_id.location',  // Extract location as 'district'
-        category: '$_id.category',  // Extract category
+        district: '$_id.location', // Extract location as 'district'
+        category: '$_id.category', // Extract category
         count: 1,
       },
     },
@@ -301,8 +309,8 @@ const getTopCategory = async (query: Record<string, any>) => {
   }
 
   // Pagination: page and limit with defaults
-  const page = parseInt(query?.page || '1'); 
-  const limit = parseInt(query?.limit || '5'); 
+  const page = parseInt(query?.page || '1');
+  const limit = parseInt(query?.limit || '5');
 
   // Ensure valid pagination values
   if (page <= 0 || limit <= 0) {
@@ -317,15 +325,15 @@ const getTopCategory = async (query: Record<string, any>) => {
   // Aggregation pipeline to get top categories per district
   const topCategoriesPerDistrict = await Product.aggregate([
     {
-      $match: matchFilter, 
+      $match: matchFilter,
     },
     {
       $group: {
         _id: {
-          location: '$location',  
-          category: '$category', 
+          location: '$location',
+          category: '$category',
         },
-        count: { $sum: 1 }, 
+        count: { $sum: 1 },
       },
     },
     {
@@ -340,10 +348,10 @@ const getTopCategory = async (query: Record<string, any>) => {
       },
     },
     {
-      $skip: skip, 
+      $skip: skip,
     },
     {
-      $limit: limit, 
+      $limit: limit,
     },
   ]);
 
@@ -370,7 +378,6 @@ const getTopCategory = async (query: Record<string, any>) => {
   };
 };
 
-
 export const DashboardProductService = {
   getAllProductsFromDb,
   getSingleProductFromDb,
@@ -378,5 +385,5 @@ export const DashboardProductService = {
   getProductAnalytics,
   deleteMultipleProductFromDb,
   getTopDistricts,
-  getTopCategory
+  getTopCategory,
 };

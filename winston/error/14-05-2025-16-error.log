@@ -1,0 +1,2 @@
+Wed May 14 2025 16:0:30 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/auth/change-password 403 - 290.409 ms
+Wed May 14 2025 16:18:1 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/messages/682368b16a04cdbf8e6f8452 403 - 310.982 ms

@@ -2,6 +2,7 @@ import { Schema } from 'mongoose';
 
 export interface IProduct {
   sellerId: Schema.Types.ObjectId;
+  buyerId: Schema.Types.ObjectId;
   title: string;
   price: number;
   category: string;

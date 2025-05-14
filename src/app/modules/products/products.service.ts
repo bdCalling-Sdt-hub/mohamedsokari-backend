@@ -42,6 +42,10 @@ const addProduct = async (payload: IProduct, sellerId: string) => {
   return result;
 };
 const getProduct = async (query: Record<string, unknown>, userId: string) => {
+  const result = await Product.find({});
+  if (!result) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'Product not found');
+  }
   const queryBuilder = new QueryBuilder(Product.find({}), query);
 
   // Fetch all products based on query filters, sorting, pagination, etc.
@@ -141,8 +145,11 @@ const getSingleProduct = async (id: string) => {
     {
       new: true,
       select:
-        'title price category description location condition images status totalViews sellerId',
-      populate: { path: 'sellerId', select: 'name contactNumber location' },
+        'title price category description location condition images status totalViews sellerId buyerId',
+      populate: [
+        { path: 'sellerId', select: 'name email contactNumber location' },
+        { path: 'buyerId', select: 'name email contactNumber location' },
+      ],
     },
   );
 

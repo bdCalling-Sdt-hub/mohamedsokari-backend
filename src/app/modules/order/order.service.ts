@@ -103,10 +103,12 @@ const orderConfirmBySeller = async (id: string, productId: string) => {
         'Order not found or already completed',
       );
     }
+    console.log('first');
+    console.log('first', order.customerId);
     // Update the product status to 'sold'
     const product = await Product.findByIdAndUpdate(
       productId,
-      { $set: { status: 'sold' } },
+      { $set: { status: 'sold', buyerId: order.customerId } },
       { session, new: true },
     );
     if (!product) {

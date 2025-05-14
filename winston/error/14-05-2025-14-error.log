@@ -1,0 +1,15 @@
+Wed May 14 2025 14:9:9 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/admin/category/create-service 400 - 314.861 ms
+Wed May 14 2025 14:10:23 [SERVER-NAME] error: 10.0.60.110 - PATCH /api/v1/admin/category/undefined 400 - 317.363 ms
+Wed May 14 2025 14:12:45 [SERVER-NAME] error: 10.0.60.110 - PATCH /api/v1/admin/category/undefined 400 - 311.784 ms
+Wed May 14 2025 14:16:41 [SERVER-NAME] error: 10.0.60.110 - PATCH /api/v1/admin/category/undefined 400 - 316.854 ms
+Wed May 14 2025 14:21:32 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/reports/statistics?location=&month=2025-05 404 - 641.790 ms
+Wed May 14 2025 14:21:47 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/reports/statistics?location=sdfs&month=2025-05 404 - 632.530 ms
+Wed May 14 2025 14:21:57 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/reports/statistics?location=sdfs&month=2025-04 404 - 632.552 ms
+Wed May 14 2025 14:22:5 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/reports/statistics?location=&month=2025-04 404 - 642.075 ms
+Wed May 14 2025 14:22:7 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/reports/statistics?location=&month=2025-04 404 - 632.881 ms
+Wed May 14 2025 14:22:8 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/reports/statistics?location=&month=2025-04 404 - 637.570 ms
+Wed May 14 2025 14:22:10 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/reports/statistics?location=&month=2025-04 404 - 632.361 ms
+Wed May 14 2025 14:22:54 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/reports/statistics?location=Abdiaziz&month=2025-04 404 - 634.378 ms
+Wed May 14 2025 14:23:3 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/reports/statistics?location=Abdiaziz&month=2025-06 404 - 632.605 ms
+Wed May 14 2025 14:23:7 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/reports/statistics?location=Abdiaziz&month=2025-03 404 - 632.979 ms
+Wed May 14 2025 14:23:29 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/reports/statistics?location=Abdiaziz&month=2025-03 404 - 642.855 ms

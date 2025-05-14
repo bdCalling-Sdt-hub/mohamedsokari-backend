@@ -115,9 +115,9 @@ const getReportedIssuesStatistics = async (query: Record<string, unknown>) => {
     },
   ]);
 
-  if (!statistics || statistics.length === 0) {
-    throw new AppError(StatusCodes.NOT_FOUND, 'No statistics found');
-  }
+  // if (!statistics || statistics.length === 0) {
+  //   throw new AppError(StatusCodes.NOT_FOUND, 'No statistics found');
+  // }
 
   const result = statistics.reduce((acc: any, curr: any) => {
     const { month, status, count } = curr;
