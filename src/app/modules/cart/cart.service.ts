@@ -29,7 +29,6 @@ const addItemToCart = async (userId: string, productId: any) => {
       }
     }
 
-    console.log('Updating product with ID:', productId);
     const updatedProduct = await Product.findByIdAndUpdate(
       productId,
       { $inc: { countAddToCart: 1 } },

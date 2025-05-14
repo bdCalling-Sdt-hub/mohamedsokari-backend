@@ -6,11 +6,6 @@
     "auditLog": "C:\\Users\\Rakib\\OneDrive\\Desktop\\projects\\E-Commerce-App\\winston\\error\\.90d1b362cdbaf46b9c87a9f8d14599f3683503cd-audit.json",
     "files": [
         {
-            "date": 1747150483426,
-            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\projects\\E-Commerce-App\\winston\\error\\13-05-2025-21-error.log",
-            "hash": "502921f4222f6ad3b7ee42730eac2f30c70c865da9a0ddd5023dbc736db05f98"
-        },
-        {
             "date": 1747152086946,
             "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\projects\\E-Commerce-App\\winston\\error\\13-05-2025-22-error.log",
             "hash": "84f2702386f1c48288036ab5bfcf14c1c3341cc8cb97c5546cd410cb2da62297"
@@ -74,6 +69,11 @@
             "date": 1747234919386,
             "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\projects\\E-Commerce-App\\winston\\error\\14-05-2025-21-error.log",
             "hash": "3510df2ce37fc872c29a71767358d35630baaa1ccd5e2c2fef6ffbbf3975f41d"
+        },
+        {
+            "date": 1747238429172,
+            "name": "C:\\Users\\Rakib\\OneDrive\\Desktop\\projects\\E-Commerce-App\\winston\\error\\14-05-2025-22-error.log",
+            "hash": "69f305effd1315a5abaa11a207cb1e6d9abb0c4c1fd3c076235fa55f1811bb7c"
         }
     ],
     "hashType": "sha256"

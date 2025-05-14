@@ -13,7 +13,6 @@ const orderConfirmByBuyer = async (payload: Partial<IOrder>) => {
   const data = {
     ...payload,
     price: Number(payload.totalPrice),
-    confirmBybyer: true,
   };
   const user = await User.findById(data.customerId);
   if (!user) {
@@ -23,6 +22,7 @@ const orderConfirmByBuyer = async (payload: Partial<IOrder>) => {
   // Check if an order already exists for the given customerId
   const isExistOrderByUser = await Order.findOne({
     customerId: data.customerId,
+    productId: data.productId,
   });
 
   if (isExistOrderByUser) {
