@@ -43,7 +43,12 @@ const getSellerHistory = async (
   sellerId: string,
   query: Record<string, unknown>,
 ) => {
-  const queryBuilder = new QueryBuilder(Order.find({ sellerId }), query);
+  const queryBuilder = new QueryBuilder(
+    Order.find({ sellerId })
+      .populate('productId', 'name')
+      .populate('customerId', 'location name'),
+    query,
+  );
   const history = await queryBuilder
     .search([])
     .filter()
@@ -60,7 +65,12 @@ const getBuyerHistory = async (
   customerId: string,
   query: Record<string, unknown>,
 ) => {
-  const queryBuilder = new QueryBuilder(Order.find({ customerId }), query);
+  const queryBuilder = new QueryBuilder(
+    Order.find({ customerId })
+      .populate('productId', 'name')
+      .populate('sellerId', 'location name'),
+    query,
+  );
   const history = await queryBuilder
     .search([])
     .filter()
@@ -183,7 +193,10 @@ const getTopDistricts = async (query: Record<string, any>) => {
   if (query?.month) {
     const [year, month] = query?.month.split('-');
     if (!year || !month) {
-      throw new AppError(StatusCodes.BAD_REQUEST, 'Invalid month format. Use YYYY-MM format.');
+      throw new AppError(
+        StatusCodes.BAD_REQUEST,
+        'Invalid month format. Use YYYY-MM format.',
+      );
     }
     const startDate = new Date(`${year}-${month}-01`);
     const endDate = new Date(Number(year), Number(month), 0);
@@ -194,7 +207,10 @@ const getTopDistricts = async (query: Record<string, any>) => {
   else if (query?.year) {
     const year = query?.year;
     if (!year) {
-      throw new AppError(StatusCodes.BAD_REQUEST, 'Year is required in YYYY format.');
+      throw new AppError(
+        StatusCodes.BAD_REQUEST,
+        'Year is required in YYYY format.',
+      );
     }
     const startDate = new Date(`${year}-01-01`);
     const endDate = new Date(Number(year) + 1, 0, 0);
@@ -211,12 +227,15 @@ const getTopDistricts = async (query: Record<string, any>) => {
   }
 
   // Pagination: page and limit with defaults
-  const page = parseInt(query?.page || '1');  // Default to 1
+  const page = parseInt(query?.page || '1'); // Default to 1
   const limit = parseInt(query?.limit || '5'); // Default to 5
 
   // Ensure valid pagination values
   if (page <= 0 || limit <= 0) {
-    throw new AppError(StatusCodes.BAD_REQUEST, 'Page and limit should be positive integers.');
+    throw new AppError(
+      StatusCodes.BAD_REQUEST,
+      'Page and limit should be positive integers.',
+    );
   }
 
   const skip = (page - 1) * limit;
@@ -232,17 +251,17 @@ const getTopDistricts = async (query: Record<string, any>) => {
       },
     },
     {
-      $sort: { count: -1 }, 
+      $sort: { count: -1 },
     },
     {
       $project: {
-        _id: 0, 
-        district: '$_id', 
-        count: 1, 
+        _id: 0,
+        district: '$_id',
+        count: 1,
       },
     },
     {
-      $skip: skip,  // Skip for pagination
+      $skip: skip, // Skip for pagination
     },
     {
       $limit: limit, // Limit the number of records returned
@@ -250,7 +269,10 @@ const getTopDistricts = async (query: Record<string, any>) => {
   ]);
 
   if (!topDistricts || topDistricts.length === 0) {
-    throw new AppError(StatusCodes.NOT_FOUND, 'No user data found for the given filters');
+    throw new AppError(
+      StatusCodes.NOT_FOUND,
+      'No user data found for the given filters',
+    );
   }
 
   // Return results with pagination metadata
@@ -270,7 +292,6 @@ const getTopDistricts = async (query: Record<string, any>) => {
     },
   };
 };
-
 
 export const DashboardUserService = {
   allUser,
