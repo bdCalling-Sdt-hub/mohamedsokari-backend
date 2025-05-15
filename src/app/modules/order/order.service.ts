@@ -6,6 +6,7 @@ import Product from '../products/products.model';
 import { sendNotifications } from '../../../helpers/notificationsHelper';
 import mongoose from 'mongoose';
 import { User } from '../user/user.model';
+import QueryBuilder from '../../builder/QueryBuilder';
 
 // Order confirm by buyer
 const orderConfirmByBuyer = async (payload: Partial<IOrder>) => {
@@ -53,6 +54,7 @@ const orderConfirmByBuyer = async (payload: Partial<IOrder>) => {
     // Send notifications to the seller
     await sendNotifications({
       receiver: data.sellerId,
+      title: 'New Order Request', // Add the title her
       text: `New order has been placed by ${user.name} for the product: ${product.title}.`,
       type: 'ORDER',
       orderId: order[0]._id,
@@ -77,7 +79,7 @@ const getOrder = async (orderId: string) => {
   const order = await Order.findById(orderId)
     .populate({
       path: 'customerId',
-      select: 'name email contactNumber location',
+      select: 'name email contactNumber location image',
     })
     .populate({
       path: 'productId',
@@ -119,7 +121,8 @@ const orderConfirmBySeller = async (id: string, productId: string) => {
     // Sending notifications to the customer
     await sendNotifications({
       receiver: order.customerId,
-      text: `Your order for the product '${product.title}' has been successfully placed.`,
+      title: 'Great News! Your Order Is Accepted',
+      text: `Your order for the product '${product.title}' has been successfully completed.`,
       type: 'DELIVERY',
       amount: product.price,
     });
@@ -127,6 +130,7 @@ const orderConfirmBySeller = async (id: string, productId: string) => {
     // Sending notifications to the seller
     await sendNotifications({
       receiver: order.sellerId,
+      title: 'Congratulation! Your Product Has Been Sold',
       text: `The product '${product.title}' has been successfully sold.`,
       type: 'DELIVERY',
       amount: product.price,
@@ -167,6 +171,7 @@ const cancelledOrderBySeller = async (orderId: string) => {
     // Sending notifications to the customer
     await sendNotifications({
       receiver: order.customerId,
+      title: 'Order Cancelled',
       text: `Your order has been cancelled by seller.`,
       type: 'CANCELLED',
     });
@@ -180,9 +185,40 @@ const cancelledOrderBySeller = async (orderId: string) => {
     session.endSession();
   }
 };
+const getTransaction = async (query: Record<string, unknown>) => {
+  const queryBuilder = new QueryBuilder(
+    Order.find().populate('sellerId', 'name image email'),
+    query,
+  );
+
+  const transaction = await queryBuilder
+    .search(['title', 'category'])
+    .filter()
+    .sort()
+    .paginate()
+    .fields().modelQuery;
+
+  const meta = await queryBuilder.countTotal();
+
+  return {
+    meta,
+    transaction,
+  };
+};
+const getTransactionSingle = async (id: string) => {
+  const result = await Order.findById(id)
+    .populate('sellerId', 'name image email')
+    .populate('customerId', 'name email contactNumber');
+  if (!result) {
+    throw new AppError(StatusCodes.NOT_FOUND, 'Order not found');
+  }
+  return result;
+};
 export const OrderService = {
   orderConfirmByBuyer,
   orderConfirmBySeller,
   getOrder,
   cancelledOrderBySeller,
+  getTransaction,
+  getTransactionSingle,
 };

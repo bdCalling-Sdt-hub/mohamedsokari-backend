@@ -1,0 +1,8 @@
+Thu May 15 2025 13:9:8 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/messages/undefined 400 - 287.270 ms
+Thu May 15 2025 13:15:21 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/users/profile 403 - 284.913 ms
+Thu May 15 2025 13:19:14 [SERVER-NAME] error: 10.0.60.126 - PATCH /api/v1/setting/ 404 - 1.293 ms
+Thu May 15 2025 13:19:47 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/messages/undefined 400 - 282.024 ms
+Thu May 15 2025 13:24:0 [SERVER-NAME] error: 10.0.60.126 - PUT /api/v1/setting/ 404 - 159.677 ms
+Thu May 15 2025 13:25:16 [SERVER-NAME] error: 10.0.60.126 - PUT /api/v1/setting/ 403 - 1304.235 ms
+Thu May 15 2025 13:28:34 [SERVER-NAME] error: 10.0.60.110 - PATCH /api/v1/users/profile 400 - 289.575 ms
+Thu May 15 2025 13:31:31 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/settings 404 - 0.832 ms

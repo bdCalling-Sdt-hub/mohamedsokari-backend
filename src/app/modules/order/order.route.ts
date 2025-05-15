@@ -18,6 +18,16 @@ router.post(
   auth(USER_ROLES.USER),
   OrderController.orderConfirmBySeller,
 );
+router.get(
+  '/transaction',
+  auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),
+  OrderController.transactionOrders,
+);
+router.get(
+  '/transaction/:id',
+  auth(USER_ROLES.ADMIN, USER_ROLES.SUPER_ADMIN),
+  OrderController.transactionSingleDetails,
+);
 router.get('/:id', auth(USER_ROLES.USER), OrderController.getOrderbyId);
 router.delete('/:id', auth(USER_ROLES.USER), OrderController.cancelledOrder);
 

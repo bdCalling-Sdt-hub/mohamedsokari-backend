@@ -4,13 +4,7 @@ import sendResponse from '../../../shared/sendResponse';
 import { settingsService } from './sattings.service';
 
 const addSetting = catchAsync(async (req, res) => {
-  const settingData = {
-    privacyPolicy: '',
-    aboutUs: '',
-    support: '',
-    termsOfService: '',
-  };
-  const result = await settingsService.addSettings(settingData);
+  const result = await settingsService.upsertSettings(req.body);
   sendResponse(res, {
     statusCode: StatusCodes.OK,
     success: true,
@@ -43,24 +37,10 @@ const getSupport = catchAsync(async (req, res): Promise<void> => {
   const htmlContent = await settingsService.getSupport();
   res.sendFile(htmlContent);
 });
-
-const updateSetting = catchAsync(async (req, res) => {
-  //   const { id } = req.params;
-  const settingData = { ...req.body };
-  const result = await settingsService.updateSettings(settingData);
-  sendResponse(res, {
-    statusCode: StatusCodes.OK,
-    success: true,
-    message: 'Setting update successfully',
-    data: result,
-  });
-});
-
 export const settingsController = {
-  addSetting,
   getSettings,
   getPrivacyPolicy,
   getAccountDelete,
   getSupport,
-  updateSetting,
+  addSetting,
 };

@@ -38,6 +38,20 @@ const readNotificationToDB = async (
   );
   return result;
 };
+const readNotificationSingleToDB = async (
+  id: string,
+): Promise<INotification | undefined> => {
+  const result: any = await Notification.findByIdAndUpdate(
+    id,
+    {
+      $set: { read: true },
+    },
+    {
+      new: true,
+    },
+  );
+  return result;
+};
 
 // get notifications for admin
 const adminNotificationFromDB = async () => {
@@ -120,4 +134,5 @@ export const NotificationService = {
   readNotificationToDB,
   adminReadNotificationToDB,
   adminSendNotificationFromDB,
+  readNotificationSingleToDB,
 };

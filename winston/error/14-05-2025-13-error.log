@@ -1,2 +1,0 @@
-Wed May 14 2025 13:6:9 [SERVER-NAME] error: 10.0.60.110 - PATCH /api/v1/admin/category/undefined 400 - 289.579 ms
-Wed May 14 2025 13:6:25 [SERVER-NAME] error: 10.0.60.110 - POST /api/v1/admin/category/create-service 400 - 297.210 ms

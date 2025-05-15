@@ -1,0 +1,13 @@
+Thu May 15 2025 18:3:52 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/tutorials/null 400 - 291.254 ms
+Thu May 15 2025 18:6:40 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/tutorials/undefined 400 - 293.722 ms
+Thu May 15 2025 18:6:45 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/tutorials/undefined 400 - 289.319 ms
+Thu May 15 2025 18:45:4 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/notifications 403 - 291.258 ms
+Thu May 15 2025 18:47:14 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/notifications 403 - 288.359 ms
+Thu May 15 2025 18:47:16 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/notifications 403 - 288.504 ms
+Thu May 15 2025 18:47:40 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/notifications 403 - 288.005 ms
+Thu May 15 2025 18:47:42 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/notifications/admin 403 - 292.060 ms
+Thu May 15 2025 18:47:57 [SERVER-NAME] error: 10.0.60.126 - GET /api/v1/notifications/admin 403 - 288.580 ms
+Thu May 15 2025 18:53:54 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/orders/transaction/undefined 400 - 292.147 ms
+Thu May 15 2025 18:53:56 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/orders/transaction/undefined 400 - 288.749 ms
+Thu May 15 2025 18:59:55 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/orders/transaction/undefined 400 - 296.254 ms
+Thu May 15 2025 18:59:57 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/orders/transaction/undefined 400 - 290.240 ms

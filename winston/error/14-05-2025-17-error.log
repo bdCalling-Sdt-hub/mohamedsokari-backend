@@ -1,6 +1,0 @@
-Wed May 14 2025 17:44:44 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/chats?searchTerm= 404 - 0.592 ms
-Wed May 14 2025 17:44:44 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/messages/undefined 403 - 293.542 ms
-Wed May 14 2025 17:59:14 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/chats?searchTerm= 404 - 0.590 ms
-Wed May 14 2025 17:59:14 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/messages/undefined 403 - 288.422 ms
-Wed May 14 2025 17:59:20 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/chats?searchTerm= 404 - 0.394 ms
-Wed May 14 2025 17:59:20 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/messages/undefined 403 - 283.725 ms

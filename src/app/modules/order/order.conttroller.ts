@@ -42,10 +42,32 @@ const cancelledOrder = catchAsync(async (req, res) => {
     message: 'Order has been cancelled!',
   });
 });
+const transactionOrders = catchAsync(async (req, res) => {
+  const result = await OrderService.getTransaction(req.query);
+  sendResponse(res, {
+    statusCode: StatusCodes.OK,
+    success: true,
+    message: 'Transaction retrieved successfully',
+    data: result.transaction,
+    pagination: result.meta,
+  });
+});
+const transactionSingleDetails = catchAsync(async (req, res) => {
+  const { id } = req.params;
+  const result = await OrderService.getTransactionSingle(id);
+  sendResponse(res, {
+    statusCode: StatusCodes.OK,
+    success: true,
+    message: 'Transaction retrieved successfully',
+    data: result,
+  });
+});
 
 export const OrderController = {
   orderConfirmByBuyer,
   orderConfirmBySeller,
   getOrderbyId,
   cancelledOrder,
+  transactionOrders,
+  transactionSingleDetails,
 };

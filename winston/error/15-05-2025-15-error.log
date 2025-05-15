@@ -1,0 +1,2 @@
+Thu May 15 2025 15:41:39 [SERVER-NAME] error: 10.0.60.110 - PUT /api/v1/settings/ 400 - 28.343 ms
+Thu May 15 2025 15:53:15 [SERVER-NAME] error: 10.0.60.34 - PATCH /api/v1/chat/mark-chat-as-read/67d685793b22980e20486bd1 401 - 4.239 ms

@@ -1,0 +1,62 @@
+Thu May 15 2025 19:0:6 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/orders/transaction/undefined 204 - 0.090 ms
+Thu May 15 2025 19:0:12 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/orders/transaction/undefined 204 - 0.076 ms
+Thu May 15 2025 19:0:18 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/orders/transaction/6825cceb5f61f430411cacbf 200 - 866.961 ms
+Thu May 15 2025 19:0:29 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/orders/transaction/undefined 204 - 0.071 ms
+Thu May 15 2025 19:2:27 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/orders/6824b3cd8a26c5b714329b42 200 - 874.798 ms
+Thu May 15 2025 19:6:6 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/users/profile 204 - 0.058 ms
+Thu May 15 2025 19:6:6 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/orders/transaction 204 - 0.030 ms
+Thu May 15 2025 19:6:7 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/users/profile 304 - 586.219 ms
+Thu May 15 2025 19:6:7 [SERVER-NAME] info: 10.0.60.110 - GET /image/5092b3d56babde016a9c735442461683ff2abe35-1747301541911.jpg 304 - 0.260 ms
+Thu May 15 2025 19:6:7 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/orders/transaction 200 - 1146.631 ms
+Thu May 15 2025 19:6:43 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/users/profile 204 - 0.050 ms
+Thu May 15 2025 19:6:43 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/orders/transaction 204 - 0.041 ms
+Thu May 15 2025 19:6:43 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/users/profile 304 - 574.431 ms
+Thu May 15 2025 19:6:43 [SERVER-NAME] info: 10.0.60.110 - GET /image/5092b3d56babde016a9c735442461683ff2abe35-1747301541911.jpg 304 - 0.548 ms
+Thu May 15 2025 19:6:44 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/orders/transaction 304 - 1160.577 ms
+Thu May 15 2025 19:6:44 [SERVER-NAME] info: 10.0.60.110 - GET /image/scaled_1000000300-1746802772684.jpg 200 - 7.970 ms
+Thu May 15 2025 19:6:50 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/orders/transaction/6825cceb5f61f430411cacbf 204 - 0.047 ms
+Thu May 15 2025 19:6:51 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/orders/transaction/6825cceb5f61f430411cacbf 200 - 864.752 ms
+Thu May 15 2025 19:7:4 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/users/profile 204 - 0.049 ms
+Thu May 15 2025 19:7:4 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/orders/transaction 204 - 0.044 ms
+Thu May 15 2025 19:7:4 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/users/profile 304 - 577.844 ms
+Thu May 15 2025 19:7:4 [SERVER-NAME] info: 10.0.60.110 - GET /image/5092b3d56babde016a9c735442461683ff2abe35-1747301541911.jpg 304 - 0.260 ms
+Thu May 15 2025 19:7:5 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/orders/transaction 304 - 1153.922 ms
+Thu May 15 2025 19:7:5 [SERVER-NAME] info: 10.0.60.110 - GET /image/scaled_1000000300-1746802772684.jpg 304 - 0.263 ms
+Thu May 15 2025 19:7:11 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/users/profile 204 - 0.045 ms
+Thu May 15 2025 19:7:11 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/orders/transaction 204 - 0.037 ms
+Thu May 15 2025 19:7:11 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/users/profile 304 - 577.733 ms
+Thu May 15 2025 19:7:11 [SERVER-NAME] info: 10.0.60.110 - GET /image/5092b3d56babde016a9c735442461683ff2abe35-1747301541911.jpg 304 - 0.217 ms
+Thu May 15 2025 19:7:12 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/orders/transaction 304 - 1155.810 ms
+Thu May 15 2025 19:7:12 [SERVER-NAME] info: 10.0.60.110 - GET /image/scaled_1000000300-1746802772684.jpg 304 - 0.248 ms
+Thu May 15 2025 19:7:44 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/orders/transaction/undefined 204 - 0.046 ms
+Thu May 15 2025 19:8:27 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/orders/transaction/6825cceb5f61f430411cacbf 204 - 0.055 ms
+Thu May 15 2025 19:8:28 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/orders/transaction/6825cceb5f61f430411cacbf 304 - 873.745 ms
+Thu May 15 2025 19:16:7 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/login 200 - 533.277 ms
+Thu May 15 2025 19:16:9 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/banner 200 - 577.605 ms
+Thu May 15 2025 19:16:9 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1435.659 ms
+Thu May 15 2025 19:16:9 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 1456.176 ms
+Thu May 15 2025 19:16:16 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/notifications 200 - 1162.196 ms
+Thu May 15 2025 19:16:23 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/orders/6825cceb5f61f430411cacbf 200 - 864.776 ms
+Thu May 15 2025 19:17:56 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/orders/6825cceb5f61f430411cacbf 200 - 863.625 ms
+Thu May 15 2025 19:17:57 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/orders/transaction/6825bbd9d2b8c5fb3915f93f 204 - 0.044 ms
+Thu May 15 2025 19:17:58 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/orders/transaction/6825bbd9d2b8c5fb3915f93f 200 - 869.374 ms
+Thu May 15 2025 19:18:0 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/orders/transaction/6824b3cd8a26c5b714329b42 204 - 0.049 ms
+Thu May 15 2025 19:18:1 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/orders/6825cceb5f61f430411cacbf 200 - 873.120 ms
+Thu May 15 2025 19:18:1 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/orders/transaction/6824b3cd8a26c5b714329b42 200 - 865.487 ms
+Thu May 15 2025 19:18:6 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/orders/transaction/6825bcb5d2b8c5fb3915f9cd 204 - 0.049 ms
+Thu May 15 2025 19:18:6 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/orders/6825cceb5f61f430411cacbf 200 - 855.318 ms
+Thu May 15 2025 19:18:6 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/orders/transaction/6825bcb5d2b8c5fb3915f9cd 200 - 863.874 ms
+Thu May 15 2025 19:19:39 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/orders/6825cceb5f61f430411cacbf 200 - 865.950 ms
+Thu May 15 2025 19:19:49 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/orders/6825cceb5f61f430411cacbf 200 - 864.180 ms
+Thu May 15 2025 19:19:53 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/orders/6825cceb5f61f430411cacbf 200 - 881.449 ms
+Thu May 15 2025 19:20:0 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/orders/6825cceb5f61f430411cacbf 200 - 866.898 ms
+Thu May 15 2025 19:20:7 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/orders/6825cceb5f61f430411cacbf 200 - 866.682 ms
+Thu May 15 2025 19:20:41 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/orders/transaction/6825cceb5f61f430411cacbf 204 - 0.048 ms
+Thu May 15 2025 19:20:41 [SERVER-NAME] info: 10.0.60.110 - GET /image/scaled_1000000300-1746802772684.jpg 304 - 0.175 ms
+Thu May 15 2025 19:20:42 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/orders/transaction/6825cceb5f61f430411cacbf 304 - 863.804 ms
+Thu May 15 2025 19:24:54 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 19:24:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 15 2025 19:25:0 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 19:25:2 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 15 2025 19:25:5 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 19:25:8 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m

@@ -15,6 +15,11 @@ router.get(
   NotificationController.adminNotificationFromDB,
 );
 router.patch(
+  '/single/:id',
+  auth(USER_ROLES.USER),
+  NotificationController.readNotificationSingle,
+);
+router.patch(
   '/',
   auth(USER_ROLES.USER),
   NotificationController.readNotification,

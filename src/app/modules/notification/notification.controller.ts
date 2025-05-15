@@ -38,6 +38,17 @@ const readNotification = catchAsync(async (req, res) => {
     data: result,
   });
 });
+const readNotificationSingle = catchAsync(async (req, res) => {
+  const { id } = req.params;
+  const result = await NotificationService.readNotificationSingleToDB(id);
+
+  sendResponse(res, {
+    statusCode: StatusCodes.OK,
+    success: true,
+    message: 'Notification Read Successfully',
+    data: result,
+  });
+});
 
 const adminReadNotification = catchAsync(async (req, res) => {
   const result = await NotificationService.adminReadNotificationToDB();
@@ -68,4 +79,5 @@ export const NotificationController = {
   readNotification,
   adminReadNotification,
   sendAdminNotification,
+  readNotificationSingle,
 };

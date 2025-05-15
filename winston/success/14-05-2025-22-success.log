@@ -154,3 +154,13 @@ Wed May 14 2025 22:29:52 [SERVER-NAME] info: [33m♻️  Application listening 
 Wed May 14 2025 22:29:57 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
 Wed May 14 2025 22:30:3 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
 Wed May 14 2025 22:30:6 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Wed May 14 2025 22:30:47 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/orders/confirm-buyer 202 - 2016.078 ms
+Wed May 14 2025 22:31:9 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/orders/confirm-buyer 200 - 852.109 ms
+Wed May 14 2025 22:31:27 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/reviews/seller/680348da0ae1f813f5db4beb 200 - 275.700 ms
+Wed May 14 2025 22:31:27 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/68245dd70a06f180c42faa69 200 - 865.504 ms
+Wed May 14 2025 22:31:28 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/feature?page=1&category=Equipment 200 - 1434.684 ms
+Wed May 14 2025 22:31:34 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/orders/confirm-buyer 202 - 1990.128 ms
+Wed May 14 2025 22:32:21 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/notifications 200 - 852.902 ms
+Wed May 14 2025 22:32:34 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 499.439 ms
+Wed May 14 2025 22:32:43 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/notifications 200 - 1128.396 ms
+Wed May 14 2025 22:35:27 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/orders/6824b3cd8a26c5b714329b42 200 - 845.721 ms

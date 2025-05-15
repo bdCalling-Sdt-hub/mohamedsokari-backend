@@ -19,6 +19,7 @@ import { CustomerReviewRoutes } from '../app/modules/customerreview/customerrevi
 import { FavouritdRouter } from '../app/modules/favourit/favourit.router';
 import { ChatRoutes } from '../app/modules/chat/chat.route';
 import { MessageRoutes } from '../app/modules/message/message.route';
+import SettingsRouter from '../app/modules/sattings/sattings.route';
 
 const router = express.Router();
 const routes = [
@@ -125,6 +126,10 @@ const routes = [
   {
     path: '/reviews',
     route: CustomerReviewRoutes,
+  },
+  {
+    path: '/settings',
+    route: SettingsRouter,
   },
 ];
 
