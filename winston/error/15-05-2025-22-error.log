@@ -1,0 +1,9 @@
+Thu May 15 2025 22:3:25 [SERVER-NAME] error: 10.0.60.34 - POST /api/v1/orders/confirm-seller/6825cceb5f61f430411cacbf 500 - 830.695 ms
+Thu May 15 2025 22:3:44 [SERVER-NAME] error: 10.0.60.34 - POST /api/v1/orders/confirm-seller/6825cceb5f61f430411cacbf 500 - 821.402 ms
+Thu May 15 2025 22:5:1 [SERVER-NAME] error: 10.0.60.34 - POST /api/v1/orders/confirm-seller/6825cceb5f61f430411cacbf 500 - 825.605 ms
+Thu May 15 2025 22:5:46 [SERVER-NAME] error: 10.0.60.34 - POST /api/v1/orders/confirm-seller/6825cceb5f61f430411cacbf 500 - 823.659 ms
+Thu May 15 2025 22:6:23 [SERVER-NAME] error: 10.0.60.34 - DELETE /api/v1/orders/67f247548d22beac5661e830 500 - 823.260 ms
+Thu May 15 2025 22:9:27 [SERVER-NAME] error: 10.0.60.34 - DELETE /api/v1/orders/6824b3cd8a26c5b714329b42 500 - 823.098 ms
+Thu May 15 2025 22:10:31 [SERVER-NAME] error: 10.0.60.34 - DELETE /api/v1/orders/confirm-seller/6825cceb5f61f430411cacbf 404 - 0.578 ms
+Thu May 15 2025 22:11:4 [SERVER-NAME] error: 10.0.60.34 - DELETE /api/v1/orders/6825cceb5f61f430411cacbf 500 - 843.701 ms
+Thu May 15 2025 22:11:9 [SERVER-NAME] error: 10.0.60.34 - DELETE /api/v1/orders/6825cceb5f61f430411cacbf 500 - 841.637 ms

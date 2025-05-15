@@ -1,0 +1,24 @@
+Thu May 15 2025 22:3:23 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/orders/6825cceb5f61f430411cacbf 200 - 822.245 ms
+Thu May 15 2025 22:3:23 [SERVER-NAME] info: 10.0.60.34 - GET //image/scaled_1000000249-1747303278278.jpg 200 - 1.714 ms
+Thu May 15 2025 22:5:26 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/orders/6825cceb5f61f430411cacbf 200 - 835.994 ms
+Thu May 15 2025 22:8:12 [SERVER-NAME] info: 10.0.60.34 - DELETE /api/v1/orders/6824b3cd8a26c5b714329b42 200 - 1403.719 ms
+Thu May 15 2025 22:10:13 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/auth/login 200 - 495.262 ms
+Thu May 15 2025 22:10:14 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/banner 200 - 550.701 ms
+Thu May 15 2025 22:10:16 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 2858.539 ms
+Thu May 15 2025 22:10:16 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 2902.631 ms
+Thu May 15 2025 22:10:19 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/notifications 200 - 1138.225 ms
+Thu May 15 2025 22:10:30 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/orders/6825cceb5f61f430411cacbf 200 - 842.891 ms
+Thu May 15 2025 22:12:6 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/orders/6825cceb5f61f430411cacbf 200 - 842.994 ms
+Thu May 15 2025 22:12:17 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/orders/6825cceb5f61f430411cacbf 200 - 841.682 ms
+Thu May 15 2025 22:13:50 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/tutorials 200 - 281.307 ms
+Thu May 15 2025 22:14:9 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/users/profile 200 - 561.375 ms
+Thu May 15 2025 22:14:40 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 22:14:42 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 15 2025 22:14:46 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/banner 200 - 4966.507 ms
+Thu May 15 2025 22:14:47 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/notifications 200 - 5023.287 ms
+Thu May 15 2025 22:14:48 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/resent?page=1 200 - 6900.935 ms
+Thu May 15 2025 22:14:48 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 7200.104 ms
+Thu May 15 2025 22:14:49 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/notifications 200 - 1141.701 ms
+Thu May 15 2025 22:14:57 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/orders/6825cceb5f61f430411cacbf 200 - 857.676 ms
+Thu May 15 2025 22:15:30 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/orders/6825cceb5f61f430411cacbf 200 - 862.774 ms
+Thu May 15 2025 22:15:40 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/users/profile 200 - 558.851 ms

@@ -101,7 +101,10 @@ const orderConfirmBySeller = async (id: string, productId: string) => {
     }
     // Check if the order is already completed
     if (isExistOrder.status === 'completed') {
-      throw new AppError(StatusCodes.BAD_REQUEST, 'This order is already completed');
+      throw new AppError(
+        StatusCodes.BAD_REQUEST,
+        'This order is already completed',
+      );
     }
     // Update the order status to 'completed'
     const order = await Order.findByIdAndUpdate(
@@ -163,6 +166,12 @@ const cancelledOrderBySeller = async (orderId: string) => {
       throw new AppError(
         StatusCodes.BAD_REQUEST,
         'Order cannot be cancelled in its current state',
+      );
+    }
+    if (order.status === 'cancelled') {
+      throw new AppError(
+        StatusCodes.BAD_REQUEST,
+        'Order has already been cancelled',
       );
     }
     const result = await Order.findByIdAndDelete(orderId).session(session);
