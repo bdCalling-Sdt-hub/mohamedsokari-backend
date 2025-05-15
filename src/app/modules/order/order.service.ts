@@ -95,7 +95,14 @@ const orderConfirmBySeller = async (id: string, productId: string) => {
   const session = await mongoose.startSession();
   try {
     session.startTransaction();
-
+    const isExistOrder = await Order.findById(id).session(session);
+    if (!isExistOrder) {
+      throw new AppError(StatusCodes.NOT_FOUND, 'Order not found');
+    }
+    // Check if the order is already completed
+    if (isExistOrder.status === 'completed') {
+      throw new AppError(StatusCodes.BAD_REQUEST, 'This order is already completed');
+    }
     // Update the order status to 'completed'
     const order = await Order.findByIdAndUpdate(
       id,
@@ -103,10 +110,7 @@ const orderConfirmBySeller = async (id: string, productId: string) => {
       { session, new: true },
     );
     if (!order) {
-      throw new AppError(
-        StatusCodes.BAD_REQUEST,
-        'Order not found or already completed',
-      );
+      throw new AppError(StatusCodes.BAD_REQUEST, 'Order not found!');
     }
     // Update the product status to 'sold'
     const product = await Product.findByIdAndUpdate(

@@ -1,0 +1,81 @@
+Thu May 15 2025 20:10:54 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 20:10:57 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 20:10:59 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 20:11:2 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 15 2025 20:11:4 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 20:11:7 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 15 2025 20:11:11 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 20:11:12 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 20:11:15 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 20:11:18 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/users/profile 204 - 0.693 ms
+Thu May 15 2025 20:11:18 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/6803475e0ae1f813f5db4bd1 204 - 0.055 ms
+Thu May 15 2025 20:11:18 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 15 2025 20:11:21 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/users/profile 304 - 2884.678 ms
+Thu May 15 2025 20:11:21 [SERVER-NAME] info: 10.0.60.110 - GET /image/5092b3d56babde016a9c735442461683ff2abe35-1747301541911.jpg 304 - 0.770 ms
+Thu May 15 2025 20:11:21 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/6803475e0ae1f813f5db4bd1 304 - 2893.751 ms
+Thu May 15 2025 20:11:22 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/seller-history/6803475e0ae1f813f5db4bd1 204 - 0.067 ms
+Thu May 15 2025 20:11:23 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/seller-history/6803475e0ae1f813f5db4bd1 200 - 1116.106 ms
+Thu May 15 2025 20:11:47 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 20:11:48 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 20:11:51 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 15 2025 20:11:54 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/seller-history/6803475e0ae1f813f5db4bd1 200 - 5188.739 ms
+Thu May 15 2025 20:11:56 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 20:11:58 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 20:12:0 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 20:12:3 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 15 2025 20:12:6 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 20:12:8 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 20:12:10 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 20:12:12 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 20:12:15 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 15 2025 20:12:41 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 20:12:44 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 15 2025 20:12:49 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 20:12:52 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 15 2025 20:13:28 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 20:13:30 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 20:13:33 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 15 2025 20:13:36 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/seller-history/6803475e0ae1f813f5db4bd1 200 - 4786.183 ms
+Thu May 15 2025 20:14:30 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/6803475e0ae1f813f5db4bd1 204 - 1.293 ms
+Thu May 15 2025 20:14:30 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/users/profile 204 - 0.167 ms
+Thu May 15 2025 20:14:31 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/users/profile 304 - 564.097 ms
+Thu May 15 2025 20:14:31 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/6803475e0ae1f813f5db4bd1 304 - 576.368 ms
+Thu May 15 2025 20:14:31 [SERVER-NAME] info: 10.0.60.110 - GET /image/5092b3d56babde016a9c735442461683ff2abe35-1747301541911.jpg 304 - 0.721 ms
+Thu May 15 2025 20:14:32 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/seller-history/6803475e0ae1f813f5db4bd1 204 - 0.065 ms
+Thu May 15 2025 20:14:33 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/seller-history/6803475e0ae1f813f5db4bd1 200 - 1114.404 ms
+Thu May 15 2025 20:14:43 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/buyer-history/6803475e0ae1f813f5db4bd1 204 - 0.057 ms
+Thu May 15 2025 20:14:43 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/buyer-history/6803475e0ae1f813f5db4bd1 304 - 834.040 ms
+Thu May 15 2025 20:15:54 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/seller-history/6803475e0ae1f813f5db4bd1 204 - 0.072 ms
+Thu May 15 2025 20:15:55 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/seller-history/6803475e0ae1f813f5db4bd1 304 - 1119.660 ms
+Thu May 15 2025 20:16:9 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/6803475e0ae1f813f5db4bd1 204 - 0.067 ms
+Thu May 15 2025 20:16:9 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/6803475e0ae1f813f5db4bd1 304 - 556.924 ms
+Thu May 15 2025 20:16:31 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/users/profile 204 - 0.067 ms
+Thu May 15 2025 20:16:31 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/6803475e0ae1f813f5db4bd1 204 - 0.057 ms
+Thu May 15 2025 20:16:31 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/6803475e0ae1f813f5db4bd1 304 - 550.559 ms
+Thu May 15 2025 20:16:31 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/users/profile 304 - 566.429 ms
+Thu May 15 2025 20:16:31 [SERVER-NAME] info: 10.0.60.110 - GET /image/5092b3d56babde016a9c735442461683ff2abe35-1747301541911.jpg 304 - 0.407 ms
+Thu May 15 2025 20:16:32 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/buyer-history/6803475e0ae1f813f5db4bd1 204 - 0.104 ms
+Thu May 15 2025 20:16:32 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/buyer-history/6803475e0ae1f813f5db4bd1 304 - 840.558 ms
+Thu May 15 2025 20:16:33 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/seller-history/6803475e0ae1f813f5db4bd1 204 - 0.074 ms
+Thu May 15 2025 20:16:34 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/seller-history/6803475e0ae1f813f5db4bd1 304 - 1116.276 ms
+Thu May 15 2025 20:17:27 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/product-stats??location=[object%20Object]&year=undefined 204 - 0.112 ms
+Thu May 15 2025 20:17:27 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?year=2025&month=2025-05 204 - 0.074 ms
+Thu May 15 2025 20:17:27 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/product-managments/?page=1 204 - 0.074 ms
+Thu May 15 2025 20:17:27 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/product-stats??location=[object%20Object]&year=undefined 304 - 554.356 ms
+Thu May 15 2025 20:17:28 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/top-districts?year=2025&month=2025-05 200 - 845.152 ms
+Thu May 15 2025 20:17:28 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/?page=1 200 - 871.351 ms
+Thu May 15 2025 20:19:27 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?year=2025&month=2025-04 204 - 0.046 ms
+Thu May 15 2025 20:19:28 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/top-districts?year=2025&month=2025-04 200 - 861.894 ms
+Thu May 15 2025 20:19:36 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/top-districts?year=2025 204 - 0.144 ms
+Thu May 15 2025 20:19:37 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/top-districts?year=2025 200 - 862.691 ms
+Thu May 15 2025 20:20:6 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 204 - 0.404 ms
+Thu May 15 2025 20:20:6 [SERVER-NAME] info: 10.0.60.110 - OPTIONS /api/v1/admin/users-managments?page=1 204 - 0.031 ms
+Thu May 15 2025 20:20:7 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/user-analytics?location=[object%20Object]&year=undefined 304 - 573.216 ms
+Thu May 15 2025 20:20:7 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments?page=1 304 - 840.595 ms
+Thu May 15 2025 20:21:41 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/top-category 200 - 835.489 ms
+Thu May 15 2025 20:21:56 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/top-category 200 - 833.710 ms
+Thu May 15 2025 20:22:5 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/top-category?year=2025 200 - 836.843 ms
+Thu May 15 2025 20:23:31 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 20:23:32 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 20:23:35 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
+Thu May 15 2025 20:24:43 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/product-managments/top-category?year=2025&=2025-04 200 - 850.993 ms

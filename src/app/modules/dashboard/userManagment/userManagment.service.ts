@@ -45,7 +45,7 @@ const getSellerHistory = async (
 ) => {
   const queryBuilder = new QueryBuilder(
     Order.find({ sellerId })
-      .populate('productId', 'name')
+      .populate('productId', 'title')
       .populate('customerId', 'location name'),
     query,
   );
@@ -67,7 +67,7 @@ const getBuyerHistory = async (
 ) => {
   const queryBuilder = new QueryBuilder(
     Order.find({ customerId })
-      .populate('productId', 'name')
+      .populate('productId', 'title')
       .populate('sellerId', 'location name'),
     query,
   );

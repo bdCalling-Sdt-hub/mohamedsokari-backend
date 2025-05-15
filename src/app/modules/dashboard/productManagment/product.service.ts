@@ -355,12 +355,6 @@ const getTopCategory = async (query: Record<string, any>) => {
     },
   ]);
 
-  if (!topCategoriesPerDistrict || topCategoriesPerDistrict.length === 0) {
-    throw new AppError(
-      StatusCodes.NOT_FOUND,
-      'No categories data found for the given filters',
-    );
-  }
 
   // Return results with pagination metadata
   const total = await Product.countDocuments(matchFilter);

@@ -174,3 +174,5 @@ Thu May 15 2025 19:50:54 [SERVER-NAME] info: [33m♻️  Application listening 
 Thu May 15 2025 19:50:56 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
 Thu May 15 2025 19:50:58 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
 Thu May 15 2025 19:51:3 [SERVER-NAME] info: 10.0.60.110 - GET /api/v1/admin/users-managments/seller-history/6803475e0ae1f813f5db4bd1 200 - 3564.181 ms
+Thu May 15 2025 19:51:35 [SERVER-NAME] info: [33m♻️  Application listening on   10.0.60.126:7005[39m
+Thu May 15 2025 19:51:38 [SERVER-NAME] info: [32m🚀 Database connected successfully[39m
