@@ -60,7 +60,7 @@ const getAllChatsFromDB = async (
       const otherParticipants = await User.find({
         _id: { $in: otherParticipantIds },
       })
-        .select('_id profile name email')
+        .select('_id image name email')
         .lean();
 
       const isRead = !!(

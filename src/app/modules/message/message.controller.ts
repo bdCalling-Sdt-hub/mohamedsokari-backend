@@ -19,12 +19,16 @@ const sendMessage = catchAsync(async (req, res) => {
 });
 
 const getAllMessage = catchAsync(async (req, res) => {
-  const messages = await MessageService.getMessagesFromDB(req.params.id);
+  const messages = await MessageService.getMessagesFromDB(
+    req.params.id,
+    req.query,
+  );
   sendResponse(res, {
     statusCode: StatusCodes.OK,
     success: true,
     message: 'Message Retrieve Successfully',
-    data: messages,
+    data: messages.messages,
+    pagination: messages.pagination,
   });
 });
 const addReaction = catchAsync(async (req, res) => {

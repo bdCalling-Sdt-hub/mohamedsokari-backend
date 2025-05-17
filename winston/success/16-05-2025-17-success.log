@@ -1,0 +1,17 @@
+Fri May 16 2025 17:0:1 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/messages/send-message/67d685793b22980e20486bd1 200 - 890.686 ms
+Fri May 16 2025 17:0:19 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/messages/67d685793b22980e20486bd1 200 - 879.893 ms
+Fri May 16 2025 17:2:34 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/messages/send-message/67d685793b22980e20486bd1 200 - 884.089 ms
+Fri May 16 2025 17:2:45 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/messages/67d685793b22980e20486bd1 200 - 862.270 ms
+Fri May 16 2025 17:3:7 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/messages/send-message/67d685793b22980e20486bd1 200 - 875.812 ms
+Fri May 16 2025 17:3:23 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/messages/67d685793b22980e20486bd1 200 - 880.884 ms
+Fri May 16 2025 17:3:47 [SERVER-NAME] info: 10.0.60.34 - POST /api/v1/messages/send-message/67d685793b22980e20486bd1 200 - 876.781 ms
+Fri May 16 2025 17:4:2 [SERVER-NAME] info: 10.0.60.34 - GET /api/v1/messages/67d685793b22980e20486bd1 200 - 866.379 ms
+Fri May 16 2025 17:34:42 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/login 200 - 493.021 ms
+Fri May 16 2025 17:34:44 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/banner 200 - 575.861 ms
+Fri May 16 2025 17:34:45 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 1438.572 ms
+Fri May 16 2025 17:34:45 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1465.928 ms
+Fri May 16 2025 17:34:48 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/chat 200 - 1462.692 ms
+Fri May 16 2025 17:34:51 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/messages/67d685793b22980e20486bd1 200 - 876.711 ms
+Fri May 16 2025 17:36:0 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/messages/67d685793b22980e20486bd1 200 - 877.136 ms
+Fri May 16 2025 17:57:25 [SERVER-NAME] info: 10.0.60.240 - GET //image/old-tv-1747393426493.webp 200 - 6.398 ms
+Fri May 16 2025 17:57:25 [SERVER-NAME] info: 10.0.60.240 - GET //image/old-tv-1747393387025.webp 200 - 5.254 ms

@@ -1,0 +1,13 @@
+Fri May 16 2025 15:0:29 [SERVER-NAME] error: 10.0.60.240 - POST /api/v1/orders/confirm-seller/6825cceb5f61f430411cacbf 500 - 857.863 ms
+Fri May 16 2025 15:0:33 [SERVER-NAME] error: 10.0.60.240 - DELETE /api/v1/orders/6825cceb5f61f430411cacbf 500 - 856.388 ms
+Fri May 16 2025 15:21:58 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/reports/undefined 400 - 284.205 ms
+Fri May 16 2025 15:23:7 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/reports/undefined 400 - 291.339 ms
+Fri May 16 2025 15:23:10 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/reports/undefined 400 - 280.071 ms
+Fri May 16 2025 15:23:13 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/reports/undefined 400 - 279.943 ms
+Fri May 16 2025 15:23:17 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/reports/undefined 400 - 280.348 ms
+Fri May 16 2025 15:30:37 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/reports/undefined 400 - 290.503 ms
+Fri May 16 2025 15:30:45 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/reports/undefined 400 - 294.891 ms
+Fri May 16 2025 15:53:28 [SERVER-NAME] error: 10.0.60.34 - GET /api/v1/notifications/admin 403 - 289.218 ms
+Fri May 16 2025 15:54:1 [SERVER-NAME] error: 10.0.60.34 - GET /api/v1/notifications/admin 403 - 288.893 ms
+Fri May 16 2025 15:54:36 [SERVER-NAME] error: 10.0.60.34 - GET /api/v1/notifications/admin 403 - 293.359 ms
+Fri May 16 2025 15:55:8 [SERVER-NAME] error: 10.0.60.34 - PATCH /api/v1/notifications/68243c89419afdae4d0124fa 404 - 0.304 ms

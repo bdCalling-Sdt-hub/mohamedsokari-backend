@@ -1,4 +1,0 @@
-Thu May 15 2025 20:21:34 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/product-managments/top-category?year=2025&month=2025-04 404 - 559.087 ms
-Thu May 15 2025 20:21:47 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/product-managments/top-category?month=2025-04 404 - 564.669 ms
-Thu May 15 2025 20:22:11 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/product-managments/top-category?year=2025&month=2025-04 404 - 557.201 ms
-Thu May 15 2025 20:22:22 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/admin/product-managments/top-category?year=2025&month=04 400 - 279.078 ms

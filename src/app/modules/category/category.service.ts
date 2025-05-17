@@ -2,8 +2,8 @@ import { StatusCodes } from 'http-status-codes';
 import { ICategory } from './category.interface';
 import { Category } from './category.model';
 import unlinkFile from '../../../shared/unlinkFile';
-import { Bookmark } from '../bookmark/bookmark.model';
 import AppError from '../../../errors/AppError';
+import QueryBuilder from '../../builder/QueryBuilder';
 
 const createCategoryToDB = async (payload: ICategory) => {
   const { name, image } = payload;
@@ -26,9 +26,20 @@ const createCategoryToDB = async (payload: ICategory) => {
   return createCategory;
 };
 
-const getCategoriesFromDB = async (): Promise<ICategory[]> => {
-  const result = await Category.find({});
-  return result;
+const getCategoriesFromDB = async (query: Record<string, unknown>) => {
+  const queryBuilder = new QueryBuilder(Category.find({}), query);
+  const result = await queryBuilder
+    .sort()
+    .paginate()
+    .fields()
+    .filter()
+    .search([]).modelQuery;
+
+  const meta = await queryBuilder.countTotal();
+  return {
+    meta,
+    result,
+  };
 };
 
 const updateCategoryToDB = async (id: string, payload: ICategory) => {
@@ -41,7 +52,7 @@ const updateCategoryToDB = async (id: string, payload: ICategory) => {
   if (payload.image) {
     unlinkFile(isExistCategory?.image);
   }
-console.log(payload)
+  console.log(payload);
   const updateCategory = await Category.findOneAndUpdate({ _id: id }, payload, {
     new: true,
   });

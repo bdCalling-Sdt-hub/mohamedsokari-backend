@@ -1,2 +1,0 @@
-Thu May 15 2025 12:55:29 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/messages/undefined 400 - 286.465 ms
-Thu May 15 2025 12:55:40 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/messages/undefined 400 - 284.231 ms

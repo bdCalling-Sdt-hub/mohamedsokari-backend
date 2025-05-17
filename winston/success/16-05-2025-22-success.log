@@ -1,0 +1,5 @@
+Fri May 16 2025 22:3:23 [SERVER-NAME] info: 10.0.60.240 - POST /api/v1/auth/login 200 - 504.036 ms
+Fri May 16 2025 22:3:25 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/banner 200 - 573.633 ms
+Fri May 16 2025 22:3:26 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/resent?page=1 200 - 1425.662 ms
+Fri May 16 2025 22:3:26 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/products/feature?page=1&sort=-totalViews 200 - 1457.154 ms
+Fri May 16 2025 22:3:30 [SERVER-NAME] info: 10.0.60.240 - GET /api/v1/users/profile 200 - 584.851 ms

@@ -1,3 +1,0 @@
-Thu May 15 2025 16:14:55 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1/settings/support 400 - 2.721 ms
-Thu May 15 2025 16:16:39 [SERVER-NAME] error: 10.0.60.110 - PUT /api/v1/settings/ 400 - 1.159 ms
-Thu May 15 2025 16:32:0 [SERVER-NAME] error: 10.0.60.110 - GET /api/v1%20 404 - 0.764 ms

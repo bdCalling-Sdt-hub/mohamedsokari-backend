@@ -33,22 +33,55 @@ const sendMessageToDB = async (payload: IMessage): Promise<IMessage> => {
   return response;
 };
 
-const getMessagesFromDB = async (chatId: string): Promise<IMessage[]> => {
-  const response = await Message.find({ chatId: chatId })
+const getMessagesFromDB = async (
+  chatId: string,
+  query: Record<string, unknown>,
+): Promise<{
+  messages: IMessage[];
+  pagination: { total: number; page: number; limit: number; totalPage: number };
+}> => {
+  const { page, limit } = query;
+
+  // Safely handle null values by using default values when parsing fails
+  const pageInt = Math.max(parseInt(String(page || '1'), 10) || 1, 1);
+  const limitInt = Math.min(Math.max(parseInt(String(limit || '10'), 10) || 10, 1), 100);
+
+  const skip = (pageInt - 1) * limitInt;
+
+  const total = await Message.countDocuments({ chatId });
+
+  const response = await Message.find({ chatId })
     .populate({
       path: 'sender',
-      select: 'userName email profile',
+      select: 'name email profile',
     })
-    .populate({ path: 'reactions.userId', select: 'name' });
-  const formattedMessages = response.map((message) => {
-    return {
-      ...message.toObject(),
-      isDeleted: message.isDeleted,
-      text: message.isDeleted ? 'This message has been deleted.' : message.text,
-    };
-  });
-  return formattedMessages;
+    .populate({ path: 'reactions.userId', select: 'name' })
+    .skip(skip)
+    .limit(limitInt)
+    .sort({ createdAt: -1 });
+
+  const formattedMessages = response.map((message) => ({
+    ...message.toObject(),
+    isDeleted: message.isDeleted,
+    text: message.isDeleted ? 'This message has been deleted.' : message.text,
+  }));
+
+  const totalPage = Math.ceil(total / limitInt);
+
+  return {
+    messages: formattedMessages,
+    pagination: {
+      total,
+      page: pageInt,
+      limit: limitInt,
+      totalPage,
+    },
+  };
 };
+
+
+
+
 const addReactionToMessage = async (
   userId: string,
   messageId: string,
